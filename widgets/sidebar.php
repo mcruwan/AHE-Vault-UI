@@ -225,28 +225,32 @@
         <div id="kt_app_sidebar_nav_wrapper" class="d-flex flex-column hover-scroll-y pe-4 me-n4" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar, #kt_app_sidebar_nav" data-kt-scroll-offset="5px">
             <!--begin::Progress-->
             <div class="d-flex align-items-center flex-column w-100 mb-6">
-                <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
-                    <span>University Profile</span>
-                </div>
+
                 <div class="d-block justify-content-between fs-6 text-gray-800 w-100 mb-3">
                     <a href="#">
-                        <img alt="Logo" src="assets/media/logos/pearl-academy.png" class="h-20px h-lg-25px theme-light-show" />
-                        <img alt="Logo" src="assets/media/logos/pearl-academy.png" class="h-20px h-lg-25px theme-dark-show" />
+                        <img alt="Logo" src="assets/media/logos/sunway-logo.jpg" class="h-70px h-lg-70px theme-light-show" />
+                        <img alt="Logo" src="assets/media/logos/sunway-logo.jpg" class="h-70px h-lg-70px theme-dark-show" />
                     </a>
-                    <span class="d-block fw-bolder my-3">Pearl Academy</span>
-                    <span class="d-block">India</span>
+                    <a href="#" class="d-block fw-bolder mt-3">Sunway University</a>
+                    <span class="d-block">Malaysia</span>
                 </div>
-                <div class="w-100 bg-light-primary rounded mb-2" style="height: 24px">
-                    <div class="bg-primary rounded" role="progressbar" style="height: 24px; width: 37%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="d-flex align-items-center w-100">
-                    <div class="fw-semibold fs-7 w-50 mt-auto" style="text-align: left;">
-                        <span>Completed 37%</span>
+                <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 p-4 mb-3">
+                    <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
+                        <span>University Profile</span>
                     </div>
-                    <div class="fw-semibold fs-7 text-primary w-50" style="text-align: right;">
-                        <a href="#">Complete profile</a>
+                    <div class="w-100 bg-light-primary rounded" style="height: 24px">
+                        <div id="uni-progress" class="bg-primary rounded" role="progressbar" style="height: 24px; width: 37%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="d-flex w-100 mt-2">
+                        <div class="fw-semibold fs-7 w-50 mt-auto text-left">
+                            <span id="uni-progress-text">Completed 37% of your profile</span>
+                        </div>
+                        <div class="fw-semibold fs-7 text-primary w-50 text-right">
+                            <a href="javascript:completeProfile();">Complete profile</a>
+                        </div>
                     </div>
                 </div>
+
             </div>
             <!--end::Progress-->
             <!--begin::Stats-->
