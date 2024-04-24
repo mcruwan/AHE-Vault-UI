@@ -69,9 +69,9 @@
           <div class="app-header-wrapper d-flex flex-grow-1 align-items-stretch justify-content-between" id="kt_app_header_wrapper">
             <!--begin::Menu wrapper-->
             <div class="app-header-menu app-header-mobile-drawer align-items-start align-items-lg-center w-100" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_app_header_menu_toggle" data-kt-swapper="true" data-kt-swapper-mode="{default: 'append', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_body', lg: '#kt_app_header_wrapper'}">
-              
-            <?php include_once('widgets/main-menu.php'); ?>
-            
+
+              <?php include_once('widgets/main-menu.php'); ?>
+
             </div>
             <!--end::Menu wrapper-->
             <!--begin::Logo wrapper-->
@@ -3017,7 +3017,7 @@
                           <!--begin::Col-->
                           <div class="col-5 pt-10">
                             <!--begin::Illustration-->
-                            <div class="bgi-no-repeat bgi-size-contain bgi-position-x-end h-225px" style="background-image:url('assets/media/svg/illustrations/easy/5.svg"></div>
+                            <div class="bgi-no-repeat bgi-size-contain bgi-position-x-end h-225px" style="background-image:url('assets/media/svg/illustrations/easy/5.svg')"></div>
                             <!--end::Illustration-->
                           </div>
                           <!--end::Col-->
