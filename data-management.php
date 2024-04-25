@@ -123,7 +123,37 @@
                 <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
                     <!--begin::Content wrapper-->
                     <div class="d-flex flex-column flex-column-fluid">
-
+                        <!--begin::Toolbar-->
+                        <div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-0">
+                            <!--begin::Toolbar container-->
+                            <div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
+                                <!--begin::Page title-->
+                                <div class="page-title d-flex flex-column justify-content-center me-3">
+                                    <!--begin::Title-->
+                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Data</h1>
+                                    <!--end::Title-->
+                                    <!--begin::Breadcrumb-->
+                                    <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
+                                        <!--begin::Item-->
+                                        <li class="breadcrumb-item text-muted">
+                                            <a href="index.html" class="text-muted text-hover-primary">Home</a>
+                                        </li>
+                                        <!--end::Item-->
+                                        <!--begin::Item-->
+                                        <li class="breadcrumb-item">
+                                            <span class="bullet bg-gray-500 w-5px h-2px"></span>
+                                        </li>
+                                        <!--end::Item-->
+                                        <!--begin::Item-->
+                                        <li class="breadcrumb-item text-muted">Data Management</li>
+                                        <!--end::Item-->
+                                    </ul>
+                                    <!--end::Breadcrumb-->
+                                </div>
+                            </div>
+                            <!--end::Toolbar container-->
+                        </div>
+                        <!--end::Toolbar-->
                         <!--begin::Content-->
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
@@ -163,8 +193,8 @@
                                                     <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
                                                         <span>Completion Progress</span>
                                                     </div>
-                                                    <div class="w-100 bg-light-primary rounded" style="height: 24px">
-                                                        <div id="uni-progress" class="bg-primary rounded" role="progressbar" style="height: 24px; width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    <div class="w-100 bg-light-success rounded" style="height: 24px">
+                                                        <div id="uni-progress" class="bg-success rounded" role="progressbar" style="height: 24px; width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                     <div class="fw-semibold fs-7 w-100 text-left mt-2">
                                                         <span id="uni-progress-text">100% Completed</span>

@@ -145,7 +145,7 @@
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
-                                        <li class="breadcrumb-item text-muted">Widgets</li>
+                                        <li class="breadcrumb-item text-muted">Analytics & Reporting</li>
                                         <!--end::Item-->
                                     </ul>
                                     <!--end::Breadcrumb-->
@@ -262,7 +262,7 @@
                                             <div class="card-header border-0 pt-5">
                                                 <h3 class="card-title align-items-start flex-column">
                                                     <span class="card-label fw-bold fs-3 mb-1">Private University Ranking: ASEAN</span>
-                                                    <span class="text-muted fw-semibold fs-7">More than 1000 new records</span>
+                                                    <span class="text-muted fw-semibold fs-7">More than 100 Universities</span>
                                                 </h3>
                                             </div>
                                             <!--end::Header-->
@@ -284,33 +284,7 @@
                         <!--end::Content-->
                     </div>
                     <!--end::Content wrapper-->
-                    <!--begin::Footer-->
-                    <div id="kt_app_footer" class="app-footer">
-                        <!--begin::Footer container-->
-                        <div class="app-container container-xxl d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
-                            <!--begin::Copyright-->
-                            <div class="text-gray-900 order-2 order-md-1">
-                                <span class="text-muted fw-semibold me-1">2024&copy;</span>
-                                <a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
-                            </div>
-                            <!--end::Copyright-->
-                            <!--begin::Menu-->
-                            <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
-                                <li class="menu-item">
-                                    <a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-                                </li>
-                            </ul>
-                            <!--end::Menu-->
-                        </div>
-                        <!--end::Footer container-->
-                    </div>
-                    <!--end::Footer-->
+
                 </div>
                 <!--end:::Main-->
             </div>
