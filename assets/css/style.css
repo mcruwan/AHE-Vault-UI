@@ -9,3 +9,7 @@
 .text-right {
   text-align: right;
 }
+
+.apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
+  display: none;
+}

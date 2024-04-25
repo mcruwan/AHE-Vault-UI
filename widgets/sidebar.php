@@ -246,7 +246,7 @@
                             <span id="uni-progress-text">Completed 37% of your profile</span>
                         </div>
                         <div class="fw-semibold fs-7 text-primary w-50 text-right">
-                            <a href="javascript:completeProfile();">Complete profile</a>
+                            <a href="profile-complete.php">Complete profile</a>
                         </div>
                     </div>
                 </div>
