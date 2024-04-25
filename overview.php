@@ -5317,10 +5317,6 @@
         <!--end::Modal dialog-->
     </div>
 
-    <?php
-    header("Location: https://vault.appliedhe.com/frontend/overview.php");
-    ?>
-
     <!--end::Modal - Invite Friend-->
     <!--end::Modals-->
     <!--begin::Javascript-->
