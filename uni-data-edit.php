@@ -162,26 +162,9 @@
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-xxl">
-                                <!--begin::Navbar-->
-                                <div class="card mb-5 mb-xl-10">
-                                    <div class="card-body pt-9 pb-0">
-                                        <!--begin::Details-->
+                              
                                         <?php include_once('widgets/data-card.php'); ?>
-                                        <!--end::Details-->
-                                        <!--begin::Navs-->
-                                        <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
-                                            <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="uni-data-overview.php">Overview</a>
-                                            </li>
-                                            <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="logs.php">Logs</a>
-                                            </li>
-                                        </ul>
-                                        <!--begin::Navs-->
-                                    </div>
-                                </div>
-                                <!--end::Navbar-->
-
+                                      
                                 <div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
                                     <!--begin::Card header-->
                                     <div class="card-header cursor-pointer">

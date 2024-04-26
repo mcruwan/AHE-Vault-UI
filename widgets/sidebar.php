@@ -42,7 +42,10 @@
                 <!--end::Menu separator-->
                 <!--begin::Menu item-->
                 <div class="menu-item px-5">
-                    <a href="university-overview.php" class="menu-link px-5">My Profile</a>
+                    <a href="user-overview.php" class="menu-link px-5">My Profile</a>
+                </div>
+                <div class="menu-item px-5">
+                    <a href="manage-users.php" class="menu-link px-5">Manage Users</a>
                 </div>
                 <!--begin::Menu separator-->
                 <div class="separator my-2"></div>

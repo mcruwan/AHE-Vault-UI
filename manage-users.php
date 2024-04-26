@@ -4,17 +4,17 @@
 <!--begin::Head-->
 
 <head>
-    <title>Vault - Data Management</title>
+    <title>Vault - Manage Users</title>
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Vault - Data Management" />
+    <meta property="og:title" content="Vault - Manage Users" />
     <meta property="og:url" content="https://keenthemes.com/metronic" />
     <meta property="og:site_name" content="Metronic by Keenthemes" />
-    <link rel="canonical" href="http://apps/projects/list.html" />
+    <link rel="canonical" href="http://pages/user-profile/followers.html" />
     <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
@@ -25,7 +25,6 @@
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
     <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
     <script>
         // Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }
@@ -130,7 +129,7 @@
                                 <!--begin::Page title-->
                                 <div class="page-title d-flex flex-column justify-content-center me-3">
                                     <!--begin::Title-->
-                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Data Management</h1>
+                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Manage Users</h1>
                                     <!--end::Title-->
                                     <!--begin::Breadcrumb-->
                                     <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
@@ -145,11 +144,105 @@
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
-                                        <li class="breadcrumb-item text-muted">Data Management</li>
+                                        <li class="breadcrumb-item text-muted">Manage Users</li>
                                         <!--end::Item-->
                                     </ul>
                                     <!--end::Breadcrumb-->
                                 </div>
+                                <!--end::Page title-->
+                                <!--begin::Actions-->
+                                <div class="d-flex align-items-center gap-2 gap-lg-3">
+                                    <!--begin::Filter menu-->
+                                    <div class="m-0">
+                                        <!--begin::Menu toggle-->
+                                        <a href="#" class="btn btn-sm btn-flex btn-secondary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                            <i class="ki-outline ki-filter fs-6 text-muted me-1"></i>Filter</a>
+                                        <!--end::Menu toggle-->
+                                        <!--begin::Menu 1-->
+                                        <div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_660662b63dc90">
+                                            <!--begin::Header-->
+                                            <div class="px-7 py-5">
+                                                <div class="fs-5 text-gray-900 fw-bold">Filter Options</div>
+                                            </div>
+                                            <!--end::Header-->
+                                            <!--begin::Menu separator-->
+                                            <div class="separator border-gray-200"></div>
+                                            <!--end::Menu separator-->
+                                            <!--begin::Form-->
+                                            <div class="px-7 py-5">
+                                                <!--begin::Input group-->
+                                                <div class="mb-10">
+                                                    <!--begin::Label-->
+                                                    <label class="form-label fw-semibold">Status:</label>
+                                                    <!--end::Label-->
+                                                    <!--begin::Input-->
+                                                    <div>
+                                                        <select class="form-select form-select-solid" multiple="multiple" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_660662b63dc90" data-allow-clear="true">
+                                                            <option></option>
+                                                            <option value="1">Approved</option>
+                                                            <option value="2">Pending</option>
+                                                            <option value="2">In Process</option>
+                                                            <option value="2">Rejected</option>
+                                                        </select>
+                                                    </div>
+                                                    <!--end::Input-->
+                                                </div>
+                                                <!--end::Input group-->
+                                                <!--begin::Input group-->
+                                                <div class="mb-10">
+                                                    <!--begin::Label-->
+                                                    <label class="form-label fw-semibold">Member Type:</label>
+                                                    <!--end::Label-->
+                                                    <!--begin::Options-->
+                                                    <div class="d-flex">
+                                                        <!--begin::Options-->
+                                                        <label class="form-check form-check-sm form-check-custom form-check-solid me-5">
+                                                            <input class="form-check-input" type="checkbox" value="1" />
+                                                            <span class="form-check-label">Author</span>
+                                                        </label>
+                                                        <!--end::Options-->
+                                                        <!--begin::Options-->
+                                                        <label class="form-check form-check-sm form-check-custom form-check-solid">
+                                                            <input class="form-check-input" type="checkbox" value="2" checked="checked" />
+                                                            <span class="form-check-label">Customer</span>
+                                                        </label>
+                                                        <!--end::Options-->
+                                                    </div>
+                                                    <!--end::Options-->
+                                                </div>
+                                                <!--end::Input group-->
+                                                <!--begin::Input group-->
+                                                <div class="mb-10">
+                                                    <!--begin::Label-->
+                                                    <label class="form-label fw-semibold">Notifications:</label>
+                                                    <!--end::Label-->
+                                                    <!--begin::Switch-->
+                                                    <div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
+                                                        <input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked" />
+                                                        <label class="form-check-label">Enabled</label>
+                                                    </div>
+                                                    <!--end::Switch-->
+                                                </div>
+                                                <!--end::Input group-->
+                                                <!--begin::Actions-->
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
+                                                    <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
+                                                </div>
+                                                <!--end::Actions-->
+                                            </div>
+                                            <!--end::Form-->
+                                        </div>
+                                        <!--end::Menu 1-->
+                                    </div>
+                                    <!--end::Filter menu-->
+                                    <!--begin::Secondary button-->
+                                    <!--end::Secondary button-->
+                                    <!--begin::Primary button-->
+                                    <a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
+                                    <!--end::Primary button-->
+                                </div>
+                                <!--end::Actions-->
                             </div>
                             <!--end::Toolbar container-->
                         </div>
@@ -159,156 +252,191 @@
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-xxl">
 
+                                <!--begin::Followers toolbar-->
+                                <div class="d-flex flex-wrap flex-stack mb-6">
+                                    <!--begin::Title-->
+                                    <h3 class="text-gray-800 fw-bold my-2">
+                                        <span class="fs-6 text-gray-500 fw-semibold ms-1"></span>
+                                    </h3>
+                                    <!--begin::Controls-->
+                                    <div class="d-flex my-2">
+                                        <!--begin::Select-->
+                                        <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-sm bg-body border-body w-125px">
+                                            <option value="Active" selected="selected">Active</option>
+                                            <option value="Approved">In Progress</option>
+                                            <option value="Declined">To Do</option>
+                                            <option value="In Progress">Completed</option>
+                                        </select>
+                                        <!--end::Select-->
+                                    </div>
+                                    <!--end::Controls-->
+                                </div>
+                                <!--end::Followers toolbar-->
                                 <!--begin::Row-->
-                                <div class="row g-6 g-xl-9">
+                                <div class="row g-6 mb-6 g-xl-9 mb-xl-9">
 
-                                    <div class="col-md-6 col-xl-4">
+                                    <div class="col-md-6 col-xxl-4">
                                         <!--begin::Card-->
-                                        <div class="card border-hover-primary">
-                                            <!--begin::Card header-->
-                                            <div class="card-header border-0 pt-9">
-                                                <!--begin::Card Title-->
-                                                <div class="card-title m-0">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-50px w-50px bg-light">
-                                                        <img src="assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
-                                                    </div>
-                                                    <!--end::Avatar-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
                                                 </div>
-                                                <!--end::Car Title-->
-                                                <!--begin::Card toolbar-->
-                                                <div class="card-toolbar">
-                                                    <span class="badge badge-light-success fw-bold me-auto px-4 py-3">Completed</span>
-                                                </div>
-                                                <!--end::Card toolbar-->
-                                            </div>
-                                            <!--end:: Card header-->
-                                            <!--begin:: Card body-->
-                                            <div class="card-body p-9">
+                                                <!--end::Avatar-->
                                                 <!--begin::Name-->
-                                                <div class="fs-3 fw-bold text-gray-900">Public & Private University Ranking: ASEAN 2024</div>
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
                                                 <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
 
-                                                <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 p-4 my-4">
-                                                    <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
-                                                        <span>Data Completion Progress</span>
-                                                    </div>
-                                                    <div class="w-100 bg-light-success rounded" style="height: 24px">
-                                                        <div id="uni-progress" class="bg-success rounded" role="progressbar" style="height: 24px; width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                    <div class="fw-semibold fs-7 w-100 text-left mt-2">
-                                                        <span id="uni-progress-text">100% Completed</span>
-                                                    </div>
-                                                </div>
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
 
-                                                <a href="uni-data-overview.php?year=2024&progress=100" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
                                             </div>
-                                            <!--end:: Card body-->
+                                            <!--begin::Card body-->
                                         </div>
-                                        <!--end::Card-->
+                                        <!--begin::Card-->
                                     </div>
 
-                                    <div class="col-md-6 col-xl-4">
+                                    <div class="col-md-6 col-xxl-4">
                                         <!--begin::Card-->
-                                        <div class="card border-hover-primary">
-                                            <!--begin::Card header-->
-                                            <div class="card-header border-0 pt-9">
-                                                <!--begin::Card Title-->
-                                                <div class="card-title m-0">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-50px w-50px bg-light">
-                                                        <img src="assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
-                                                    </div>
-                                                    <!--end::Avatar-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
                                                 </div>
-                                                <!--end::Car Title-->
-                                                <!--begin::Card toolbar-->
-                                                <div class="card-toolbar">
-                                                    <span class="badge badge-light-primary fw-bold me-auto px-4 py-3">In-Progress</span>
-                                                </div>
-                                                <!--end::Card toolbar-->
-                                            </div>
-                                            <!--end:: Card header-->
-                                            <!--begin:: Card body-->
-                                            <div class="card-body p-9">
+                                                <!--end::Avatar-->
                                                 <!--begin::Name-->
-                                                <div class="fs-3 fw-bold text-gray-900">Public & Private University Ranking: ASEAN 2025</div>
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
                                                 <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
 
-                                                <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 p-4 my-4">
-                                                    <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
-                                                        <span>Data Completion Progress</span>
-                                                    </div>
-                                                    <div class="w-100 bg-light-primary rounded" style="height: 24px">
-                                                        <div id="uni-progress" class="bg-primary rounded" role="progressbar" style="height: 24px; width: 37%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                    <div class="fw-semibold fs-7 w-100 text-left mt-2">
-                                                        <span id="uni-progress-text">37% Completed</span>
-                                                    </div>
-                                                </div>
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
 
-                                                <a href="uni-data-overview.php?year=2025&progress=37" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
                                             </div>
-                                            <!--end:: Card body-->
+                                            <!--begin::Card body-->
                                         </div>
-                                        <!--end::Card-->
+                                        <!--begin::Card-->
                                     </div>
 
-                                    <div class="col-md-6 col-xl-4">
+                                    <div class="col-md-6 col-xxl-4">
                                         <!--begin::Card-->
-                                        <div class="card border-hover-primary">
-                                            <!--begin::Card header-->
-                                            <div class="card-header border-0 pt-9">
-                                                <!--begin::Card Title-->
-                                                <div class="card-title m-0">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-50px w-50px bg-light">
-                                                        <img src="assets/media/svg/brand-logos/treva.svg" alt="image" class="p-3" />
-                                                    </div>
-                                                    <!--end::Avatar-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
                                                 </div>
-                                                <!--end::Car Title-->
-                                                <!--begin::Card toolbar-->
-                                                <div class="card-toolbar">
-                                                    <span class="badge badge-light-warning fw-bold me-auto px-4 py-3">Pending</span>
-                                                </div>
-                                                <!--end::Card toolbar-->
-                                            </div>
-                                            <!--end:: Card header-->
-                                            <!--begin:: Card body-->
-                                            <div class="card-body p-9">
+                                                <!--end::Avatar-->
                                                 <!--begin::Name-->
-                                                <div class="fs-3 fw-bold text-gray-900 mb-12">JOB-Ready RATING</div>
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
                                                 <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
 
-                                                <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 p-4 my-4">
-                                                    <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
-                                                        <span>Data Completion Progress</span>
-                                                    </div>
-                                                    <div class="w-100 bg-light-primary rounded" style="height: 24px">
-                                                        <div id="uni-progress" class="bg-primary rounded" role="progressbar" style="height: 24px; width: 0%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                    <div class="fw-semibold fs-7 w-100 text-left mt-2">
-                                                        <span id="uni-progress-text">0% Completed</span>
-                                                    </div>
-                                                </div>
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
 
-                                                <a href="uni-data-overview.php?year=2025&progress=37" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
                                             </div>
-                                            <!--end:: Card body-->
+                                            <!--begin::Card body-->
                                         </div>
-                                        <!--end::Card-->
+                                        <!--begin::Card-->
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <!--begin::Card-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
+                                                </div>
+                                                <!--end::Avatar-->
+                                                <!--begin::Name-->
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
+                                                <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
+
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
+
+                                            </div>
+                                            <!--begin::Card body-->
+                                        </div>
+                                        <!--begin::Card-->
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <!--begin::Card-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
+                                                </div>
+                                                <!--end::Avatar-->
+                                                <!--begin::Name-->
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
+                                                <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
+
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
+
+                                            </div>
+                                            <!--begin::Card body-->
+                                        </div>
+                                        <!--begin::Card-->
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <!--begin::Card-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
+                                                </div>
+                                                <!--end::Avatar-->
+                                                <!--begin::Name-->
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
+                                                <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
+
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
+
+                                            </div>
+                                            <!--begin::Card body-->
+                                        </div>
+                                        <!--begin::Card-->
                                     </div>
 
                                 </div>
-                                <!--end::Row-->
-
                             </div>
                             <!--end::Content container-->
                         </div>
                         <!--end::Content-->
                     </div>
-                    <!--end::Content wrapper-->
 
                 </div>
                 <!--end:::Main-->
@@ -2183,6 +2311,1196 @@
         <!--end::Modal dialog-->
     </div>
     <!--end::Modal - Create App-->
+    <!--begin::Modal - Offer A Deal-->
+    <div class="modal fade" id="kt_modal_offer_a_deal" tabindex="-1" aria-hidden="true">
+        <!--begin::Modal dialog-->
+        <div class="modal-dialog modal-dialog-centered mw-1000px">
+            <!--begin::Modal content-->
+            <div class="modal-content">
+                <!--begin::Modal header-->
+                <div class="modal-header py-7 d-flex justify-content-between">
+                    <!--begin::Modal title-->
+                    <h2>Offer a Deal</h2>
+                    <!--end::Modal title-->
+                    <!--begin::Close-->
+                    <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+                        <i class="ki-outline ki-cross fs-1"></i>
+                    </div>
+                    <!--end::Close-->
+                </div>
+                <!--begin::Modal header-->
+                <!--begin::Modal body-->
+                <div class="modal-body scroll-y m-5">
+                    <!--begin::Stepper-->
+                    <div class="stepper stepper-links d-flex flex-column" id="kt_modal_offer_a_deal_stepper">
+                        <!--begin::Nav-->
+                        <div class="stepper-nav justify-content-center py-2">
+                            <!--begin::Step 1-->
+                            <div class="stepper-item me-5 me-md-15 current" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Deal Type</h3>
+                            </div>
+                            <!--end::Step 1-->
+                            <!--begin::Step 2-->
+                            <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Deal Details</h3>
+                            </div>
+                            <!--end::Step 2-->
+                            <!--begin::Step 3-->
+                            <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Finance Settings</h3>
+                            </div>
+                            <!--end::Step 3-->
+                            <!--begin::Step 4-->
+                            <div class="stepper-item" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Completed</h3>
+                            </div>
+                            <!--end::Step 4-->
+                        </div>
+                        <!--end::Nav-->
+                        <!--begin::Form-->
+                        <form class="mx-auto mw-500px w-100 pt-15 pb-10" novalidate="novalidate" id="kt_modal_offer_a_deal_form">
+                            <!--begin::Type-->
+                            <div class="current" data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Deal Type</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-15" data-kt-buttons="true">
+                                        <!--begin::Option-->
+                                        <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6 mb-6 active">
+                                            <!--begin::Input-->
+                                            <input class="btn-check" type="radio" checked="checked" name="offer_type" value="1" />
+                                            <!--end::Input-->
+                                            <!--begin::Label-->
+                                            <span class="d-flex">
+                                                <!--begin::Icon-->
+                                                <i class="ki-outline ki-profile-circle fs-3hx"></i>
+                                                <!--end::Icon-->
+                                                <!--begin::Info-->
+                                                <span class="ms-4">
+                                                    <span class="fs-3 fw-bold text-gray-900 mb-2 d-block">Personal Deal</span>
+                                                    <span class="fw-semibold fs-4 text-muted">If you need more info, please check it out</span>
+                                                </span>
+                                                <!--end::Info-->
+                                            </span>
+                                            <!--end::Label-->
+                                        </label>
+                                        <!--end::Option-->
+                                        <!--begin::Option-->
+                                        <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6">
+                                            <!--begin::Input-->
+                                            <input class="btn-check" type="radio" name="offer_type" value="2" />
+                                            <!--end::Input-->
+                                            <!--begin::Label-->
+                                            <span class="d-flex">
+                                                <!--begin::Icon-->
+                                                <i class="ki-outline ki-element-11 fs-3hx"></i>
+                                                <!--end::Icon-->
+                                                <!--begin::Info-->
+                                                <span class="ms-4">
+                                                    <span class="fs-3 fw-bold text-gray-900 mb-2 d-block">Corporate Deal</span>
+                                                    <span class="fw-semibold fs-4 text-muted">Create corporate account to manage users</span>
+                                                </span>
+                                                <!--end::Info-->
+                                            </span>
+                                            <!--end::Label-->
+                                        </label>
+                                        <!--end::Option-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn btn-lg btn-primary" data-kt-element="type-next">
+                                            <span class="indicator-label">Offer Details</span>
+                                            <span class="indicator-progress">Please wait...
+                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        </button>
+                                    </div>
+                                    <!--end::Actions-->
+                                </div>
+                                <!--end::Wrapper-->
+                            </div>
+                            <!--end::Type-->
+                            <!--begin::Details-->
+                            <div data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Deal Details</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="required fs-6 fw-semibold mb-2">Customer</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <select class="form-select form-select-solid" data-control="select2" data-placeholder="Select an option" name="details_customer">
+                                            <option></option>
+                                            <option value="1" selected="selected">Keenthemes</option>
+                                            <option value="2">CRM App</option>
+                                        </select>
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="required fs-6 fw-semibold mb-2">Deal Title</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Deal Title" name="details_title" value="Marketing Campaign" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Deal Description</label>
+                                        <!--end::Label-->
+                                        <!--begin::Label-->
+                                        <textarea class="form-control form-control-solid" rows="3" placeholder="Enter Deal Description" name="details_description">Experience share market at your fingertips with TICK PRO stock investment mobile trading app</textarea>
+                                        <!--end::Label-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <label class="required fs-6 fw-semibold mb-2">Activation Date</label>
+                                        <div class="position-relative d-flex align-items-center">
+                                            <!--begin::Icon-->
+                                            <i class="ki-outline ki-calendar-8 fs-2 position-absolute mx-4"></i>
+                                            <!--end::Icon-->
+                                            <!--begin::Datepicker-->
+                                            <input class="form-control form-control-solid ps-12" placeholder="Pick date range" name="details_activation_date" />
+                                            <!--end::Datepicker-->
+                                        </div>
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-15">
+                                        <!--begin::Wrapper-->
+                                        <div class="d-flex flex-stack">
+                                            <!--begin::Label-->
+                                            <div class="me-5">
+                                                <label class="required fs-6 fw-semibold">Notifications</label>
+                                                <div class="fs-7 fw-semibold text-muted">Allow Notifications by Phone or Email</div>
+                                            </div>
+                                            <!--end::Label-->
+                                            <!--begin::Checkboxes-->
+                                            <div class="d-flex">
+                                                <!--begin::Checkbox-->
+                                                <label class="form-check form-check-custom form-check-solid me-10">
+                                                    <!--begin::Input-->
+                                                    <input class="form-check-input h-20px w-20px" type="checkbox" value="email" name="details_notifications[]" />
+                                                    <!--end::Input-->
+                                                    <!--begin::Label-->
+                                                    <span class="form-check-label fw-semibold">Email</span>
+                                                    <!--end::Label-->
+                                                </label>
+                                                <!--end::Checkbox-->
+                                                <!--begin::Checkbox-->
+                                                <label class="form-check form-check-custom form-check-solid">
+                                                    <!--begin::Input-->
+                                                    <input class="form-check-input h-20px w-20px" type="checkbox" value="phone" checked="checked" name="details_notifications[]" />
+                                                    <!--end::Input-->
+                                                    <!--begin::Label-->
+                                                    <span class="form-check-label fw-semibold">Phone</span>
+                                                    <!--end::Label-->
+                                                </label>
+                                                <!--end::Checkbox-->
+                                            </div>
+                                            <!--end::Checkboxes-->
+                                        </div>
+                                        <!--begin::Wrapper-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex flex-stack">
+                                        <button type="button" class="btn btn-lg btn-light me-3" data-kt-element="details-previous">Deal Type</button>
+                                        <button type="button" class="btn btn-lg btn-primary" data-kt-element="details-next">
+                                            <span class="indicator-label">Financing</span>
+                                            <span class="indicator-progress">Please wait...
+                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        </button>
+                                    </div>
+                                    <!--end::Actions-->
+                                </div>
+                                <!--end::Wrapper-->
+                            </div>
+                            <!--end::Details-->
+                            <!--begin::Budget-->
+                            <div data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Finance</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+                                            <span class="required">Setup Budget</span>
+                                            <span class="lh-1 ms-1" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-html="true" data-bs-content="&lt;div class=&#039;p-4 rounded bg-light&#039;&gt; &lt;div class=&#039;d-flex flex-stack text-muted mb-4&#039;&gt; &lt;i class=&quot;ki-outline ki-bank fs-3 me-3&quot;&gt;&lt;/i&gt; &lt;div class=&#039;fw-bold&#039;&gt;INCBANK **** 1245 STATEMENT&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;d-flex flex-stack fw-semibold text-gray-600&#039;&gt; &lt;div&gt;Amount&lt;/div&gt; &lt;div&gt;Transaction&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;separator separator-dashed my-2&#039;&gt;&lt;/div&gt; &lt;div class=&#039;d-flex flex-stack text-gray-900 fw-bold mb-2&#039;&gt; &lt;div&gt;USD345.00&lt;/div&gt; &lt;div&gt;KEENTHEMES*&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;d-flex flex-stack text-muted mb-2&#039;&gt; &lt;div&gt;USD75.00&lt;/div&gt; &lt;div&gt;Hosting fee&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;d-flex flex-stack text-muted&#039;&gt; &lt;div&gt;USD3,950.00&lt;/div&gt; &lt;div&gt;Payrol&lt;/div&gt; &lt;/div&gt; &lt;/div&gt;">
+                                                <i class="ki-outline ki-information-5 text-gray-500 fs-6"></i>
+                                            </span>
+                                        </label>
+                                        <!--end::Label-->
+                                        <!--begin::Dialer-->
+                                        <div class="position-relative w-lg-250px" id="kt_modal_finance_setup" data-kt-dialer="true" data-kt-dialer-min="50" data-kt-dialer-max="50000" data-kt-dialer-step="100" data-kt-dialer-prefix="$" data-kt-dialer-decimals="2">
+                                            <!--begin::Decrease control-->
+                                            <button type="button" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 start-0" data-kt-dialer-control="decrease">
+                                                <i class="ki-outline ki-minus-circle fs-1"></i>
+                                            </button>
+                                            <!--end::Decrease control-->
+                                            <!--begin::Input control-->
+                                            <input type="text" class="form-control form-control-solid border-0 ps-12" data-kt-dialer-control="input" placeholder="Amount" name="finance_setup" readonly="readonly" value="$50" />
+                                            <!--end::Input control-->
+                                            <!--begin::Increase control-->
+                                            <button type="button" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 end-0" data-kt-dialer-control="increase">
+                                                <i class="ki-outline ki-plus-circle fs-1"></i>
+                                            </button>
+                                            <!--end::Increase control-->
+                                        </div>
+                                        <!--end::Dialer-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Budget Usage</label>
+                                        <!--end::Label-->
+                                        <!--begin::Row-->
+                                        <div class="row g-9" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button='true']">
+                                            <!--begin::Col-->
+                                            <div class="col-md-6 col-lg-12 col-xxl-6">
+                                                <!--begin::Option-->
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary active d-flex text-start p-6" data-kt-button="true">
+                                                    <!--begin::Radio-->
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="finance_usage" value="1" checked="checked" />
+                                                    </span>
+                                                    <!--end::Radio-->
+                                                    <!--begin::Info-->
+                                                    <span class="ms-5">
+                                                        <span class="fs-4 fw-bold text-gray-800 mb-2 d-block">Precise Usage</span>
+                                                        <span class="fw-semibold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
+                                                    </span>
+                                                    <!--end::Info-->
+                                                </label>
+                                                <!--end::Option-->
+                                            </div>
+                                            <!--end::Col-->
+                                            <!--begin::Col-->
+                                            <div class="col-md-6 col-lg-12 col-xxl-6">
+                                                <!--begin::Option-->
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6" data-kt-button="true">
+                                                    <!--begin::Radio-->
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="finance_usage" value="2" />
+                                                    </span>
+                                                    <!--end::Radio-->
+                                                    <!--begin::Info-->
+                                                    <span class="ms-5">
+                                                        <span class="fs-4 fw-bold text-gray-800 mb-2 d-block">Extreme Usage</span>
+                                                        <span class="fw-semibold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
+                                                    </span>
+                                                    <!--end::Info-->
+                                                </label>
+                                                <!--end::Option-->
+                                            </div>
+                                            <!--end::Col-->
+                                        </div>
+                                        <!--end::Row-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-15">
+                                        <!--begin::Wrapper-->
+                                        <div class="d-flex flex-stack">
+                                            <!--begin::Label-->
+                                            <div class="me-5">
+                                                <label class="fs-6 fw-semibold">Allow Changes in Budget</label>
+                                                <div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
+                                            </div>
+                                            <!--end::Label-->
+                                            <!--begin::Switch-->
+                                            <label class="form-check form-switch form-check-custom form-check-solid">
+                                                <input class="form-check-input" type="checkbox" value="1" name="finance_allow" checked="checked" />
+                                                <span class="form-check-label fw-semibold text-muted">Allowed</span>
+                                            </label>
+                                            <!--end::Switch-->
+                                        </div>
+                                        <!--end::Wrapper-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex flex-stack">
+                                        <button type="button" class="btn btn-lg btn-light me-3" data-kt-element="finance-previous">Project Settings</button>
+                                        <button type="button" class="btn btn-lg btn-primary" data-kt-element="finance-next">
+                                            <span class="indicator-label">Build Team</span>
+                                            <span class="indicator-progress">Please wait...
+                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        </button>
+                                    </div>
+                                    <!--end::Actions-->
+                                </div>
+                                <!--end::Wrapper-->
+                            </div>
+                            <!--end::Budget-->
+                            <!--begin::Complete-->
+                            <div data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Deal Created!</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex flex-center pb-20">
+                                        <button type="button" class="btn btn-lg btn-light me-3" data-kt-element="complete-start">Create New Deal</button>
+                                        <a href="#" class="btn btn-lg btn-primary" data-bs-toggle="tooltip" title="Coming Soon">View Deal</a>
+                                    </div>
+                                    <!--end::Actions-->
+                                    <!--begin::Illustration-->
+                                    <div class="text-center px-4">
+                                        <img src="assets/media/illustrations/sketchy-1/20.png" alt="" class="mw-100 mh-300px" />
+                                    </div>
+                                    <!--end::Illustration-->
+                                </div>
+                            </div>
+                            <!--end::Complete-->
+                        </form>
+                        <!--end::Form-->
+                    </div>
+                    <!--end::Stepper-->
+                </div>
+                <!--begin::Modal body-->
+            </div>
+        </div>
+    </div>
+    <!--end::Modal - Offer A Deal-->
+    <!--begin::Modal - Users Search-->
+    <div class="modal fade" id="kt_modal_users_search" tabindex="-1" aria-hidden="true">
+        <!--begin::Modal dialog-->
+        <div class="modal-dialog modal-dialog-centered mw-650px">
+            <!--begin::Modal content-->
+            <div class="modal-content">
+                <!--begin::Modal header-->
+                <div class="modal-header pb-0 border-0 justify-content-end">
+                    <!--begin::Close-->
+                    <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+                        <i class="ki-outline ki-cross fs-1"></i>
+                    </div>
+                    <!--end::Close-->
+                </div>
+                <!--begin::Modal header-->
+                <!--begin::Modal body-->
+                <div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+                    <!--begin::Content-->
+                    <div class="text-center mb-13">
+                        <h1 class="mb-3">Search Users</h1>
+                        <div class="text-muted fw-semibold fs-5">Invite Collaborators To Your Project</div>
+                    </div>
+                    <!--end::Content-->
+                    <!--begin::Search-->
+                    <div id="kt_modal_users_search_handler" data-kt-search-keypress="true" data-kt-search-min-length="2" data-kt-search-enter="enter" data-kt-search-layout="inline">
+                        <!--begin::Form-->
+                        <form data-kt-search-element="form" class="w-100 position-relative mb-5" autocomplete="off">
+                            <!--begin::Hidden input(Added to disable form autocomplete)-->
+                            <input type="hidden" />
+                            <!--end::Hidden input-->
+                            <!--begin::Icon-->
+                            <i class="ki-outline ki-magnifier fs-2 fs-lg-1 text-gray-500 position-absolute top-50 ms-5 translate-middle-y"></i>
+                            <!--end::Icon-->
+                            <!--begin::Input-->
+                            <input type="text" class="form-control form-control-lg form-control-solid px-15" name="search" value="" placeholder="Search by username, full name or email..." data-kt-search-element="input" />
+                            <!--end::Input-->
+                            <!--begin::Spinner-->
+                            <span class="position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5" data-kt-search-element="spinner">
+                                <span class="spinner-border h-15px w-15px align-middle text-muted"></span>
+                            </span>
+                            <!--end::Spinner-->
+                            <!--begin::Reset-->
+                            <span class="btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 me-5 d-none" data-kt-search-element="clear">
+                                <i class="ki-outline ki-cross fs-2 fs-lg-1 me-0"></i>
+                            </span>
+                            <!--end::Reset-->
+                        </form>
+                        <!--end::Form-->
+                        <!--begin::Wrapper-->
+                        <div class="py-5">
+                            <!--begin::Suggestions-->
+                            <div data-kt-search-element="suggestions">
+                                <!--begin::Heading-->
+                                <h3 class="fw-semibold mb-5">Recently searched:</h3>
+                                <!--end::Heading-->
+                                <!--begin::Users-->
+                                <div class="mh-375px scroll-y me-n7 pe-7">
+                                    <!--begin::User-->
+                                    <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
+                                        <!--begin::Avatar-->
+                                        <div class="symbol symbol-35px symbol-circle me-5">
+                                            <img alt="Pic" src="assets/media/avatars/300-6.jpg" />
+                                        </div>
+                                        <!--end::Avatar-->
+                                        <!--begin::Info-->
+                                        <div class="fw-semibold">
+                                            <span class="fs-6 text-gray-800 me-2">Emma Smith</span>
+                                            <span class="badge badge-light">Art Director</span>
+                                        </div>
+                                        <!--end::Info-->
+                                    </a>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
+                                        <!--begin::Avatar-->
+                                        <div class="symbol symbol-35px symbol-circle me-5">
+                                            <span class="symbol-label bg-light-danger text-danger fw-semibold">M</span>
+                                        </div>
+                                        <!--end::Avatar-->
+                                        <!--begin::Info-->
+                                        <div class="fw-semibold">
+                                            <span class="fs-6 text-gray-800 me-2">Melody Macy</span>
+                                            <span class="badge badge-light">Marketing Analytic</span>
+                                        </div>
+                                        <!--end::Info-->
+                                    </a>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
+                                        <!--begin::Avatar-->
+                                        <div class="symbol symbol-35px symbol-circle me-5">
+                                            <img alt="Pic" src="assets/media/avatars/300-1.jpg" />
+                                        </div>
+                                        <!--end::Avatar-->
+                                        <!--begin::Info-->
+                                        <div class="fw-semibold">
+                                            <span class="fs-6 text-gray-800 me-2">Max Smith</span>
+                                            <span class="badge badge-light">Software Enginer</span>
+                                        </div>
+                                        <!--end::Info-->
+                                    </a>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
+                                        <!--begin::Avatar-->
+                                        <div class="symbol symbol-35px symbol-circle me-5">
+                                            <img alt="Pic" src="assets/media/avatars/300-5.jpg" />
+                                        </div>
+                                        <!--end::Avatar-->
+                                        <!--begin::Info-->
+                                        <div class="fw-semibold">
+                                            <span class="fs-6 text-gray-800 me-2">Sean Bean</span>
+                                            <span class="badge badge-light">Web Developer</span>
+                                        </div>
+                                        <!--end::Info-->
+                                    </a>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
+                                        <!--begin::Avatar-->
+                                        <div class="symbol symbol-35px symbol-circle me-5">
+                                            <img alt="Pic" src="assets/media/avatars/300-25.jpg" />
+                                        </div>
+                                        <!--end::Avatar-->
+                                        <!--begin::Info-->
+                                        <div class="fw-semibold">
+                                            <span class="fs-6 text-gray-800 me-2">Brian Cox</span>
+                                            <span class="badge badge-light">UI/UX Designer</span>
+                                        </div>
+                                        <!--end::Info-->
+                                    </a>
+                                    <!--end::User-->
+                                </div>
+                                <!--end::Users-->
+                            </div>
+                            <!--end::Suggestions-->
+                            <!--begin::Results(add d-none to below element to hide the users list by default)-->
+                            <div data-kt-search-element="results" class="d-none">
+                                <!--begin::Users-->
+                                <div class="mh-375px scroll-y me-n7 pe-7">
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="0">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='0']" value="0" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-6.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Smith</a>
+                                                <div class="fw-semibold text-muted">smith@kpmg.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2" selected="selected">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="1">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='1']" value="1" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-danger text-danger fw-semibold">M</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Melody Macy</a>
+                                                <div class="fw-semibold text-muted">melody@altbox.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1" selected="selected">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="2">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='2']" value="2" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-1.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Max Smith</a>
+                                                <div class="fw-semibold text-muted">max@kt.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="3">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='3']" value="3" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-5.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Sean Bean</a>
+                                                <div class="fw-semibold text-muted">sean@dellito.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2" selected="selected">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="4">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='4']" value="4" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-25.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Brian Cox</a>
+                                                <div class="fw-semibold text-muted">brian@exchange.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="5">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='5']" value="5" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-warning text-warning fw-semibold">C</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Mikaela Collins</a>
+                                                <div class="fw-semibold text-muted">mik@pex.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2" selected="selected">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="6">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='6']" value="6" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-9.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Francis Mitcham</a>
+                                                <div class="fw-semibold text-muted">f.mit@kpmg.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="7">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='7']" value="7" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-danger text-danger fw-semibold">O</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Olivia Wild</a>
+                                                <div class="fw-semibold text-muted">olivia@corpmail.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2" selected="selected">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="8">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='8']" value="8" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-primary text-primary fw-semibold">N</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Neil Owen</a>
+                                                <div class="fw-semibold text-muted">owen.neil@gmail.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1" selected="selected">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="9">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='9']" value="9" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-23.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Dan Wilson</a>
+                                                <div class="fw-semibold text-muted">dam@consilting.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="10">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='10']" value="10" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-danger text-danger fw-semibold">E</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Bold</a>
+                                                <div class="fw-semibold text-muted">emma@intenso.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2" selected="selected">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="11">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='11']" value="11" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-12.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ana Crown</a>
+                                                <div class="fw-semibold text-muted">ana.cf@limtel.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1" selected="selected">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="12">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='12']" value="12" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-info text-info fw-semibold">A</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
+                                                <div class="fw-semibold text-muted">robert@benko.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="13">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='13']" value="13" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-13.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">John Miller</a>
+                                                <div class="fw-semibold text-muted">miller@mapple.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="14">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='14']" value="14" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <span class="symbol-label bg-light-success text-success fw-semibold">L</span>
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Lucy Kunic</a>
+                                                <div class="fw-semibold text-muted">lucy.m@fentech.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2" selected="selected">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="15">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='15']" value="15" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-21.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Ethan Wilder</a>
+                                                <div class="fw-semibold text-muted">ethan@loop.com.au</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1" selected="selected">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::Separator-->
+                                    <div class="border-bottom border-gray-300 border-bottom-dashed"></div>
+                                    <!--end::Separator-->
+                                    <!--begin::User-->
+                                    <div class="rounded d-flex flex-stack bg-active-lighten p-4" data-user-id="16">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Checkbox-->
+                                            <label class="form-check form-check-custom form-check-solid me-5">
+                                                <input class="form-check-input" type="checkbox" name="users" data-kt-check="true" data-kt-check-target="[data-user-id='16']" value="16" />
+                                            </label>
+                                            <!--end::Checkbox-->
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-35px symbol-circle">
+                                                <img alt="Pic" src="assets/media/avatars/300-25.jpg" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Details-->
+                                            <div class="ms-5">
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Brian Cox</a>
+                                                <div class="fw-semibold text-muted">brian@exchange.com</div>
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Access menu-->
+                                        <div class="ms-2 w-100px">
+                                            <select class="form-select form-select-solid form-select-sm" data-control="select2" data-hide-search="true">
+                                                <option value="1">Guest</option>
+                                                <option value="2">Owner</option>
+                                                <option value="3" selected="selected">Can Edit</option>
+                                            </select>
+                                        </div>
+                                        <!--end::Access menu-->
+                                    </div>
+                                    <!--end::User-->
+                                </div>
+                                <!--end::Users-->
+                                <!--begin::Actions-->
+                                <div class="d-flex flex-center mt-15">
+                                    <button type="reset" id="kt_modal_users_search_reset" data-bs-dismiss="modal" class="btn btn-active-light me-3">Cancel</button>
+                                    <button type="submit" id="kt_modal_users_search_submit" class="btn btn-primary">Add Selected Users</button>
+                                </div>
+                                <!--end::Actions-->
+                            </div>
+                            <!--end::Results-->
+                            <!--begin::Empty-->
+                            <div data-kt-search-element="empty" class="text-center d-none">
+                                <!--begin::Message-->
+                                <div class="fw-semibold py-10">
+                                    <div class="text-gray-600 fs-3 mb-2">No users found</div>
+                                    <div class="text-muted fs-6">Try to search by username, full name or email...</div>
+                                </div>
+                                <!--end::Message-->
+                                <!--begin::Illustration-->
+                                <div class="text-center px-5">
+                                    <img src="assets/media/illustrations/sketchy-1/1.png" alt="" class="w-100 h-200px h-sm-325px" />
+                                </div>
+                                <!--end::Illustration-->
+                            </div>
+                            <!--end::Empty-->
+                        </div>
+                        <!--end::Wrapper-->
+                    </div>
+                    <!--end::Search-->
+                </div>
+                <!--end::Modal body-->
+            </div>
+            <!--end::Modal content-->
+        </div>
+        <!--end::Modal dialog-->
+    </div>
+    <!--end::Modal - Users Search-->
     <!--begin::Modal - Invite Friends-->
     <div class="modal fade" id="kt_modal_invite_friends" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
@@ -2686,13 +4004,13 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                        <img alt="Pic" src="assets/media/avatars/300-23.jpg" />
+                                        <span class="symbol-label bg-light-info text-info fw-semibold">A</span>
                                     </div>
                                     <!--end::Avatar-->
                                     <!--begin::Details-->
                                     <div class="ms-5">
-                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Dan Wilson</a>
-                                        <div class="fw-semibold text-muted">dam@consilting.com</div>
+                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
+                                        <div class="fw-semibold text-muted">robert@benko.com</div>
                                     </div>
                                     <!--end::Details-->
                                 </div>
@@ -2744,17 +4062,21 @@
     <!--begin::Global Javascript Bundle(mandatory for all pages)-->
     <script src="assets/plugins/global/plugins.bundle.js"></script>
     <script src="assets/js/scripts.bundle.js"></script>
-    <script src="assets/js/custom/widgets.js"></script>
     <!--end::Global Javascript Bundle-->
     <!--begin::Vendors Javascript(used for this page only)-->
     <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <!--end::Vendors Javascript-->
     <!--begin::Custom Javascript(used for this page only)-->
-    <script src="assets/js/custom/apps/projects/list/list.js"></script>
+    <script src="assets/js/custom/pages/user-profile/general.js"></script>
     <script src="assets/js/widgets.bundle.js"></script>
     <script src="assets/js/custom/widgets.js"></script>
     <script src="assets/js/custom/apps/chat/chat.js"></script>
     <script src="assets/js/custom/utilities/modals/create-app.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
     <script src="assets/js/custom/utilities/modals/users-search.js"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->

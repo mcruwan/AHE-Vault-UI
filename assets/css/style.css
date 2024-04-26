@@ -11,5 +11,5 @@
 }
 
 .apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
-  display: none;
+  background-color: rgb(43 33 64) !important;
 }

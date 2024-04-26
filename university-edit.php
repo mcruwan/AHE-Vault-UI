@@ -160,24 +160,9 @@
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-xxl">
-                                <!--begin::Navbar-->
-                                <div class="card mb-5 mb-xl-10">
-                                    <div class="card-body pt-9 pb-0">
-                                        <!--begin::Details-->
-                                        <?php include_once('widgets/university-profile-data.php'); ?>
-                                        <!--end::Details-->
-                                        <!--begin::Navs-->
-                                        <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
-                                            <!--begin::Nav item-->
-                                            <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="university-overview.php">Overview</a>
-                                            </li>
-                                        </ul>
-                                        <!--begin::Navs-->
-                                    </div>
-                                </div>
-                                <!--end::Navbar-->
-                                <!--begin::Content-->
+
+                                <?php include_once('widgets/university-profile-data.php'); ?>
+
                                 <div class="card mb-5 mb-xl-10">
                                     <!--begin::Card header-->
                                     <div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse" data-bs-target="#kt_account_profile_details" aria-expanded="true" aria-controls="kt_account_profile_details">
