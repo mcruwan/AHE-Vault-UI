@@ -181,11 +181,11 @@
                                     <div class="card-header cursor-pointer">
                                         <!--begin::Card title-->
                                         <div class="card-title m-0">
-                                            <h3 class="fw-bold m-0">Profile Details</h3>
+                                            <h3 class="fw-bold m-0">Institutional Information</h3>
                                         </div>
                                         <!--end::Card title-->
                                         <!--begin::Action-->
-                                        <a href="profile-edit.php" class="btn btn-sm btn-primary align-self-center">Edit Profile</a>
+                                        <a href="profile-edit.php" class="btn btn-sm btn-primary align-self-center">Edit</a>
                                         <!--end::Action-->
                                     </div>
                                     <!--begin::Card header-->
@@ -242,8 +242,25 @@
                                             </div>
                                             <!--end::Col-->
                                         </div>
-                                        <!--end::Input group-->
-                                        <!--begin::Input group-->
+                                    </div>
+                                    <!--end::Card body-->
+                                </div>
+
+                                <div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
+                                    <!--begin::Card header-->
+                                    <div class="card-header cursor-pointer">
+                                        <!--begin::Card title-->
+                                        <div class="card-title m-0">
+                                            <h3 class="fw-bold m-0">Online Presence</h3>
+                                        </div>
+                                        <!--end::Card title-->
+                                        <!--begin::Action-->
+                                        <a href="profile-edit.php" class="btn btn-sm btn-primary align-self-center">Edit</a>
+                                        <!--end::Action-->
+                                    </div>
+                                    <!--begin::Card header-->
+                                    <!--begin::Card body-->
+                                    <div class="card-body p-9">
                                         <div class="row mb-7">
                                             <!--begin::Label-->
                                             <label class="col-lg-4 fw-semibold text-muted">Official web domain for faculty email</label>
