@@ -4,17 +4,17 @@
 <!--begin::Head-->
 
 <head>
-    <title>Vault - Analytics & Reporting</title>
+    <title>Vault - Data</title>
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Vault - Analytics & Reporting" />
+    <meta property="og:title" content="Vault - Data" />
     <meta property="og:url" content="https://keenthemes.com/metronic" />
     <meta property="og:site_name" content="Metronic by Keenthemes" />
-    <link rel="canonical" href="http://widgets/charts.html" />
+    <link rel="canonical" href="http://apps/projects/list.html" />
     <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
@@ -32,9 +32,11 @@
     </script>
 </head>
 <!--end::Head-->
+
 <!--begin::Body-->
 
 <body id="kt_app_body" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
+
     <!--begin::Theme mode setup on page load-->
     <script>
         var defaultThemeMode = "light";
@@ -130,7 +132,7 @@
                                 <!--begin::Page title-->
                                 <div class="page-title d-flex flex-column justify-content-center me-3">
                                     <!--begin::Title-->
-                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Charts</h1>
+                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Overview</h1>
                                     <!--end::Title-->
                                     <!--begin::Breadcrumb-->
                                     <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
@@ -138,14 +140,14 @@
                                         <li class="breadcrumb-item text-muted">
                                             <a href="index.html" class="text-muted text-hover-primary">Home</a>
                                         </li>
-                                        <!--end::Item-->
-                                        <!--begin::Item-->
                                         <li class="breadcrumb-item">
                                             <span class="bullet bg-gray-500 w-5px h-2px"></span>
                                         </li>
-                                        <!--end::Item-->
-                                        <!--begin::Item-->
-                                        <li class="breadcrumb-item text-muted">Analytics & Reporting</li>
+                                        <li class="breadcrumb-item text-muted">Data Management</li>
+                                        <li class="breadcrumb-item">
+                                            <span class="bullet bg-gray-500 w-5px h-2px"></span>
+                                        </li>
+                                        <li class="breadcrumb-item text-muted">Overview</li>
                                         <!--end::Item-->
                                     </ul>
                                     <!--end::Breadcrumb-->
@@ -160,31 +162,72 @@
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-xxl">
+                                <!--begin::Navbar-->
+                                <div class="card mb-5 mb-xl-10">
+                                    <div class="card-body pt-9 pb-0">
+                                        <!--begin::Details-->
+                                        <?php include_once('widgets/user-profile-data.php'); ?>
+                                        <!--end::Details-->
+                                        <!--begin::Navs-->
+                                        <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
+                                            <!--begin::Nav item-->
+                                            <li class="nav-item mt-2">
+                                                <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="user-user-overview.php">Overview</a>
+                                            </li>
 
-                                <!--begin::Row-->
-                                <div class="row g-5 g-xl-8">
-                                    <div class="col-xl-6">
-                                        <!--begin::Charts Widget 3-->
-                                        <div class="card card-xl-stretch mb-xl-8">
-                                            <!--begin::Header-->
-                                            <div class="card-header border-0 pt-5">
-                                                <h3 class="card-title align-items-start flex-column">
-                                                    <span class="card-label fw-bold fs-3 mb-1">Private University Ranking: ASEAN</span>
-                                                    <span class="text-muted fw-semibold fs-7">More than 100 Universities</span>
-                                                </h3>
-                                            </div>
-                                            <!--end::Header-->
-                                            <!--begin::Body-->
-                                            <div class="card-body">
-                                                <!--begin::Chart-->
-                                                <div id="kt_charts_widget_3_chart" style="height: 350px"></div>
-                                                <!--end::Chart-->
-                                            </div>
-                                            <!--end::Body-->
-                                        </div>
-                                        <!--end::Charts Widget 3-->
+                                            <li class="nav-item mt-2">
+                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="logs.php">Logs</a>
+                                            </li>
+                                        </ul>
+                                        <!--begin::Navs-->
                                     </div>
                                 </div>
+                                <!--end::Navbar-->
+                                <!--begin::details View-->
+                                <div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
+                                    <!--begin::Card header-->
+                                    <div class="card-header cursor-pointer">
+                                        <!--begin::Card title-->
+                                        <div class="card-title m-0">
+                                            <h3 class="fw-bold m-0">Institutional Data</h3>
+                                        </div>
+                                        <!--end::Card title-->
+                                        <!--begin::Action-->
+                                        <a href="user-edit.php" class="btn btn-sm btn-primary align-self-center">Edit Profile</a>
+                                        <!--end::Action-->
+                                    </div>
+                                    <!--begin::Card header-->
+                                    <!--begin::Card body-->
+                                    <div class="card-body p-9">
+                                        <!--begin::Row-->
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">Faculty numbers
+                                                <span class="ms-1" data-bs-toggle="tooltip" title="Total number of faculty members and international faculty members"><i class="ki-outline ki-information fs-7"></i></span>
+                                            </label>
+                                            <div class="col-lg-8">
+                                                <span class="fw-bold fs-6 text-gray-800">10</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">Student numbers
+                                                <span class="ms-1" data-bs-toggle="tooltip" title="Total number of students and international students"><i class="ki-outline ki-information fs-7"></i></span>
+                                            </label>
+                                            <div class="col-lg-8 fv-row">
+                                                <span class="fw-semibold text-gray-800 fs-6">10</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">Graduate outcomes
+                                                <span class="ms-1" data-bs-toggle="tooltip" title="Data about total graduates, graduates employed within 6 months, graduates pursuing further studies within 6 months, and graduate outcome unknown/unresponsive."><i class="ki-outline ki-information fs-7"></i></span>
+                                            </label>
+                                            <div class="col-lg-8 d-flex align-items-center">
+                                                <span class="fw-bold fs-6 text-gray-800 me-2">-</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end::Card body-->
+                                </div>
+                                <!--end::details View-->
 
                             </div>
                             <!--end::Content container-->
@@ -2066,6 +2109,410 @@
         <!--end::Modal dialog-->
     </div>
     <!--end::Modal - Create App-->
+    <!--begin::Modal - Offer A Deal-->
+    <div class="modal fade" id="kt_modal_offer_a_deal" tabindex="-1" aria-hidden="true">
+        <!--begin::Modal dialog-->
+        <div class="modal-dialog modal-dialog-centered mw-1000px">
+            <!--begin::Modal content-->
+            <div class="modal-content">
+                <!--begin::Modal header-->
+                <div class="modal-header py-7 d-flex justify-content-between">
+                    <!--begin::Modal title-->
+                    <h2>Offer a Deal</h2>
+                    <!--end::Modal title-->
+                    <!--begin::Close-->
+                    <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+                        <i class="ki-outline ki-cross fs-1"></i>
+                    </div>
+                    <!--end::Close-->
+                </div>
+                <!--begin::Modal header-->
+                <!--begin::Modal body-->
+                <div class="modal-body scroll-y m-5">
+                    <!--begin::Stepper-->
+                    <div class="stepper stepper-links d-flex flex-column" id="kt_modal_offer_a_deal_stepper">
+                        <!--begin::Nav-->
+                        <div class="stepper-nav justify-content-center py-2">
+                            <!--begin::Step 1-->
+                            <div class="stepper-item me-5 me-md-15 current" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Deal Type</h3>
+                            </div>
+                            <!--end::Step 1-->
+                            <!--begin::Step 2-->
+                            <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Deal Details</h3>
+                            </div>
+                            <!--end::Step 2-->
+                            <!--begin::Step 3-->
+                            <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Finance Settings</h3>
+                            </div>
+                            <!--end::Step 3-->
+                            <!--begin::Step 4-->
+                            <div class="stepper-item" data-kt-stepper-element="nav">
+                                <h3 class="stepper-title">Completed</h3>
+                            </div>
+                            <!--end::Step 4-->
+                        </div>
+                        <!--end::Nav-->
+                        <!--begin::Form-->
+                        <form class="mx-auto mw-500px w-100 pt-15 pb-10" novalidate="novalidate" id="kt_modal_offer_a_deal_form">
+                            <!--begin::Type-->
+                            <div class="current" data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Deal Type</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-15" data-kt-buttons="true">
+                                        <!--begin::Option-->
+                                        <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6 mb-6 active">
+                                            <!--begin::Input-->
+                                            <input class="btn-check" type="radio" checked="checked" name="offer_type" value="1" />
+                                            <!--end::Input-->
+                                            <!--begin::Label-->
+                                            <span class="d-flex">
+                                                <!--begin::Icon-->
+                                                <i class="ki-outline ki-profile-circle fs-3hx"></i>
+                                                <!--end::Icon-->
+                                                <!--begin::Info-->
+                                                <span class="ms-4">
+                                                    <span class="fs-3 fw-bold text-gray-900 mb-2 d-block">Personal Deal</span>
+                                                    <span class="fw-semibold fs-4 text-muted">If you need more info, please check it out</span>
+                                                </span>
+                                                <!--end::Info-->
+                                            </span>
+                                            <!--end::Label-->
+                                        </label>
+                                        <!--end::Option-->
+                                        <!--begin::Option-->
+                                        <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6">
+                                            <!--begin::Input-->
+                                            <input class="btn-check" type="radio" name="offer_type" value="2" />
+                                            <!--end::Input-->
+                                            <!--begin::Label-->
+                                            <span class="d-flex">
+                                                <!--begin::Icon-->
+                                                <i class="ki-outline ki-element-11 fs-3hx"></i>
+                                                <!--end::Icon-->
+                                                <!--begin::Info-->
+                                                <span class="ms-4">
+                                                    <span class="fs-3 fw-bold text-gray-900 mb-2 d-block">Corporate Deal</span>
+                                                    <span class="fw-semibold fs-4 text-muted">Create corporate account to manage users</span>
+                                                </span>
+                                                <!--end::Info-->
+                                            </span>
+                                            <!--end::Label-->
+                                        </label>
+                                        <!--end::Option-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn btn-lg btn-primary" data-kt-element="type-next">
+                                            <span class="indicator-label">Offer Details</span>
+                                            <span class="indicator-progress">Please wait...
+                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        </button>
+                                    </div>
+                                    <!--end::Actions-->
+                                </div>
+                                <!--end::Wrapper-->
+                            </div>
+                            <!--end::Type-->
+                            <!--begin::Details-->
+                            <div data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Deal Details</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="required fs-6 fw-semibold mb-2">Customer</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <select class="form-select form-select-solid" data-control="select2" data-placeholder="Select an option" name="details_customer">
+                                            <option></option>
+                                            <option value="1" selected="selected">Keenthemes</option>
+                                            <option value="2">CRM App</option>
+                                        </select>
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="required fs-6 fw-semibold mb-2">Deal Title</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Deal Title" name="details_title" value="Marketing Campaign" />
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Deal Description</label>
+                                        <!--end::Label-->
+                                        <!--begin::Label-->
+                                        <textarea class="form-control form-control-solid" rows="3" placeholder="Enter Deal Description" name="details_description">Experience share market at your fingertips with TICK PRO stock investment mobile trading app</textarea>
+                                        <!--end::Label-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <label class="required fs-6 fw-semibold mb-2">Activation Date</label>
+                                        <div class="position-relative d-flex align-items-center">
+                                            <!--begin::Icon-->
+                                            <i class="ki-outline ki-calendar-8 fs-2 position-absolute mx-4"></i>
+                                            <!--end::Icon-->
+                                            <!--begin::Datepicker-->
+                                            <input class="form-control form-control-solid ps-12" placeholder="Pick date range" name="details_activation_date" />
+                                            <!--end::Datepicker-->
+                                        </div>
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-15">
+                                        <!--begin::Wrapper-->
+                                        <div class="d-flex flex-stack">
+                                            <!--begin::Label-->
+                                            <div class="me-5">
+                                                <label class="required fs-6 fw-semibold">Notifications</label>
+                                                <div class="fs-7 fw-semibold text-muted">Allow Notifications by Phone or Email</div>
+                                            </div>
+                                            <!--end::Label-->
+                                            <!--begin::Checkboxes-->
+                                            <div class="d-flex">
+                                                <!--begin::Checkbox-->
+                                                <label class="form-check form-check-custom form-check-solid me-10">
+                                                    <!--begin::Input-->
+                                                    <input class="form-check-input h-20px w-20px" type="checkbox" value="email" name="details_notifications[]" />
+                                                    <!--end::Input-->
+                                                    <!--begin::Label-->
+                                                    <span class="form-check-label fw-semibold">Email</span>
+                                                    <!--end::Label-->
+                                                </label>
+                                                <!--end::Checkbox-->
+                                                <!--begin::Checkbox-->
+                                                <label class="form-check form-check-custom form-check-solid">
+                                                    <!--begin::Input-->
+                                                    <input class="form-check-input h-20px w-20px" type="checkbox" value="phone" checked="checked" name="details_notifications[]" />
+                                                    <!--end::Input-->
+                                                    <!--begin::Label-->
+                                                    <span class="form-check-label fw-semibold">Phone</span>
+                                                    <!--end::Label-->
+                                                </label>
+                                                <!--end::Checkbox-->
+                                            </div>
+                                            <!--end::Checkboxes-->
+                                        </div>
+                                        <!--begin::Wrapper-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex flex-stack">
+                                        <button type="button" class="btn btn-lg btn-light me-3" data-kt-element="details-previous">Deal Type</button>
+                                        <button type="button" class="btn btn-lg btn-primary" data-kt-element="details-next">
+                                            <span class="indicator-label">Financing</span>
+                                            <span class="indicator-progress">Please wait...
+                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        </button>
+                                    </div>
+                                    <!--end::Actions-->
+                                </div>
+                                <!--end::Wrapper-->
+                            </div>
+                            <!--end::Details-->
+                            <!--begin::Budget-->
+                            <div data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Finance</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+                                            <span class="required">Setup Budget</span>
+                                            <span class="lh-1 ms-1" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-html="true" data-bs-content="&lt;div class=&#039;p-4 rounded bg-light&#039;&gt; &lt;div class=&#039;d-flex flex-stack text-muted mb-4&#039;&gt; &lt;i class=&quot;ki-outline ki-bank fs-3 me-3&quot;&gt;&lt;/i&gt; &lt;div class=&#039;fw-bold&#039;&gt;INCBANK **** 1245 STATEMENT&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;d-flex flex-stack fw-semibold text-gray-600&#039;&gt; &lt;div&gt;Amount&lt;/div&gt; &lt;div&gt;Transaction&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;separator separator-dashed my-2&#039;&gt;&lt;/div&gt; &lt;div class=&#039;d-flex flex-stack text-gray-900 fw-bold mb-2&#039;&gt; &lt;div&gt;USD345.00&lt;/div&gt; &lt;div&gt;KEENTHEMES*&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;d-flex flex-stack text-muted mb-2&#039;&gt; &lt;div&gt;USD75.00&lt;/div&gt; &lt;div&gt;Hosting fee&lt;/div&gt; &lt;/div&gt; &lt;div class=&#039;d-flex flex-stack text-muted&#039;&gt; &lt;div&gt;USD3,950.00&lt;/div&gt; &lt;div&gt;Payrol&lt;/div&gt; &lt;/div&gt; &lt;/div&gt;">
+                                                <i class="ki-outline ki-information-5 text-gray-500 fs-6"></i>
+                                            </span>
+                                        </label>
+                                        <!--end::Label-->
+                                        <!--begin::Dialer-->
+                                        <div class="position-relative w-lg-250px" id="kt_modal_finance_setup" data-kt-dialer="true" data-kt-dialer-min="50" data-kt-dialer-max="50000" data-kt-dialer-step="100" data-kt-dialer-prefix="$" data-kt-dialer-decimals="2">
+                                            <!--begin::Decrease control-->
+                                            <button type="button" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 start-0" data-kt-dialer-control="decrease">
+                                                <i class="ki-outline ki-minus-circle fs-1"></i>
+                                            </button>
+                                            <!--end::Decrease control-->
+                                            <!--begin::Input control-->
+                                            <input type="text" class="form-control form-control-solid border-0 ps-12" data-kt-dialer-control="input" placeholder="Amount" name="finance_setup" readonly="readonly" value="$50" />
+                                            <!--end::Input control-->
+                                            <!--begin::Increase control-->
+                                            <button type="button" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 end-0" data-kt-dialer-control="increase">
+                                                <i class="ki-outline ki-plus-circle fs-1"></i>
+                                            </button>
+                                            <!--end::Increase control-->
+                                        </div>
+                                        <!--end::Dialer-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-8">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold mb-2">Budget Usage</label>
+                                        <!--end::Label-->
+                                        <!--begin::Row-->
+                                        <div class="row g-9" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button='true']">
+                                            <!--begin::Col-->
+                                            <div class="col-md-6 col-lg-12 col-xxl-6">
+                                                <!--begin::Option-->
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary active d-flex text-start p-6" data-kt-button="true">
+                                                    <!--begin::Radio-->
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="finance_usage" value="1" checked="checked" />
+                                                    </span>
+                                                    <!--end::Radio-->
+                                                    <!--begin::Info-->
+                                                    <span class="ms-5">
+                                                        <span class="fs-4 fw-bold text-gray-800 mb-2 d-block">Precise Usage</span>
+                                                        <span class="fw-semibold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
+                                                    </span>
+                                                    <!--end::Info-->
+                                                </label>
+                                                <!--end::Option-->
+                                            </div>
+                                            <!--end::Col-->
+                                            <!--begin::Col-->
+                                            <div class="col-md-6 col-lg-12 col-xxl-6">
+                                                <!--begin::Option-->
+                                                <label class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6" data-kt-button="true">
+                                                    <!--begin::Radio-->
+                                                    <span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
+                                                        <input class="form-check-input" type="radio" name="finance_usage" value="2" />
+                                                    </span>
+                                                    <!--end::Radio-->
+                                                    <!--begin::Info-->
+                                                    <span class="ms-5">
+                                                        <span class="fs-4 fw-bold text-gray-800 mb-2 d-block">Extreme Usage</span>
+                                                        <span class="fw-semibold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
+                                                    </span>
+                                                    <!--end::Info-->
+                                                </label>
+                                                <!--end::Option-->
+                                            </div>
+                                            <!--end::Col-->
+                                        </div>
+                                        <!--end::Row-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-15">
+                                        <!--begin::Wrapper-->
+                                        <div class="d-flex flex-stack">
+                                            <!--begin::Label-->
+                                            <div class="me-5">
+                                                <label class="fs-6 fw-semibold">Allow Changes in Budget</label>
+                                                <div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
+                                            </div>
+                                            <!--end::Label-->
+                                            <!--begin::Switch-->
+                                            <label class="form-check form-switch form-check-custom form-check-solid">
+                                                <input class="form-check-input" type="checkbox" value="1" name="finance_allow" checked="checked" />
+                                                <span class="form-check-label fw-semibold text-muted">Allowed</span>
+                                            </label>
+                                            <!--end::Switch-->
+                                        </div>
+                                        <!--end::Wrapper-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex flex-stack">
+                                        <button type="button" class="btn btn-lg btn-light me-3" data-kt-element="finance-previous">Project Settings</button>
+                                        <button type="button" class="btn btn-lg btn-primary" data-kt-element="finance-next">
+                                            <span class="indicator-label">Build Team</span>
+                                            <span class="indicator-progress">Please wait...
+                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        </button>
+                                    </div>
+                                    <!--end::Actions-->
+                                </div>
+                                <!--end::Wrapper-->
+                            </div>
+                            <!--end::Budget-->
+                            <!--begin::Complete-->
+                            <div data-kt-stepper-element="content">
+                                <!--begin::Wrapper-->
+                                <div class="w-100">
+                                    <!--begin::Heading-->
+                                    <div class="mb-13">
+                                        <!--begin::Title-->
+                                        <h2 class="mb-3">Deal Created!</h2>
+                                        <!--end::Title-->
+                                        <!--begin::Description-->
+                                        <div class="text-muted fw-semibold fs-5">If you need more info, please check out
+                                            <a href="#" class="link-primary fw-bold">FAQ Page</a>.
+                                        </div>
+                                        <!--end::Description-->
+                                    </div>
+                                    <!--end::Heading-->
+                                    <!--begin::Actions-->
+                                    <div class="d-flex flex-center pb-20">
+                                        <button type="button" class="btn btn-lg btn-light me-3" data-kt-element="complete-start">Create New Deal</button>
+                                        <a href="#" class="btn btn-lg btn-primary" data-bs-toggle="tooltip" title="Coming Soon">View Deal</a>
+                                    </div>
+                                    <!--end::Actions-->
+                                    <!--begin::Illustration-->
+                                    <div class="text-center px-4">
+                                        <img src="assets/media/illustrations/sketchy-1/20.png" alt="" class="mw-100 mh-300px" />
+                                    </div>
+                                    <!--end::Illustration-->
+                                </div>
+                            </div>
+                            <!--end::Complete-->
+                        </form>
+                        <!--end::Form-->
+                    </div>
+                    <!--end::Stepper-->
+                </div>
+                <!--begin::Modal body-->
+            </div>
+        </div>
+    </div>
+    <!--end::Modal - Offer A Deal-->
     <!--begin::Modal - Users Search-->
     <div class="modal fade" id="kt_modal_users_search" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
@@ -2793,13 +3240,13 @@
                                             <!--end::Checkbox-->
                                             <!--begin::Avatar-->
                                             <div class="symbol symbol-35px symbol-circle">
-                                                <span class="symbol-label bg-light-info text-info fw-semibold">A</span>
+                                                <span class="symbol-label bg-light-danger text-danger fw-semibold">E</span>
                                             </div>
                                             <!--end::Avatar-->
                                             <!--begin::Details-->
                                             <div class="ms-5">
-                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
-                                                <div class="fw-semibold text-muted">robert@benko.com</div>
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Bold</a>
+                                                <div class="fw-semibold text-muted">emma@intenso.com</div>
                                             </div>
                                             <!--end::Details-->
                                         </div>
@@ -3355,13 +3802,13 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                        <span class="symbol-label bg-light-info text-info fw-semibold">A</span>
+                                        <span class="symbol-label bg-light-danger text-danger fw-semibold">O</span>
                                     </div>
                                     <!--end::Avatar-->
                                     <!--begin::Details-->
                                     <div class="ms-5">
-                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
-                                        <div class="fw-semibold text-muted">robert@benko.com</div>
+                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Olivia Wild</a>
+                                        <div class="fw-semibold text-muted">olivia@corpmail.com</div>
                                     </div>
                                     <!--end::Details-->
                                 </div>
@@ -3404,6 +3851,7 @@
         </div>
         <!--end::Modal dialog-->
     </div>
+
     <!--end::Modal - Invite Friend-->
     <!--end::Modals-->
     <!--begin::Javascript-->
@@ -3418,14 +3866,19 @@
     <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <!--end::Vendors Javascript-->
     <!--begin::Custom Javascript(used for this page only)-->
+    <script src="assets/js/custom/pages/user-profile/general.js"></script>
     <script src="assets/js/widgets.bundle.js"></script>
     <script src="assets/js/custom/widgets.js"></script>
     <script src="assets/js/custom/apps/chat/chat.js"></script>
     <script src="assets/js/custom/utilities/modals/create-app.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+    <script src="assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
     <script src="assets/js/custom/utilities/modals/users-search.js"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
 </body>
-<!--end::Body-->
 
 </html>

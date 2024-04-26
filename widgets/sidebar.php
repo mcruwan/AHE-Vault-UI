@@ -42,7 +42,7 @@
                 <!--end::Menu separator-->
                 <!--begin::Menu item-->
                 <div class="menu-item px-5">
-                    <a href="account/overview.html" class="menu-link px-5">My Profile</a>
+                    <a href="university-overview.php" class="menu-link px-5">My Profile</a>
                 </div>
                 <!--end::Menu item-->
                 <!--begin::Menu item-->
@@ -227,11 +227,11 @@
             <div class="d-flex align-items-center flex-column w-100 mb-6">
 
                 <div class="d-block justify-content-between fs-6 text-gray-800 w-100 mb-3">
-                    <a href="#">
+                    <a href="https://sunwayuniversity.edu.my/" target="_blank">
                         <img alt="Logo" src="assets/media/logos/sunway-logo.jpg" class="h-70px h-lg-70px theme-light-show" />
                         <img alt="Logo" src="assets/media/logos/sunway-logo.jpg" class="h-70px h-lg-70px theme-dark-show" />
                     </a>
-                    <a href="#" class="d-block fw-bolder mt-3">Sunway University</a>
+                    <a href="https://sunwayuniversity.edu.my/" target="_blank" class="d-block fw-bolder mt-3">Sunway University</a>
                     <span class="d-block">Malaysia</span>
                 </div>
                 <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 p-4 mb-3">
@@ -246,37 +246,14 @@
                             <span id="uni-progress-text">Completed 37% of your profile</span>
                         </div>
                         <div class="fw-semibold fs-7 text-primary w-50 text-right">
-                            <a href="profile-complete.php">Complete profile</a>
+                            <a href="profile-edit.php">Complete profile</a>
                         </div>
                     </div>
                 </div>
 
             </div>
             <!--end::Progress-->
-            <!--begin::Stats-->
-            <div class="d-flex mb-3 mb-lg-6 d-none">
-                <!--begin::Stat-->
-                <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 py-2 px-4 me-6">
-                    <!--begin::Date-->
-                    <span class="fs-6 text-gray-500 fw-bold">Budget</span>
-                    <!--end::Date-->
-                    <!--begin::Label-->
-                    <div class="fs-2 fw-bold text-success">$14,350</div>
-                    <!--end::Label-->
-                </div>
-                <!--end::Stat-->
-                <!--begin::Stat-->
-                <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 py-2 px-4">
-                    <!--begin::Date-->
-                    <span class="fs-6 text-gray-500 fw-bold">Spent</span>
-                    <!--end::Date-->
-                    <!--begin::Label-->
-                    <div class="fs-2 fw-bold text-danger">$8,029</div>
-                    <!--end::Label-->
-                </div>
-                <!--end::Stat-->
-            </div>
-            <!--end::Stats-->
+
             <!--begin::Links-->
             <div class="mb-6">
                 <!--begin::Title-->

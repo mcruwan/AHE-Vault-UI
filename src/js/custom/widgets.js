@@ -585,8 +585,8 @@ var KTWidgets = function () {
 
             var options = {
                 series: [{
-                    name: 'Score:',
-                    data: [30, 40, 40, 90, 90, 70, 70]
+                    name: 'Ranking:',
+                    data: [10, 1]
                 }],
                 chart: {
                     fontFamily: 'inherit',

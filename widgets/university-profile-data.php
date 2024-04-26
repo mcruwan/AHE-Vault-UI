@@ -1,23 +1,8 @@
-<?php
-
-$year = '2024';
-$progress = '40';
-
-if (isset($_GET['year'])) {
-    $year = $_GET['year'];
-}
-
-if (isset($_GET['progress'])) {
-    $progress = $_GET['progress'];
-}
-
-?>
-
 <div class="d-flex flex-wrap flex-sm-nowrap">
     <!--begin: Pic-->
     <div class="me-7 mb-4">
         <div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
-            <img src="assets/media/avatars/300-1.jpg" alt="image" />
+            <img src="assets/media/logos/sunway-logo.jpg" alt="image" />
             <div class="position-absolute translate-middle bottom-0 start-100 mb-6 bg-success rounded-circle border border-4 border-body h-20px w-20px"></div>
         </div>
     </div>
@@ -30,18 +15,18 @@ if (isset($_GET['progress'])) {
             <div class="d-flex flex-column">
                 <!--begin::Name-->
                 <div class="d-flex align-items-center mb-2">
-                    <a href="#" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1">Public & Private University Ranking: ASEAN <?php echo $year; ?></a>
-                    <a href="#">
+                    <a href="https://sunwayuniversity.edu.my/" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1">Sunway University</a>
+                    <a href="https://sunwayuniversity.edu.my/">
                         <i class="ki-outline ki-verify fs-1 text-primary"></i>
                     </a>
                 </div>
                 <!--end::Name-->
                 <!--begin::Info-->
                 <div class="d-flex flex-wrap fw-semibold fs-6 mb-4 pe-2">
-                    <a href="#" class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2">
-                        <i class="ki-outline ki-profile-circle fs-4 me-1"></i>Sunwey University</a>
-                    <a href="#" class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2">
-                        <i class="ki-outline ki-geolocation fs-4 me-1"></i>Malaysia</a>
+                    <a href="https://sunwayuniversity.edu.my/" class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2">
+                        <i class="ki-outline ki-profile-circle fs-4 me-1"></i>Rank : 1</a>
+                    <span class="d-flex align-items-center text-gray-500 text-hover-primary me-5 mb-2">
+                        <i class="ki-outline ki-geolocation fs-4 me-1"></i>Malaysia</span>
                 </div>
                 <!--end::Info-->
             </div>
@@ -145,10 +130,10 @@ if (isset($_GET['progress'])) {
             <div class="d-flex align-items-center w-200px w-sm-300px flex-column mt-3">
                 <div class="d-flex justify-content-between w-100 mt-auto mb-2">
                     <span class="fw-semibold fs-6 text-gray-500">Profile Compleation</span>
-                    <span class="fw-bold fs-6"><?php echo $progress; ?>%</span>
+                    <span class="fw-bold fs-6">40%</span>
                 </div>
                 <div class="h-5px mx-3 w-100 bg-light mb-3">
-                    <div class="bg-success rounded h-5px" role="progressbar" style="width: <?php echo $progress; ?>%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="bg-success rounded h-5px" role="progressbar" style="width: 40%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             <!--end::Progress-->

@@ -44001,9 +44001,10 @@ code:not([class*="language-"]).code-dark {
     height: 160px;
   }
   .symbol.symbol-lg-160px.symbol-fixed > img {
-    width: 160px;
-    height: 160px;
+    width: 300px;
+    height: 130px;
     max-width: none;
+    border: 1px solid #ccc;
   }
   .symbol.symbol-lg-160px.symbol-2by3 .symbol-label {
     height: 160px;
