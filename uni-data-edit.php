@@ -4,17 +4,18 @@
 <!--begin::Head-->
 
 <head>
-    <title>Vault - Data</title>
+
+    <title>Vault - Settings</title>
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Vault - Data" />
+    <meta property="og:title" content="Vault - Settings" />
     <meta property="og:url" content="https://keenthemes.com/metronic" />
     <meta property="og:site_name" content="Metronic by Keenthemes" />
-    <link rel="canonical" href="http://apps/projects/list.html" />
+    <link rel="canonical" href="http://account/settings.html" />
     <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
@@ -26,17 +27,16 @@
     <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
     <!--end::Global Stylesheets Bundle-->
     <script>
         // Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }
     </script>
 </head>
 <!--end::Head-->
-
 <!--begin::Body-->
 
 <body id="kt_app_body" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
-
     <!--begin::Theme mode setup on page load-->
     <script>
         var defaultThemeMode = "light";
@@ -132,7 +132,7 @@
                                 <!--begin::Page title-->
                                 <div class="page-title d-flex flex-column justify-content-center me-3">
                                     <!--begin::Title-->
-                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Overview</h1>
+                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Settings</h1>
                                     <!--end::Title-->
                                     <!--begin::Breadcrumb-->
                                     <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
@@ -147,7 +147,7 @@
                                         <li class="breadcrumb-item">
                                             <span class="bullet bg-gray-500 w-5px h-2px"></span>
                                         </li>
-                                        <li class="breadcrumb-item text-muted">Overview</li>
+                                        <li class="breadcrumb-item text-muted">Settings</li>
                                         <!--end::Item-->
                                     </ul>
                                     <!--end::Breadcrumb-->
@@ -166,15 +166,13 @@
                                 <div class="card mb-5 mb-xl-10">
                                     <div class="card-body pt-9 pb-0">
                                         <!--begin::Details-->
-                                        <?php include_once('widgets/user-profile-data.php'); ?>
+                                        <?php include_once('widgets/data-card.php'); ?>
                                         <!--end::Details-->
                                         <!--begin::Navs-->
                                         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
-                                            <!--begin::Nav item-->
                                             <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="user-user-overview.php">Overview</a>
+                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="uni-data-overview.php">Overview</a>
                                             </li>
-
                                             <li class="nav-item mt-2">
                                                 <a class="nav-link text-active-primary ms-0 me-10 py-5" href="logs.php">Logs</a>
                                             </li>
@@ -183,7 +181,7 @@
                                     </div>
                                 </div>
                                 <!--end::Navbar-->
-                                <!--begin::details View-->
+
                                 <div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
                                     <!--begin::Card header-->
                                     <div class="card-header cursor-pointer">
@@ -192,9 +190,6 @@
                                             <h3 class="fw-bold m-0">Institutional Data</h3>
                                         </div>
                                         <!--end::Card title-->
-                                        <!--begin::Action-->
-                                        <a href="user-edit.php" class="btn btn-sm btn-primary align-self-center">Edit Profile</a>
-                                        <!--end::Action-->
                                     </div>
                                     <!--begin::Card header-->
                                     <!--begin::Card body-->
@@ -205,7 +200,11 @@
                                                 <span class="ms-1" data-bs-toggle="tooltip" title="Total number of faculty members and international faculty members"><i class="ki-outline ki-information fs-7"></i></span>
                                             </label>
                                             <div class="col-lg-8">
-                                                <span class="fw-bold fs-6 text-gray-800">10</span>
+                                                <div class="row">
+                                                    <div class="col-lg-6 fv-row">
+                                                        <input type="number" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Faculty numbers" value="10" />
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row mb-7">
@@ -213,7 +212,11 @@
                                                 <span class="ms-1" data-bs-toggle="tooltip" title="Total number of students and international students"><i class="ki-outline ki-information fs-7"></i></span>
                                             </label>
                                             <div class="col-lg-8 fv-row">
-                                                <span class="fw-semibold text-gray-800 fs-6">10</span>
+                                                <div class="row">
+                                                    <div class="col-lg-6 fv-row">
+                                                        <input type="number" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Student numbers" value="100" />
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row mb-7">
@@ -221,13 +224,33 @@
                                                 <span class="ms-1" data-bs-toggle="tooltip" title="Data about total graduates, graduates employed within 6 months, graduates pursuing further studies within 6 months, and graduate outcome unknown/unresponsive."><i class="ki-outline ki-information fs-7"></i></span>
                                             </label>
                                             <div class="col-lg-8 d-flex align-items-center">
-                                                <span class="fw-bold fs-6 text-gray-800 me-2">-</span>
+                                                <div class="col-lg-6 fv-row">
+                                                    <input type="number" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Total graduates" />
+                                                    <input type="text" name="fname" class="form-control form-control-lg form-control-solid mt-3 mb-lg-0" placeholder="Graduates employed within 6 months" />
+                                                    <input type="text" name="fname" class="form-control form-control-lg form-control-solid mt-3 mb-lg-0" placeholder="Graduates pursuing further studies within 6 months" />
+                                                    <input type="text" name="fname" class="form-control form-control-lg form-control-solid mt-3 mb-lg-0" placeholder="Graduate outcome unknown/unresponsive" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">proof of a survey measuring graduate outcomes and/or official reports submitted to the government</label>
+                                            <div class="col-lg-8 fv-row">
+                                                <div class="row">
+                                                    <div class="col-lg-6 fv-row">
+                                                        <input type="file" name="fname" class="form-control form-control-lg mb-3 mb-lg-0" />
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!--end::Card body-->
+                                    <!--begin::Actions-->
+                                    <div class="card-footer d-flex justify-content-end py-6 px-9">
+                                        <button type="reset" class="btn btn-light btn-active-light-primary me-2">Discard</button>
+                                        <button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Save Changes</button>
+                                    </div>
+                                    <!--end::Actions-->
                                 </div>
-                                <!--end::details View-->
 
                             </div>
                             <!--end::Content container-->
@@ -235,7 +258,7 @@
                         <!--end::Content-->
                     </div>
                     <!--end::Content wrapper-->
-
+                    >
                 </div>
                 <!--end:::Main-->
             </div>
@@ -2513,6 +2536,154 @@
         </div>
     </div>
     <!--end::Modal - Offer A Deal-->
+    <!--begin::Modal - Two-factor authentication-->
+    <div class="modal fade" id="kt_modal_two_factor_authentication" tabindex="-1" aria-hidden="true">
+        <!--begin::Modal header-->
+        <div class="modal-dialog modal-dialog-centered mw-650px">
+            <!--begin::Modal content-->
+            <div class="modal-content">
+                <!--begin::Modal header-->
+                <div class="modal-header flex-stack">
+                    <!--begin::Title-->
+                    <h2>Choose An Authentication Method</h2>
+                    <!--end::Title-->
+                    <!--begin::Close-->
+                    <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+                        <i class="ki-outline ki-cross fs-1"></i>
+                    </div>
+                    <!--end::Close-->
+                </div>
+                <!--begin::Modal header-->
+                <!--begin::Modal body-->
+                <div class="modal-body scroll-y pt-10 pb-15 px-lg-17">
+                    <!--begin::Options-->
+                    <div data-kt-element="options">
+                        <!--begin::Notice-->
+                        <p class="text-muted fs-5 fw-semibold mb-10">In addition to your username and password, you’ll have to enter a code (delivered via app or SMS) to log into your account.</p>
+                        <!--end::Notice-->
+                        <!--begin::Wrapper-->
+                        <div class="pb-10">
+                            <!--begin::Option-->
+                            <input type="radio" class="btn-check" name="auth_option" value="apps" checked="checked" id="kt_modal_two_factor_authentication_option_1" />
+                            <label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-5" for="kt_modal_two_factor_authentication_option_1">
+                                <i class="ki-outline ki-setting-2 fs-4x me-4"></i>
+                                <span class="d-block fw-semibold text-start">
+                                    <span class="text-gray-900 fw-bold d-block fs-3">Authenticator Apps</span>
+                                    <span class="text-muted fw-semibold fs-6">Get codes from an app like Google Authenticator, Microsoft Authenticator, Authy or 1Password.</span>
+                                </span>
+                            </label>
+                            <!--end::Option-->
+                            <!--begin::Option-->
+                            <input type="radio" class="btn-check" name="auth_option" value="sms" id="kt_modal_two_factor_authentication_option_2" />
+                            <label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center" for="kt_modal_two_factor_authentication_option_2">
+                                <i class="ki-outline ki-message-text-2 fs-4x me-4"></i>
+                                <span class="d-block fw-semibold text-start">
+                                    <span class="text-gray-900 fw-bold d-block fs-3">SMS</span>
+                                    <span class="text-muted fw-semibold fs-6">We will send a code via SMS if you need to use your backup login method.</span>
+                                </span>
+                            </label>
+                            <!--end::Option-->
+                        </div>
+                        <!--end::Options-->
+                        <!--begin::Action-->
+                        <button class="btn btn-primary w-100" data-kt-element="options-select">Continue</button>
+                        <!--end::Action-->
+                    </div>
+                    <!--end::Options-->
+                    <!--begin::Apps-->
+                    <div class="d-none" data-kt-element="apps">
+                        <!--begin::Heading-->
+                        <h3 class="text-gray-900 fw-bold mb-7">Authenticator Apps</h3>
+                        <!--end::Heading-->
+                        <!--begin::Description-->
+                        <div class="text-gray-500 fw-semibold fs-6 mb-10">Using an authenticator app like
+                            <a href="https://support.google.com/accounts/answer/1066447?hl=en" target="_blank">Google Authenticator</a>,
+                            <a href="https://www.microsoft.com/en-us/account/authenticator" target="_blank">Microsoft Authenticator</a>,
+                            <a href="https://authy.com/download/" target="_blank">Authy</a>, or
+                            <a href="https://support.1password.com/one-time-passwords/" target="_blank">1Password</a>, scan the QR code. It will generate a 6 digit code for you to enter below.
+                            <!--begin::QR code image-->
+                            <div class="pt-5 text-center">
+                                <img src="assets/media/misc/qr.png" alt="" class="mw-150px" />
+                            </div>
+                            <!--end::QR code image-->
+                        </div>
+                        <!--end::Description-->
+                        <!--begin::Notice-->
+                        <div class="notice d-flex bg-light-warning rounded border-warning border border-dashed mb-10 p-6">
+                            <!--begin::Icon-->
+                            <i class="ki-outline ki-information fs-2tx text-warning me-4"></i>
+                            <!--end::Icon-->
+                            <!--begin::Wrapper-->
+                            <div class="d-flex flex-stack flex-grow-1">
+                                <!--begin::Content-->
+                                <div class="fw-semibold">
+                                    <div class="fs-6 text-gray-700">If you having trouble using the QR code, select manual entry on your app, and enter your username and the code:
+                                        <div class="fw-bold text-gray-900 pt-2">KBSS3QDAAFUMCBY63YCKI5WSSVACUMPN</div>
+                                    </div>
+                                </div>
+                                <!--end::Content-->
+                            </div>
+                            <!--end::Wrapper-->
+                        </div>
+                        <!--end::Notice-->
+                        <!--begin::Form-->
+                        <form data-kt-element="apps-form" class="form" action="#">
+                            <!--begin::Input group-->
+                            <div class="mb-10 fv-row">
+                                <input type="text" class="form-control form-control-lg form-control-solid" placeholder="Enter authentication code" name="code" />
+                            </div>
+                            <!--end::Input group-->
+                            <!--begin::Actions-->
+                            <div class="d-flex flex-center">
+                                <button type="reset" data-kt-element="apps-cancel" class="btn btn-light me-3">Cancel</button>
+                                <button type="submit" data-kt-element="apps-submit" class="btn btn-primary">
+                                    <span class="indicator-label">Submit</span>
+                                    <span class="indicator-progress">Please wait...
+                                        <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                </button>
+                            </div>
+                            <!--end::Actions-->
+                        </form>
+                        <!--end::Form-->
+                    </div>
+                    <!--end::Options-->
+                    <!--begin::SMS-->
+                    <div class="d-none" data-kt-element="sms">
+                        <!--begin::Heading-->
+                        <h3 class="text-gray-900 fw-bold fs-3 mb-5">SMS: Verify Your Mobile Number</h3>
+                        <!--end::Heading-->
+                        <!--begin::Notice-->
+                        <div class="text-muted fw-semibold mb-10">Enter your mobile phone number with country code and we will send you a verification code upon request.</div>
+                        <!--end::Notice-->
+                        <!--begin::Form-->
+                        <form data-kt-element="sms-form" class="form" action="#">
+                            <!--begin::Input group-->
+                            <div class="mb-10 fv-row">
+                                <input type="text" class="form-control form-control-lg form-control-solid" placeholder="Mobile number with country code..." name="mobile" />
+                            </div>
+                            <!--end::Input group-->
+                            <!--begin::Actions-->
+                            <div class="d-flex flex-center">
+                                <button type="reset" data-kt-element="sms-cancel" class="btn btn-light me-3">Cancel</button>
+                                <button type="submit" data-kt-element="sms-submit" class="btn btn-primary">
+                                    <span class="indicator-label">Submit</span>
+                                    <span class="indicator-progress">Please wait...
+                                        <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                </button>
+                            </div>
+                            <!--end::Actions-->
+                        </form>
+                        <!--end::Form-->
+                    </div>
+                    <!--end::SMS-->
+                </div>
+                <!--begin::Modal body-->
+            </div>
+            <!--end::Modal content-->
+        </div>
+        <!--end::Modal header-->
+    </div>
+    <!--end::Modal - Two-factor authentication-->
     <!--begin::Modal - Users Search-->
     <div class="modal fade" id="kt_modal_users_search" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
@@ -3240,13 +3411,13 @@
                                             <!--end::Checkbox-->
                                             <!--begin::Avatar-->
                                             <div class="symbol symbol-35px symbol-circle">
-                                                <span class="symbol-label bg-light-danger text-danger fw-semibold">E</span>
+                                                <img alt="Pic" src="assets/media/avatars/300-23.jpg" />
                                             </div>
                                             <!--end::Avatar-->
                                             <!--begin::Details-->
                                             <div class="ms-5">
-                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Emma Bold</a>
-                                                <div class="fw-semibold text-muted">emma@intenso.com</div>
+                                                <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Dan Wilson</a>
+                                                <div class="fw-semibold text-muted">dam@consilting.com</div>
                                             </div>
                                             <!--end::Details-->
                                         </div>
@@ -3802,13 +3973,13 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                        <span class="symbol-label bg-light-danger text-danger fw-semibold">O</span>
+                                        <span class="symbol-label bg-light-info text-info fw-semibold">A</span>
                                     </div>
                                     <!--end::Avatar-->
                                     <!--begin::Details-->
                                     <div class="ms-5">
-                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Olivia Wild</a>
-                                        <div class="fw-semibold text-muted">olivia@corpmail.com</div>
+                                        <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">Robert Doe</a>
+                                        <div class="fw-semibold text-muted">robert@benko.com</div>
                                     </div>
                                     <!--end::Details-->
                                 </div>
@@ -3851,7 +4022,6 @@
         </div>
         <!--end::Modal dialog-->
     </div>
-
     <!--end::Modal - Invite Friend-->
     <!--end::Modals-->
     <!--begin::Javascript-->
@@ -3866,6 +4036,9 @@
     <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <!--end::Vendors Javascript-->
     <!--begin::Custom Javascript(used for this page only)-->
+    <script src="assets/js/custom/account/settings/signin-methods.js"></script>
+    <script src="assets/js/custom/account/settings/profile-details.js"></script>
+    <script src="assets/js/custom/account/settings/deactivate-account.js"></script>
     <script src="assets/js/custom/pages/user-profile/general.js"></script>
     <script src="assets/js/widgets.bundle.js"></script>
     <script src="assets/js/custom/widgets.js"></script>
@@ -3876,9 +4049,11 @@
     <script src="assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
     <script src="assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
     <script src="assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
+    <script src="assets/js/custom/utilities/modals/two-factor-authentication.js"></script>
     <script src="assets/js/custom/utilities/modals/users-search.js"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
 </body>
+<!--end::Body-->
 
 </html>

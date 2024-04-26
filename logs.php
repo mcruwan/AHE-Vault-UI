@@ -164,17 +164,13 @@
                                 <div class="card mb-5 mb-xl-10">
                                     <div class="card-body pt-9 pb-0">
                                         <!--begin::Details-->
-                                        <?php include_once('widgets/user-profile-data.php'); ?>
+                                        <?php include_once('widgets/data-card.php'); ?>
                                         <!--end::Details-->
                                         <!--begin::Navs-->
                                         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
                                             <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="user-user-overview.php">Overview</a>
+                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="uni-data-overview.php">Overview</a>
                                             </li>
-                                            <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5" href="user-edit.php">Settings</a>
-                                            </li>
-
                                             <li class="nav-item mt-2">
                                                 <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="logs.php">Logs</a>
                                             </li>

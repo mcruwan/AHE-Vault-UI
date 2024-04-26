@@ -168,7 +168,7 @@
                                         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
                                             <!--begin::Nav item-->
                                             <li class="nav-item mt-2">
-                                                <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="user-user-overview.php">Overview</a>
+                                                <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="university-overview.php">Overview</a>
                                             </li>
                                         </ul>
                                         <!--begin::Navs-->
@@ -185,7 +185,7 @@
                                         </div>
                                         <!--end::Card title-->
                                         <!--begin::Action-->
-                                        <a href="profile-edit.php" class="btn btn-sm btn-primary align-self-center">Edit</a>
+                                        <a href="university-edit.php" class="btn btn-sm btn-primary align-self-center">Edit</a>
                                         <!--end::Action-->
                                     </div>
                                     <!--begin::Card header-->
@@ -255,7 +255,7 @@
                                         </div>
                                         <!--end::Card title-->
                                         <!--begin::Action-->
-                                        <a href="profile-edit.php" class="btn btn-sm btn-primary align-self-center">Edit</a>
+                                        <a href="university-edit.php" class="btn btn-sm btn-primary align-self-center">Edit</a>
                                         <!--end::Action-->
                                     </div>
                                     <!--begin::Card header-->

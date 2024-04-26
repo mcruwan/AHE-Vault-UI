@@ -201,7 +201,7 @@
                                                     </div>
                                                 </div>
 
-                                                <a href="user-overview.php?year=2024&progress=100" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
+                                                <a href="uni-data-overview.php?year=2024&progress=100" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
                                             </div>
                                             <!--end:: Card body-->
                                         </div>
@@ -247,7 +247,7 @@
                                                     </div>
                                                 </div>
 
-                                                <a href="user-overview.php?year=2025&progress=37" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
+                                                <a href="uni-data-overview.php?year=2025&progress=37" class="btn btn-primary mx-auto mt-8 d-block" type="button">View Data</a>
                                             </div>
                                             <!--end:: Card body-->
                                         </div>
