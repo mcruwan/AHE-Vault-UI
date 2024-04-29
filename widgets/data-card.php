@@ -1,14 +1,25 @@
 <?php
 
-$year = '2024';
-$progress = '40';
+$index = '1';
 
-if (isset($_GET['year'])) {
-    $year = $_GET['year'];
+if (isset($_GET['title'])) {
+    $index = $_GET['title'];
 }
 
 if (isset($_GET['progress'])) {
     $progress = $_GET['progress'];
+}
+
+
+if ($index === '1') {
+    $title = 'Public & Private University Ranking: ASEAN 2024';
+    $progress = '100';
+} elseif ($index === '2') {
+    $title = 'Public & Private University Ranking: ASEAN 2025';
+    $progress = '37';
+} else {
+    $title = 'JOB-Ready RATING';
+    $progress = '0';
 }
 
 ?>
@@ -32,7 +43,7 @@ if (isset($_GET['progress'])) {
                     <div class="d-flex flex-column">
                         <!--begin::Name-->
                         <div class="d-flex align-items-center mb-2">
-                            <a href="#" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1">Public & Private University Ranking: ASEAN <?php echo $year; ?></a>
+                            <a href="#" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1"><?php echo $title; ?></a>
                             <a href="#">
                                 <i class="ki-outline ki-verify fs-1 text-primary"></i>
                             </a>
@@ -161,7 +172,7 @@ if (isset($_GET['progress'])) {
         </div>
         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
             <li class="nav-item mt-2">
-                <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="uni-data-overview.php">Overview</a>
+                <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="uni-data-overview.php?title=<?php echo $index; ?>">Overview</a>
             </li>
         </ul>
         <!--begin::Navs-->

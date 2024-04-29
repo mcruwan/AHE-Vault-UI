@@ -176,7 +176,7 @@
                                         </div>
                                         <!--end::Card title-->
                                         <!--begin::Action-->
-                                        <a href="uni-data-edit.php" class="btn btn-sm btn-primary align-self-center">Edit Profile</a>
+                                        <a href="uni-data-edit.php" class="btn btn-sm btn-primary align-self-center">Edit Data</a>
                                         <!--end::Action-->
                                     </div>
                                     <!--begin::Card header-->
