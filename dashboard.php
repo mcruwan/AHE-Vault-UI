@@ -1402,13 +1402,13 @@
                       <div class="card-header pt-7">
                         <!-- Title-->
                         <h3 class="card-title align-items-start flex-column">
-                          <span class="card-label fw-bold text-gray-800">Leading Agents by Category</span>
-                          <span class="text-gray-500 mt-1 fw-semibold fs-6">Total 424,567 deliveries</span>
+                          <span class="card-label fw-bold text-gray-800">Private University Ranking: ASEAN</span>
+                          <span class="text-gray-500 mt-1 fw-semibold fs-6">Total 100+ Universities</span>
                         </h3>
                         <!--end::Title-->
                         <!-- Toolbar-->
                         <div class="card-toolbar">
-                          <a href="apps/ecommerce/catalog/add-product.html" class="btn btn-sm btn-light">Add Product</a>
+                          <a href="#" class="btn btn-sm btn-light">View All</a>
                         </div>
                         <!--end::Toolbar-->
                       </div>
@@ -1417,17 +1417,16 @@
                       <div class="card-body">
                         <!-- Nav-->
                         <ul class="nav nav-pills nav-pills-custom mb-3">
-                          <!-- Item-->
                           <li class="nav-item mb-3 me-3 me-lg-6">
                             <!-- Link-->
                             <a class="nav-link btn btn-outline btn-flex btn-color-muted btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2 active" data-bs-toggle="pill" href="#kt_stats_widget_6_tab_1">
                               <!-- Icon-->
                               <div class="nav-icon mb-3">
-                                <i class="ki-outline ki-truck fs-1"></i>
+                                <i class="ki-outline ki-calendar fs-1"></i>
                               </div>
                               <!--end::Icon-->
                               <!-- Title-->
-                              <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">Van</span>
+                              <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">2023</span>
                               <!--end::Title-->
                               <!-- Bullet-->
                               <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
@@ -1435,18 +1434,16 @@
                             </a>
                             <!--end::Link-->
                           </li>
-                          <!--end::Item-->
-                          <!-- Item-->
                           <li class="nav-item mb-3 me-3 me-lg-6">
                             <!-- Link-->
                             <a class="nav-link btn btn-outline btn-flex btn-color-muted btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2" data-bs-toggle="pill" href="#kt_stats_widget_6_tab_2">
                               <!-- Icon-->
                               <div class="nav-icon mb-3">
-                                <i class="ki-outline ki-bus fs-1"></i>
+                                <i class="ki-outline ki-calendar fs-1"></i>
                               </div>
                               <!--end::Icon-->
                               <!-- Title-->
-                              <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">Train</span>
+                              <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">2024</span>
                               <!--end::Title-->
                               <!-- Bullet-->
                               <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
@@ -1454,26 +1451,6 @@
                             </a>
                             <!--end::Link-->
                           </li>
-                          <!--end::Item-->
-                          <!-- Item-->
-                          <li class="nav-item mb-3 me-3 me-lg-6">
-                            <!-- Link-->
-                            <a class="nav-link btn btn-outline btn-flex btn-color-muted btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2" data-bs-toggle="pill" href="#kt_stats_widget_6_tab_3">
-                              <!-- Icon-->
-                              <div class="nav-icon mb-3">
-                                <i class="ki-outline ki-logistic fs-1"></i>
-                              </div>
-                              <!--end::Icon-->
-                              <!-- Title-->
-                              <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">Drone</span>
-                              <!--end::Title-->
-                              <!-- Bullet-->
-                              <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-                              <!--end::Bullet-->
-                            </a>
-                            <!--end::Link-->
-                          </li>
-                          <!--end::Item-->
                         </ul>
                         <!--end::Nav-->
                         <!-- Tab Content-->
@@ -1488,55 +1465,39 @@
                                 <thead>
                                   <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
                                     <th class="p-0 w-200px w-xxl-450px"></th>
+                                    <th class="p-0 min-w-100px"></th>
                                     <th class="p-0 min-w-150px"></th>
-                                    <th class="p-0 min-w-150px"></th>
-                                    <th class="p-0 min-w-190px"></th>
+                                    <th class="p-0 min-w-100px"></th>
                                     <th class="p-0 w-50px"></th>
                                   </tr>
                                 </thead>
-                                <!--end::Table head-->
-                                <!-- Table body-->
                                 <tbody>
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-1.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brooklyn Simmons</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Bina Nusantara University</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">1,240</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">1</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$5,400</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Indonesia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">69,04</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1546,43 +1507,30 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-2.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Annette Black</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Infrastructure University Kuala Lumpur</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">6,074</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">2</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$174,074</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Malaysia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">66,60
+                                      </a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1592,43 +1540,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-12.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Esther Howard</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Universitas Tarumanagara</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">357</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">3</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$2,737</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Indonesia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">65,83</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1638,43 +1572,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-11.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Guy Hawkins</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Universitas Teknokrat Indonesia</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">2,954</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">4</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$59,634</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Indonesia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">65,82</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1684,43 +1604,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-13.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Marvin McKinney</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">University of Santo Tomas</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">822</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">5</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$19,842</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Philippines</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">65,17</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1728,13 +1634,9 @@
                                     </td>
                                   </tr>
                                 </tbody>
-                                <!--end::Table body-->
                               </table>
                             </div>
-                            <!--end::Table-->
                           </div>
-                          <!--end::Tap pane-->
-                          <!-- Tap pane-->
                           <div class="tab-pane fade" id="kt_stats_widget_6_tab_2">
                             <!-- Table container-->
                             <div class="table-responsive">
@@ -1744,55 +1646,39 @@
                                 <thead>
                                   <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
                                     <th class="p-0 w-200px w-xxl-450px"></th>
+                                    <th class="p-0 min-w-100px"></th>
                                     <th class="p-0 min-w-150px"></th>
-                                    <th class="p-0 min-w-150px"></th>
-                                    <th class="p-0 min-w-190px"></th>
+                                    <th class="p-0 min-w-100px"></th>
                                     <th class="p-0 w-50px"></th>
                                   </tr>
                                 </thead>
-                                <!--end::Table head-->
-                                <!-- Table body-->
                                 <tbody>
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-11.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Guy Hawkins</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Sunway University</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">2,954</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">1</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$59,634</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Malaysia </a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">72,42</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1802,43 +1688,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-13.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Marvin McKinney</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Krirk University</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">822</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">2</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$19,842</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Thailand</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">69,93</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1848,43 +1720,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-1.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brooklyn Simmons</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">UCSI University</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">1,240</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">3</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$5,400</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Malaysia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">69,19</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1894,43 +1752,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-2.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Annette Black</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Taylor's University</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">6,074</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">4</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$174,074</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Malaysia </a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">69,17</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1940,43 +1784,29 @@
                                   <tr>
                                     <td>
                                       <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-12.jpg" class="" alt="" />
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
                                         </div>
                                         <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Esther Howard</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Infrastructure University Kuala Lumpur</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+
                                         </div>
                                       </div>
                                     </td>
                                     <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">357</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">5</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
                                     </td>
                                     <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$2,737</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Malaysia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
                                     </td>
                                     <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">66,82</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
                                     </td>
+
                                     <td class="text-end">
                                       <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
                                         <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
@@ -1984,268 +1814,10 @@
                                     </td>
                                   </tr>
                                 </tbody>
-                                <!--end::Table body-->
                               </table>
                             </div>
                             <!--end::Table-->
                           </div>
-                          <!--end::Tap pane-->
-                          <!-- Tap pane-->
-                          <div class="tab-pane fade" id="kt_stats_widget_6_tab_3">
-                            <!-- Table container-->
-                            <div class="table-responsive">
-                              <!-- Table-->
-                              <table class="table table-row-dashed align-middle gs-0 gy-4 my-0">
-                                <!-- Table head-->
-                                <thead>
-                                  <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
-                                    <th class="p-0 w-200px w-xxl-450px"></th>
-                                    <th class="p-0 min-w-150px"></th>
-                                    <th class="p-0 min-w-150px"></th>
-                                    <th class="p-0 min-w-190px"></th>
-                                    <th class="p-0 w-50px"></th>
-                                  </tr>
-                                </thead>
-                                <!--end::Table head-->
-                                <!-- Table body-->
-                                <tbody>
-                                  <tr>
-                                    <td>
-                                      <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-1.jpg" class="" alt="" />
-                                        </div>
-                                        <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Brooklyn Simmons</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
-                                        </div>
-                                      </div>
-                                    </td>
-                                    <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">1,240</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
-                                    </td>
-                                    <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$5,400</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
-                                    </td>
-                                    <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
-                                    </td>
-                                    <td class="text-end">
-                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-11.jpg" class="" alt="" />
-                                        </div>
-                                        <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Guy Hawkins</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
-                                        </div>
-                                      </div>
-                                    </td>
-                                    <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">2,954</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
-                                    </td>
-                                    <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$59,634</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
-                                    </td>
-                                    <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
-                                    </td>
-                                    <td class="text-end">
-                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-13.jpg" class="" alt="" />
-                                        </div>
-                                        <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Marvin McKinney</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
-                                        </div>
-                                      </div>
-                                    </td>
-                                    <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">822</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
-                                    </td>
-                                    <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$19,842</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
-                                    </td>
-                                    <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
-                                    </td>
-                                    <td class="text-end">
-                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-12.jpg" class="" alt="" />
-                                        </div>
-                                        <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Esther Howard</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
-                                        </div>
-                                      </div>
-                                    </td>
-                                    <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">357</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
-                                    </td>
-                                    <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$2,737</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
-                                    </td>
-                                    <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
-                                    </td>
-                                    <td class="text-end">
-                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
-                                      </a>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <div class="d-flex align-items-center">
-                                        <div class="symbol symbol-40px me-3">
-                                          <img src="assets/media/avatars/300-2.jpg" class="" alt="" />
-                                        </div>
-                                        <div class="d-flex justify-content-start flex-column">
-                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Annette Black</a>
-                                          <span class="text-muted fw-semibold d-block fs-7">Zuid Area</span>
-                                        </div>
-                                      </div>
-                                    </td>
-                                    <td>
-                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">6,074</span>
-                                      <span class="fw-semibold text-gray-500 d-block">Deliveries</span>
-                                    </td>
-                                    <td>
-                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">$174,074</a>
-                                      <span class="text-muted fw-semibold d-block fs-7">Earnings</span>
-                                    </td>
-                                    <td>
-                                      <div class="rating">
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                        <div class="rating-label checked">
-                                          <i class="ki-solid ki-star fs-6"></i>
-                                        </div>
-                                      </div>
-                                      <span class="text-muted fw-semibold d-block fs-7 mt-1">Rating</span>
-                                    </td>
-                                    <td class="text-end">
-                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
-                                      </a>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                                <!--end::Table body-->
-                              </table>
-                            </div>
-                            <!--end::Table-->
-                          </div>
-                          <!--end::Tap pane-->
                         </div>
                         <!--end::Tab Content-->
                       </div>
