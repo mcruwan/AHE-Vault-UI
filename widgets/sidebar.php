@@ -3,7 +3,7 @@
     <!--begin::Logo-->
     <div class="d-flex flex-stack px-4 px-lg-6 py-3 py-lg-8" id="kt_app_sidebar_logo">
         <!--begin::Logo image-->
-        <a href="index.html">
+        <a href="dashboard.php">
             <img alt="Logo" src="assets/media/logos/demo23.svg" class="h-20px h-lg-25px theme-light-show" />
             <img alt="Logo" src="assets/media/logos/demo23-dark.svg" class="h-20px h-lg-25px theme-dark-show" />
         </a>
@@ -105,35 +105,35 @@
                     <div class="menu-sub menu-sub-dropdown w-175px py-4">
                         <!--begin::Menu item-->
                         <div class="menu-item px-3">
-                            <a href="account/settings.html" class="menu-link d-flex px-5 active">
+                            <a href="user-overview.php" class="menu-link d-flex px-5 active">
                                 <span class="symbol symbol-20px me-4">
                                     <img class="rounded-1" src="assets/media/flags/united-states.svg" alt="" /> </span>English</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-3">
-                            <a href="account/settings.html" class="menu-link d-flex px-5">
+                            <a href="user-overview.php" class="menu-link d-flex px-5">
                                 <span class="symbol symbol-20px me-4">
                                     <img class="rounded-1" src="assets/media/flags/spain.svg" alt="" /> </span>Spanish</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-3">
-                            <a href="account/settings.html" class="menu-link d-flex px-5">
+                            <a href="user-overview.php" class="menu-link d-flex px-5">
                                 <span class="symbol symbol-20px me-4">
                                     <img class="rounded-1" src="assets/media/flags/germany.svg" alt="" /> </span>German</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-3">
-                            <a href="account/settings.html" class="menu-link d-flex px-5">
+                            <a href="user-overview.php" class="menu-link d-flex px-5">
                                 <span class="symbol symbol-20px me-4">
                                     <img class="rounded-1" src="assets/media/flags/japan.svg" alt="" /> </span>Japanese</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-3">
-                            <a href="account/settings.html" class="menu-link d-flex px-5">
+                            <a href="user-overview.php" class="menu-link d-flex px-5">
                                 <span class="symbol symbol-20px me-4">
                                     <img class="rounded-1" src="assets/media/flags/france.svg" alt="" /> </span>French</a>
                         </div>
@@ -144,12 +144,12 @@
                 <!--end::Menu item-->
                 <!--begin::Menu item-->
                 <div class="menu-item px-5 my-1">
-                    <a href="account/settings.html" class="menu-link px-5">Account Settings</a>
+                    <a href="user-overview.php" class="menu-link px-5">Account Settings</a>
                 </div>
                 <!--end::Menu item-->
                 <!--begin::Menu item-->
                 <div class="menu-item px-5">
-                    <a href="authentication/layouts/corporate/sign-in.html" class="menu-link px-5">Sign Out</a>
+                    <a href="index.html" class="menu-link px-5">Sign Out</a>
                 </div>
                 <!--end::Menu item-->
             </div>
@@ -204,14 +204,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/calendar.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-calendar fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Events</span>
+                            <span class="fs-7 fw-bold">Button 1</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -220,14 +220,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/support-center/licenses.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-security-check fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Insurance</span>
+                            <span class="fs-7 fw-bold">Button 2</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -236,14 +236,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/support-center/overview.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-wifi-square fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Network</span>
+                            <span class="fs-7 fw-bold">Button 3</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -252,14 +252,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/projects/budget.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-chart-line-up-2 fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Financial</span>
+                            <span class="fs-7 fw-bold">Button 4</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -268,14 +268,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/subscriptions/getting-started.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-shield-tick fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Technical</span>
+                            <span class="fs-7 fw-bold">Button 5</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -284,14 +284,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/contacts/getting-started.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-rocket fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">CareCal</span>
+                            <span class="fs-7 fw-bold">Button 6</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -300,14 +300,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/projects/list.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-geolocation fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Hospitality</span>
+                            <span class="fs-7 fw-bold">Button 7</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -316,14 +316,14 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/file-manager/folders.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-abstract-28 fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Utilities</span>
+                            <span class="fs-7 fw-bold">Button 8</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -332,7 +332,7 @@
                     <!--begin::Col-->
                     <div class="col mb-4">
                         <!--begin::Link-->
-                        <a href="apps/contacts/add-contact.html" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px active border-primary border-dashed" data-kt-button="true">
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px active border-primary border-dashed" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
                                 <i class="ki-outline ki-plus fs-1"></i>
@@ -358,7 +358,8 @@
         <!--begin::Apps-->
         <div class="app-footer-item me-6">
             <!--begin::Menu- wrapper-->
-            <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start">
+            <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start">
+                <!-- <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start"> -->
                 <i class="ki-outline ki-abstract-26 fs-2"></i>
             </div>
             <!--begin::My apps-->
@@ -610,7 +611,8 @@
         <!--begin::Quick links-->
         <div class="app-footer-item me-6">
             <!--begin::Menu- wrapper-->
-            <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start">
+            <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start">
+                <!--  <div class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start"> -->
                 <i class="ki-outline ki-notification-status fs-2"></i>
             </div>
             <!--begin::Menu-->
@@ -680,7 +682,7 @@
         <!--begin::Settings-->
         <div class="app-footer-item">
             <!--begin::Menu- wrapper-->
-            <a href="account/settings.html" class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
+            <a href="user-overview.php" class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
                 <i class="ki-outline ki-setting-2 fs-2"></i>
             </a>
             <!--end::Menu wrapper-->
