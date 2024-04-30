@@ -131,7 +131,7 @@
                                 <!--begin::Page title-->
                                 <div class="page-title d-flex flex-column justify-content-center me-3">
                                     <!--begin::Title-->
-                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Complete Profile</h1>
+                                    <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">Add New User</h1>
                                     <!--end::Title-->
                                     <!--begin::Breadcrumb-->
                                     <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
@@ -146,7 +146,7 @@
                                         </li>
                                         <!--end::Item-->
                                         <!--begin::Item-->
-                                        <li class="breadcrumb-item text-muted">Profile Complete</li>
+                                        <li class="breadcrumb-item text-muted">Add New User</li>
                                         <!--end::Item-->
                                     </ul>
                                     <!--end::Breadcrumb-->
@@ -160,8 +160,6 @@
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-xxl">
-
-                                <?php include_once('widgets/user-profile-data.php'); ?>
 
                                 <!--end::Navbar-->
                                 <!--begin::Content-->
@@ -178,7 +176,7 @@
                                     <!--begin::Content-->
                                     <div id="kt_account_settings_profile_details" class="collapse show">
                                         <!--begin::Form-->
-                                        <form class="form">
+                                        <form id="" class="form">
                                             <!--begin::Card body-->
                                             <div class="card-body p-9">
                                                 <!--begin::Row-->

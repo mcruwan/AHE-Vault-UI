@@ -152,6 +152,16 @@
                                 <!--end::Page title-->
                                 <!--begin::Actions-->
                                 <div class="d-flex align-items-center gap-2 gap-lg-3">
+
+                                    <div class="d-flex my-2">
+                                        <!--begin::Select-->
+                                        <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-sm bg-body border-body w-125px">
+                                            <option value="Active" selected="selected">Active</option>
+                                            <option value="Inactive">Inactive</option>
+                                        </select>
+                                        <!--end::Select-->
+                                    </div>
+
                                     <!--begin::Filter menu-->
                                     <div class="m-0">
                                         <!--begin::Menu toggle-->
@@ -179,37 +189,15 @@
                                                     <div>
                                                         <select class="form-select form-select-solid" multiple="multiple" data-kt-select2="true" data-close-on-select="false" data-placeholder="Select option" data-dropdown-parent="#kt_menu_660662b63dc90" data-allow-clear="true">
                                                             <option></option>
-                                                            <option value="1">Approved</option>
-                                                            <option value="2">Pending</option>
-                                                            <option value="2">In Process</option>
-                                                            <option value="2">Rejected</option>
+                                                            <option value="1">Active</option>
+                                                            <option value="2">Inactive</option>
                                                         </select>
                                                     </div>
                                                     <!--end::Input-->
                                                 </div>
                                                 <!--end::Input group-->
                                                 <!--begin::Input group-->
-                                                <div class="mb-10">
-                                                    <!--begin::Label-->
-                                                    <label class="form-label fw-semibold">Member Type:</label>
-                                                    <!--end::Label-->
-                                                    <!--begin::Options-->
-                                                    <div class="d-flex">
-                                                        <!--begin::Options-->
-                                                        <label class="form-check form-check-sm form-check-custom form-check-solid me-5">
-                                                            <input class="form-check-input" type="checkbox" value="1" />
-                                                            <span class="form-check-label">Author</span>
-                                                        </label>
-                                                        <!--end::Options-->
-                                                        <!--begin::Options-->
-                                                        <label class="form-check form-check-sm form-check-custom form-check-solid">
-                                                            <input class="form-check-input" type="checkbox" value="2" checked="checked" />
-                                                            <span class="form-check-label">Customer</span>
-                                                        </label>
-                                                        <!--end::Options-->
-                                                    </div>
-                                                    <!--end::Options-->
-                                                </div>
+
                                                 <!--end::Input group-->
                                                 <!--begin::Input group-->
                                                 <div class="mb-10">
@@ -239,7 +227,7 @@
                                     <!--begin::Secondary button-->
                                     <!--end::Secondary button-->
                                     <!--begin::Primary button-->
-                                    <a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
+                                    <a href="add-user.php" class="btn btn-sm fw-bold btn-primary">Create</a>
                                     <!--end::Primary button-->
                                 </div>
                                 <!--end::Actions-->
@@ -252,27 +240,6 @@
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-xxl">
 
-                                <!--begin::Followers toolbar-->
-                                <div class="d-flex flex-wrap flex-stack mb-6">
-                                    <!--begin::Title-->
-                                    <h3 class="text-gray-800 fw-bold my-2">
-                                        <span class="fs-6 text-gray-500 fw-semibold ms-1"></span>
-                                    </h3>
-                                    <!--begin::Controls-->
-                                    <div class="d-flex my-2">
-                                        <!--begin::Select-->
-                                        <select name="status" data-control="select2" data-hide-search="true" class="form-select form-select-sm bg-body border-body w-125px">
-                                            <option value="Active" selected="selected">Active</option>
-                                            <option value="Approved">In Progress</option>
-                                            <option value="Declined">To Do</option>
-                                            <option value="In Progress">Completed</option>
-                                        </select>
-                                        <!--end::Select-->
-                                    </div>
-                                    <!--end::Controls-->
-                                </div>
-                                <!--end::Followers toolbar-->
-                                <!--begin::Row-->
                                 <div class="row g-6 mb-6 g-xl-9 mb-xl-9">
 
                                     <div class="col-md-6 col-xxl-4">

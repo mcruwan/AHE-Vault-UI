@@ -197,7 +197,7 @@
             <!--begin::Links-->
             <div class="mb-6">
                 <!--begin::Title-->
-                <h3 class="text-gray-800 fw-bold mb-8">Services</h3>
+                <h3 class="text-gray-800 fw-bold mb-8">Quick Links</h3>
                 <!--end::Title-->
                 <!--begin::Row-->
                 <div class="row row-cols-3" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button]">

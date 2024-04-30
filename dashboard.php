@@ -292,17 +292,16 @@
                         <div class="flex-grow-1 mt-2 me-9 me-md-0">
                           <!-- Title-->
                           <div class="position-relative text-gray-800 fs-1 z-index-2 fw-bold mb-5">
-                            Upgrade Your Plan
+                            Add New User
                           </div>
                           <!--end::Title-->
                           <!-- Text-->
-                          <span class="text-gray-600 fw-semibold fs-6 mb-6 d-block">Flat illustrations and swesome with our multi
-                            color <br />vivid unblended purple hair lady</span>
+                          <span class="text-gray-600 fw-semibold fs-6 mb-6 d-block">To access exclusive resources and stay updated on campus events. <br>Please fill out the form below to create your user account.</span>
                           <!--end::Text-->
                           <!-- Action-->
                           <div class="mb-7">
                             <!-- <a href="https://devs.keenthemes.com/" class="btn btn-sm btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Now</a> -->
-                            <a href="#" class="btn btn-sm btn-primary fw-semibold me-2">Upgrade Now</a>
+                            <a href="add-user.php" class="btn btn-sm btn-primary fw-semibold me-2">Add User</a>
                           </div>
                           <!-- Action-->
                         </div>
@@ -796,6 +795,45 @@
                 <!-- Row-->
                 <div class="row g-5 g-xl-10">
                   <!-- Col-->
+                  <div class="col-xl-4 mb-xl-10">
+                    <!-- Chart widget 29-->
+                    <div class="card card-flush h-xl-100">
+                      <!-- Header-->
+                      <div class="card-header py-7">
+                        <!-- Statistics-->
+                        <div class="m-0">
+                          <!-- Heading-->
+                          <div class="d-flex align-items-center mb-2">
+                            <!-- Title-->
+                            <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">01</span>
+                            <!--end::Title-->
+                            <!-- Label-->
+                            <span class="badge badge-light-success fs-base">
+                              <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>5.4%</span>
+                            <!--end::Label-->
+                          </div>
+                          <!--end::Heading-->
+                          <!-- Description-->
+                          <span class="fs-6 fw-semibold text-gray-500">Public University Ranking: ASEAN 2024</span>
+                          <span class="d-block fs-7 text-gray-500">University Kebangsaan Malaysia (UKM)</span>
+                          <!--end::Description-->
+                        </div>
+                        <!--end::Statistics-->
+
+                      </div>
+                      <!--end::Header-->
+                      <!-- Body-->
+                      <div class="card-body d-flex py-5 px-0">
+                        <!-- Chart-->
+                        <div id="kt_charts_widget_1_chart" class="h-300px w-100 min-h-auto ps-7 pe-0 mb-5"></div>
+                        <!--end::Chart-->
+                      </div>
+                      <!--end::Body-->
+                    </div>
+                    <!--end::Chart widget 29-->
+                  </div>
+                  <!--end::Col-->
+                  <!-- Col-->
                   <div class="col-xl-8 mb-5 mb-xl-10">
                     <!-- Table widget 6-->
                     <div class="card card-flush h-md-100">
@@ -996,45 +1034,6 @@
                       <!--end: Card Body-->
                     </div>
                     <!--end::Table widget 6-->
-                  </div>
-                  <!--end::Col-->
-                  <!-- Col-->
-                  <div class="col-xl-4 mb-xl-10">
-                    <!-- Chart widget 29-->
-                    <div class="card card-flush h-xl-100">
-                      <!-- Header-->
-                      <div class="card-header py-7">
-                        <!-- Statistics-->
-                        <div class="m-0">
-                          <!-- Heading-->
-                          <div class="d-flex align-items-center mb-2">
-                            <!-- Title-->
-                            <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">01</span>
-                            <!--end::Title-->
-                            <!-- Label-->
-                            <span class="badge badge-light-success fs-base">
-                              <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>5.4%</span>
-                            <!--end::Label-->
-                          </div>
-                          <!--end::Heading-->
-                          <!-- Description-->
-                          <span class="fs-6 fw-semibold text-gray-500">Public University Ranking: ASEAN 2024</span>
-                          <span class="d-block fs-7 text-gray-500">University Kebangsaan Malaysia (UKM)</span>
-                          <!--end::Description-->
-                        </div>
-                        <!--end::Statistics-->
-
-                      </div>
-                      <!--end::Header-->
-                      <!-- Body-->
-                      <div class="card-body d-flex py-5 px-0">
-                        <!-- Chart-->
-                        <div id="kt_charts_widget_1_chart" class="h-300px w-100 min-h-auto ps-7 pe-0 mb-5"></div>
-                        <!--end::Chart-->
-                      </div>
-                      <!--end::Body-->
-                    </div>
-                    <!--end::Chart widget 29-->
                   </div>
                   <!--end::Col-->
                 </div>
