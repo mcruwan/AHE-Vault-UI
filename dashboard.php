@@ -179,7 +179,6 @@
                           <ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-dark">
                             <li data-bs-target="#kt_sliders_widget_7_slider" data-bs-slide-to="0" class="active ms-1"></li>
                             <li data-bs-target="#kt_sliders_widget_7_slider" data-bs-slide-to="1" class="ms-1"></li>
-                            <li data-bs-target="#kt_sliders_widget_7_slider" data-bs-slide-to="2" class="ms-1"></li>
                           </ol>
                         </div>
                       </div>
@@ -192,14 +191,14 @@
                             <!-- Wrapper-->
                             <div class="d-flex align-items-center">
                               <!-- Chart-->
-                              <div class="w-80px flex-shrink-0 me-2">
+                              <div class="w-75px flex-shrink-0 me-2">
                                 <div class="min-h-auto ms-n3" id="kt_slider_widget_7_chart_1" style="height: 100px"></div>
                               </div>
                               <!-- Info-->
                               <div class="m-0">
                                 <!-- Subtitle-->
                                 <h5 class="fw-bold text-gray-800 mb-3">
-                                  Ruby on Rails
+                                  University Profile
                                 </h5>
                                 <!-- Items-->
                                 <div class="d-flex d-grid gap-5">
@@ -207,19 +206,19 @@
                                   <div class="d-flex flex-column flex-shrink-0 me-4">
                                     <!-- Section-->
                                     <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 lesson</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>10+ Faculties</span>
                                     <!-- Section-->
                                     <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 agenda</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1000+ students</span>
                                   </div>
                                   <!-- Item-->
                                   <div class="d-flex flex-column flex-shrink-0">
                                     <!-- Section-->
                                     <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>30+ Lessons</span>
                                     <!-- Section-->
                                     <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Agenda</span>
                                   </div>
                                 </div>
                               </div>
@@ -230,7 +229,7 @@
                             <!-- Wrapper-->
                             <div class="d-flex align-items-center">
                               <!-- Chart-->
-                              <div class="w-80px flex-shrink-0 me-2">
+                              <div class="w-75px flex-shrink-0 me-2">
                                 <div class="min-h-auto ms-n3" id="kt_slider_widget_7_chart_2" style="height: 100px"></div>
                               </div>
                               <!--end::Chart-->
@@ -238,7 +237,7 @@
                               <div class="m-0">
                                 <!-- Subtitle-->
                                 <h5 class="fw-bold text-gray-800 mb-3">
-                                  Ruby on Rails
+                                  User Profile
                                 </h5>
                                 <!--end::Subtitle-->
                                 <!-- Items-->
@@ -247,11 +246,11 @@
                                   <div class="d-flex flex-column flex-shrink-0 me-4">
                                     <!-- Section-->
                                     <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 lesson</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>Max Smith</span>
                                     <!--end::Section-->
                                     <!-- Section-->
                                     <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 agenda</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>Developer</span>
                                     <!--end::Section-->
                                   </div>
                                   <!--end::Item-->
@@ -259,61 +258,11 @@
                                   <div class="d-flex flex-column flex-shrink-0">
                                     <!-- Section-->
                                     <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>Sunway University</span>
                                     <!--end::Section-->
                                     <!-- Section-->
                                     <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
-                                    <!--end::Section-->
-                                  </div>
-                                  <!--end::Item-->
-                                </div>
-                                <!--end::Items-->
-                              </div>
-                              <!--end::Info-->
-                            </div>
-                            <!--end::Wrapper-->
-                          </div>
-                          <!--end::Item-->
-                          <!-- Item-->
-                          <div class="carousel-item">
-                            <!-- Wrapper-->
-                            <div class="d-flex align-items-center">
-                              <!-- Chart-->
-                              <div class="w-80px flex-shrink-0 me-2">
-                                <div class="min-h-auto ms-n3" id="kt_slider_widget_7_chart_3" style="height: 100px"></div>
-                              </div>
-                              <!--end::Chart-->
-                              <!-- Info-->
-                              <div class="m-0">
-                                <!-- Subtitle-->
-                                <h5 class="fw-bold text-gray-800 mb-3">
-                                  Ruby on Rails
-                                </h5>
-                                <!--end::Subtitle-->
-                                <!-- Items-->
-                                <div class="d-flex d-grid gap-5">
-                                  <!-- Item-->
-                                  <div class="d-flex flex-column flex-shrink-0 me-4">
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 lesson</span>
-                                    <!--end::Section-->
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 agenda</span>
-                                    <!--end::Section-->
-                                  </div>
-                                  <!--end::Item-->
-                                  <!-- Item-->
-                                  <div class="d-flex flex-column flex-shrink-0">
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
-                                    <!--end::Section-->
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>exm@gmail.com</span>
                                     <!--end::Section-->
                                   </div>
                                   <!--end::Item-->
@@ -352,7 +301,8 @@
                           <!--end::Text-->
                           <!-- Action-->
                           <div class="mb-7">
-                            <a href="https://devs.keenthemes.com/" class="btn btn-sm btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Now</a>
+                            <!-- <a href="https://devs.keenthemes.com/" class="btn btn-sm btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Now</a> -->
+                            <a href="#" class="btn btn-sm btn-primary fw-semibold me-2">Upgrade Now</a>
                           </div>
                           <!-- Action-->
                         </div>
@@ -372,1026 +322,41 @@
                 <div class="row g-5 g-xl-10">
                   <!-- Col-->
                   <div class="col-xl-4 mb-xl-10">
-                    <!-- List widget 16-->
+                    <!-- Chart widget 29-->
                     <div class="card card-flush h-xl-100">
                       <!-- Header-->
-                      <div class="card-header pt-7">
-                        <!-- Title-->
-                        <h3 class="card-title align-items-start flex-column">
-                          <span class="card-label fw-bold text-gray-800">Delivery Tracking</span>
-                          <span class="text-gray-500 mt-1 fw-semibold fs-6">56 deliveries in progress</span>
-                        </h3>
-                        <!--end::Title-->
-                        <!-- Toolbar-->
-                        <div class="card-toolbar">
-                          <a href="#" class="btn btn-sm btn-light" data-bs-toggle="tooltip" data-bs-dismiss="click" data-bs-custom-class="tooltip-inverse" title="Delivery App is coming soon">View All</a>
+                      <div class="card-header py-7">
+                        <!-- Statistics-->
+                        <div class="m-0">
+                          <!-- Heading-->
+                          <div class="d-flex align-items-center mb-2">
+                            <!-- Title-->
+                            <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">01</span>
+                            <!--end::Title-->
+                            <!-- Label-->
+                            <span class="badge badge-light-success fs-base">
+                              <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>2.2%</span>
+                            <!--end::Label-->
+                          </div>
+                          <!--end::Heading-->
+                          <!-- Description-->
+                          <span class="fs-6 fw-semibold text-gray-500">Private University Ranking: ASEAN 2024</span>
+                          <span class="d-block fs-7 text-gray-500">Sunway University</span>
+                          <!--end::Description-->
                         </div>
-                        <!--end::Toolbar-->
+                        <!--end::Statistics-->
+
                       </div>
                       <!--end::Header-->
                       <!-- Body-->
-                      <div class="card-body pt-4 px-0">
-                        <!-- Nav-->
-                        <ul class="nav nav-pills nav-pills-custom item position-relative mx-9 mb-9">
-                          <!-- Item-->
-                          <li class="nav-item col-4 mx-0 p-0">
-                            <!-- Link-->
-                            <a class="nav-link active d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#kt_list_widget_16_tab_1">
-                              <!-- Subtitle-->
-                              <span class="nav-text text-gray-800 fw-bold fs-6 mb-3">New</span>
-                              <!--end::Subtitle-->
-                              <!-- Bullet-->
-                              <span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-4px bg-primary rounded"></span>
-                              <!--end::Bullet-->
-                            </a>
-                            <!--end::Link-->
-                          </li>
-                          <!--end::Item-->
-                          <!-- Item-->
-                          <li class="nav-item col-4 mx-0 px-0">
-                            <!-- Link-->
-                            <a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#kt_list_widget_16_tab_2">
-                              <!-- Subtitle-->
-                              <span class="nav-text text-gray-800 fw-bold fs-6 mb-3">Preparing</span>
-                              <!--end::Subtitle-->
-                              <!-- Bullet-->
-                              <span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-4px bg-primary rounded"></span>
-                              <!--end::Bullet-->
-                            </a>
-                            <!--end::Link-->
-                          </li>
-                          <!--end::Item-->
-                          <!-- Item-->
-                          <li class="nav-item col-4 mx-0 px-0">
-                            <!-- Link-->
-                            <a class="nav-link d-flex justify-content-center w-100 border-0 h-100" data-bs-toggle="pill" href="#kt_list_widget_16_tab_3">
-                              <!-- Subtitle-->
-                              <span class="nav-text text-gray-800 fw-bold fs-6 mb-3">Shipping</span>
-                              <!--end::Subtitle-->
-                              <!-- Bullet-->
-                              <span class="bullet-custom position-absolute z-index-2 bottom-0 w-100 h-4px bg-primary rounded"></span>
-                              <!--end::Bullet-->
-                            </a>
-                            <!--end::Link-->
-                          </li>
-                          <!--end::Item-->
-                          <!-- Bullet-->
-                          <span class="position-absolute z-index-1 bottom-0 w-100 h-4px bg-light rounded"></span>
-                          <!--end::Bullet-->
-                        </ul>
-                        <!--end::Nav-->
-                        <!-- Tab Content-->
-                        <div class="tab-content px-9 hover-scroll-overlay-y pe-7 me-3 mb-2" style="height: 390px">
-                          <!-- Tap pane-->
-                          <div class="tab-pane fade show active" id="kt_list_widget_16_tab_1">
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Brooklyn Simmons</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">6391 Elgin St. Celina, Delaware
-                                      10299</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Ralph Edwards</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">2464 Royal Ln. Mesa, New Jersey
-                                      45463</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Cameron Williamson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3891 Ranchview Dr. Richardson,
-                                      California 62639</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Kristin Watson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">8502 Preston Rd. Inglewood, Maine
-                                      98380</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Albert Flores</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3517 W. Gray St. Utica, Pennsylvania
-                                      57867</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Jessie Clarcson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">Total 2,356 Items in the Stock</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Cameron Williamson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3891 Ranchview Dr. Richardson,
-                                      California 62639</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Kristin Watson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">8502 Preston Rd. Inglewood, Maine
-                                      98380</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Brooklyn Simmons</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">6391 Elgin St. Celina, Delaware
-                                      10299</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Ralph Edwards</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">2464 Royal Ln. Mesa, New Jersey
-                                      45463</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                          </div>
-                          <!--end::Tap pane-->
-                          <!-- Tap pane-->
-                          <div class="tab-pane fade" id="kt_list_widget_16_tab_2">
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Cameron Williamson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3891 Ranchview Dr. Richardson,
-                                      California 62639</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Kristin Watson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">8502 Preston Rd. Inglewood, Maine
-                                      98380</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Brooklyn Simmons</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">6391 Elgin St. Celina, Delaware
-                                      10299</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Ralph Edwards</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">2464 Royal Ln. Mesa, New Jersey
-                                      45463</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Cameron Williamson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3891 Ranchview Dr. Richardson,
-                                      California 62639</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Kristin Watson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">8502 Preston Rd. Inglewood, Maine
-                                      98380</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Albert Flores</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3517 W. Gray St. Utica, Pennsylvania
-                                      57867</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Jessie Clarcson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">Total 2,356 Items in the Stock</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Albert Flores</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3517 W. Gray St. Utica, Pennsylvania
-                                      57867</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Jessie Clarcson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">Total 2,356 Items in the Stock</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                          </div>
-                          <!--end::Tap pane-->
-                          <!-- Tap pane-->
-                          <div class="tab-pane fade" id="kt_list_widget_16_tab_3">
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Albert Flores</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3517 W. Gray St. Utica, Pennsylvania
-                                      57867</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Jessie Clarcson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">Total 2,356 Items in the Stock</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Brooklyn Simmons</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">6391 Elgin St. Celina, Delaware
-                                      10299</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Ralph Edwards</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">2464 Royal Ln. Mesa, New Jersey
-                                      45463</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Brooklyn Simmons</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">6391 Elgin St. Celina, Delaware
-                                      10299</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Ralph Edwards</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">2464 Royal Ln. Mesa, New Jersey
-                                      45463</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Cameron Williamson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3891 Ranchview Dr. Richardson,
-                                      California 62639</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Kristin Watson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">8502 Preston Rd. Inglewood, Maine
-                                      98380</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                            <!-- Separator-->
-                            <div class="separator separator-dashed mt-5 mb-4"></div>
-                            <!--end::Separator-->
-                            <!-- Item-->
-                            <div class="m-0">
-                              <!-- Timeline-->
-                              <div class="timeline timeline-border-dashed">
-                                <!-- Timeline item-->
-                                <div class="timeline-item pb-5">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-cd fs-2 text-success"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-success text-uppercase">Sender</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Cameron Williamson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">3891 Ranchview Dr. Richardson,
-                                      California 62639</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                                <!-- Timeline item-->
-                                <div class="timeline-item">
-                                  <!-- Timeline line-->
-                                  <div class="timeline-line"></div>
-                                  <!--end::Timeline line-->
-                                  <!-- Timeline icon-->
-                                  <div class="timeline-icon">
-                                    <i class="ki-outline ki-geolocation fs-2 text-info"></i>
-                                  </div>
-                                  <!--end::Timeline icon-->
-                                  <!-- Timeline content-->
-                                  <div class="timeline-content m-0">
-                                    <!-- Label-->
-                                    <span class="fs-8 fw-bolder text-info text-uppercase">Receiver</span>
-                                    <!-- Label-->
-                                    <!-- Title-->
-                                    <a href="#" class="fs-6 text-gray-800 fw-bold d-block text-hover-primary">Kristin Watson</a>
-                                    <!--end::Title-->
-                                    <!-- Title-->
-                                    <span class="fw-semibold text-gray-500">8502 Preston Rd. Inglewood, Maine
-                                      98380</span>
-                                    <!--end::Title-->
-                                  </div>
-                                  <!--end::Timeline content-->
-                                </div>
-                                <!--end::Timeline item-->
-                              </div>
-                              <!--end::Timeline-->
-                            </div>
-                            <!--end::Item-->
-                          </div>
-                          <!--end::Tap pane-->
-                        </div>
-                        <!--end::Tab Content-->
+                      <div class="card-body d-flex py-5 px-0">
+                        <!-- Chart-->
+                        <div id="kt_charts_widget_3_chart" class="h-300px w-100 min-h-auto ps-7 pe-0 mb-5"></div>
+                        <!--end::Chart-->
                       </div>
-                      <!--end: Card Body-->
+                      <!--end::Body-->
                     </div>
-                    <!--end::List widget 16-->
+                    <!--end::Chart widget 29-->
                   </div>
                   <!--end::Col-->
                   <!-- Col-->
@@ -1403,7 +368,7 @@
                         <!-- Title-->
                         <h3 class="card-title align-items-start flex-column">
                           <span class="card-label fw-bold text-gray-800">Private University Ranking: ASEAN</span>
-                          <span class="text-gray-500 mt-1 fw-semibold fs-6">Total 100+ Universities</span>
+                          <span class="text-gray-500 mt-1 fw-semibold fs-6">Total 100+ Universityes</span>
                         </h3>
                         <!--end::Title-->
                         <!-- Toolbar-->
@@ -1831,6 +796,209 @@
                 <!-- Row-->
                 <div class="row g-5 g-xl-10">
                   <!-- Col-->
+                  <div class="col-xl-8 mb-5 mb-xl-10">
+                    <!-- Table widget 6-->
+                    <div class="card card-flush h-md-100">
+                      <!-- Header-->
+                      <div class="card-header pt-7">
+                        <!-- Title-->
+                        <h3 class="card-title align-items-start flex-column">
+                          <span class="card-label fw-bold text-gray-800">Public University Ranking: ASEAN 2024</span>
+                          <span class="text-gray-500 mt-1 fw-semibold fs-6">Total 100+ Universityes</span>
+                        </h3>
+                        <!--end::Title-->
+                        <!-- Toolbar-->
+                        <div class="card-toolbar">
+                          <a href="#" class="btn btn-sm btn-light">View All</a>
+                        </div>
+                        <!--end::Toolbar-->
+                      </div>
+                      <!--end::Header-->
+                      <!-- Body-->
+                      <div class="card-body">
+
+                        <!-- Tab Content-->
+                        <div class="tab-content">
+                          <!-- Tap pane-->
+                          <div class="tab-pane fade active show" id="kt_stats_widget_6_tab_1">
+                            <!-- Table container-->
+                            <div class="table-responsive">
+                              <!-- Table-->
+                              <table class="table table-row-dashed align-middle gs-0 gy-4 my-0">
+                                <!-- Table head-->
+                                <thead>
+                                  <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
+                                    <th class="p-0 w-200px w-xxl-450px"></th>
+                                    <th class="p-0 min-w-100px"></th>
+                                    <th class="p-0 min-w-150px"></th>
+                                    <th class="p-0 min-w-100px"></th>
+                                    <th class="p-0 w-50px"></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <div class="d-flex align-items-center">
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-column">
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">University Kebangsaan Malaysia (UKM) </a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">1</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Malaysia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">75,94</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
+                                    </td>
+                                    <td class="text-end">
+                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="d-flex align-items-center">
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-column">
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">National University of Singapore (NUS) </a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">2</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Singapore</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">73,73</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
+                                    </td>
+                                    <td class="text-end">
+                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="d-flex align-items-center">
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-column">
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">IPB University (aka Bogor Agricultural University)</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">3</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Indonesia</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">73,67</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
+                                    </td>
+                                    <td class="text-end">
+                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="d-flex align-items-center">
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-column">
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Nanyang Technological University (NTU)</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">4</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Singapore</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">73,19</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
+                                    </td>
+                                    <td class="text-end">
+                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="d-flex align-items-center">
+                                        <div class="symbol symbol-40px me-3 border">
+                                          <img src="assets/media/logos/uni-logo-sample.jpg" />
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-column">
+                                          <a href="#" class="text-gray-900 fw-bold text-hover-primary mb-1 fs-6">Mahidol University</a>
+                                          <span class="fw-semibold text-gray-500 d-block">University</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <span class="text-gray-800 fw-bold d-block mb-1 fs-6">5</span>
+                                      <span class="fw-semibold text-gray-500 d-block">Rank</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">Thailand</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Country</span>
+                                    </td>
+                                    <td>
+                                      <a href="#" class="text-gray-900 fw-bold text-hover-primary d-block mb-1 fs-6">71,12</a>
+                                      <span class="text-muted fw-semibold d-block fs-7">Total Score</span>
+                                    </td>
+                                    <td class="text-end">
+                                      <a href="#" class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                        <i class="ki-outline ki-black-right fs-2 text-gray-500"></i>
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <!--end::Tab Content-->
+                      </div>
+                      <!--end: Card Body-->
+                    </div>
+                    <!--end::Table widget 6-->
+                  </div>
+                  <!--end::Col-->
+                  <!-- Col-->
                   <div class="col-xl-4 mb-xl-10">
                     <!-- Chart widget 29-->
                     <div class="card card-flush h-xl-100">
@@ -1841,160 +1009,32 @@
                           <!-- Heading-->
                           <div class="d-flex align-items-center mb-2">
                             <!-- Title-->
-                            <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">7,9</span>
+                            <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">01</span>
                             <!--end::Title-->
                             <!-- Label-->
                             <span class="badge badge-light-success fs-base">
-                              <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>2.2%</span>
+                              <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>5.4%</span>
                             <!--end::Label-->
                           </div>
                           <!--end::Heading-->
                           <!-- Description-->
-                          <span class="fs-6 fw-semibold text-gray-500">Avarage Position</span>
+                          <span class="fs-6 fw-semibold text-gray-500">Public University Ranking: ASEAN 2024</span>
+                          <span class="d-block fs-7 text-gray-500">University Kebangsaan Malaysia (UKM)</span>
                           <!--end::Description-->
                         </div>
                         <!--end::Statistics-->
-                        <!-- Toolbar-->
-                        <div class="card-toolbar">
-                          <!-- Menu-->
-                          <button class="btn btn-icon btn-color-gray-500 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
-                            <i class="ki-outline ki-dots-square fs-1 text-gray-500 me-n1"></i>
-                          </button>
-                          <!-- Menu 2-->
-                          <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <div class="menu-content fs-6 text-gray-900 fw-bold px-3 py-4">
-                                Quick Actions
-                              </div>
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu separator-->
-                            <div class="separator mb-3 opacity-75"></div>
-                            <!--end::Menu separator-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <a href="#" class="menu-link px-3">New Ticket</a>
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <a href="#" class="menu-link px-3">New Customer</a>
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-                              <!-- Menu item-->
-                              <a href="#" class="menu-link px-3">
-                                <span class="menu-title">New Group</span>
-                                <span class="menu-arrow"></span>
-                              </a>
-                              <!--end::Menu item-->
-                              <!-- Menu sub-->
-                              <div class="menu-sub menu-sub-dropdown w-175px py-4">
-                                <!-- Menu item-->
-                                <div class="menu-item px-3">
-                                  <a href="#" class="menu-link px-3">Admin Group</a>
-                                </div>
-                                <!--end::Menu item-->
-                                <!-- Menu item-->
-                                <div class="menu-item px-3">
-                                  <a href="#" class="menu-link px-3">Staff Group</a>
-                                </div>
-                                <!--end::Menu item-->
-                                <!-- Menu item-->
-                                <div class="menu-item px-3">
-                                  <a href="#" class="menu-link px-3">Member Group</a>
-                                </div>
-                                <!--end::Menu item-->
-                              </div>
-                              <!--end::Menu sub-->
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <a href="#" class="menu-link px-3">New Contact</a>
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu separator-->
-                            <div class="separator mt-3 opacity-75"></div>
-                            <!--end::Menu separator-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <div class="menu-content px-3 py-3">
-                                <a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-                              </div>
-                            </div>
-                            <!--end::Menu item-->
-                          </div>
-                          <!--end::Menu 2-->
-                          <!--end::Menu-->
-                        </div>
-                        <!--end::Toolbar-->
+
                       </div>
                       <!--end::Header-->
                       <!-- Body-->
-                      <div class="card-body d-flex align-items-end p-0">
+                      <div class="card-body d-flex py-5 px-0">
                         <!-- Chart-->
-                        <div id="kt_charts_widget_29" class="h-300px w-100 min-h-auto ps-7 pe-0 mb-5"></div>
+                        <div id="kt_charts_widget_1_chart" class="h-300px w-100 min-h-auto ps-7 pe-0 mb-5"></div>
                         <!--end::Chart-->
                       </div>
                       <!--end::Body-->
                     </div>
                     <!--end::Chart widget 29-->
-                  </div>
-                  <!--end::Col-->
-                  <!-- Col-->
-                  <div class="col-xxl-8 mb-5 mb-xl-10">
-                    <!-- Chart widget 13-->
-                    <div class="card card-flush h-md-100">
-                      <!-- Header-->
-                      <div class="card-header pt-7">
-                        <!-- Title-->
-                        <h3 class="card-title align-items-start flex-column">
-                          <span class="card-label fw-bold text-gray-900">Sales Statistics</span>
-                          <span class="text-gray-500 pt-2 fw-semibold fs-6">Top Selling Products</span>
-                        </h3>
-                        <!--end::Title-->
-                        <!-- Toolbar-->
-                        <div class="card-toolbar">
-                          <!-- Menu-->
-                          <button class="btn btn-icon btn-color-gray-500 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
-                            <i class="ki-outline ki-dots-square fs-1 text-gray-500 me-n1"></i>
-                          </button>
-                          <!-- Menu-->
-                          <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold w-100px py-4" data-kt-menu="true">
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <a href="#" class="menu-link px-3">Remove</a>
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <a href="#" class="menu-link px-3">Mute</a>
-                            </div>
-                            <!--end::Menu item-->
-                            <!-- Menu item-->
-                            <div class="menu-item px-3">
-                              <a href="#" class="menu-link px-3">Settings</a>
-                            </div>
-                            <!--end::Menu item-->
-                          </div>
-                          <!--end::Menu-->
-                          <!--end::Menu-->
-                        </div>
-                        <!--end::Toolbar-->
-                      </div>
-                      <!--end::Header-->
-                      <!-- Body-->
-                      <div class="card-body pt-5">
-                        <!-- Chart container-->
-                        <div id="kt_charts_widget_13_chart" class="w-100 h-325px"></div>
-                        <!--end::Chart container-->
-                      </div>
-                      <!--end::Body-->
-                    </div>
-                    <!--end::Chart widget 13-->
                   </div>
                   <!--end::Col-->
                 </div>

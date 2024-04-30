@@ -1,7 +1,7 @@
 "use strict";
 
 // Class definition
-var KTSlidersWidget7 = function() {
+var KTSlidersWidget7 = function () {
     var chart1 = {
         self: null,
         rendered: false
@@ -18,20 +18,20 @@ var KTSlidersWidget7 = function() {
     };
 
     // Private methods
-    var initChart = function(chart, query, data) {
+    var initChart = function (chart, query, data) {
         var element = document.querySelector(query);
 
-        if ( !element) {
+        if (!element) {
             return;
-        }              
-        
-        if ( chart.rendered === true && element.classList.contains("initialized") ) {
+        }
+
+        if (chart.rendered === true && element.classList.contains("initialized")) {
             return;
         }
 
         var height = parseInt(KTUtil.css(element, 'height'));
         var baseColor = KTUtil.getCssVariableValue('--bs-' + 'danger');
-        var lightColor = KTUtil.getCssVariableValue('--bs-' + 'white' );         
+        var lightColor = KTUtil.getCssVariableValue('--bs-' + 'white');
 
         var options = {
             series: [data],
@@ -52,10 +52,10 @@ var KTSlidersWidget7 = function() {
                     dataLabels: {
                         showOn: "always",
                         name: {
-                            show: false                                 
+                            show: false
                         },
-                        value: {                                 
-                            show: false                              
+                        value: {
+                            show: false
                         }
                     },
                     track: {
@@ -82,11 +82,11 @@ var KTSlidersWidget7 = function() {
     return {
         init: function () {
             // Init default chart
-            initChart(chart1, '#kt_slider_widget_7_chart_1', 76);
+            initChart(chart1, '#kt_slider_widget_7_chart_1', 37);
 
             var carousel = document.querySelector('#kt_sliders_widget_7_slider');
-            
-            if ( !carousel ) {
+
+            if (!carousel) {
                 return;
             }
 
@@ -94,7 +94,7 @@ var KTSlidersWidget7 = function() {
             carousel.addEventListener('slid.bs.carousel', function (e) {
                 if (e.to === 1) {
                     // Init second chart
-                    initChart(chart2, '#kt_slider_widget_7_chart_2', 55);
+                    initChart(chart2, '#kt_slider_widget_7_chart_2', 40);
                 }
 
                 if (e.to === 2) {
@@ -104,7 +104,7 @@ var KTSlidersWidget7 = function() {
             });
 
             // Update chart on theme mode change
-            KTThemeMode.on("kt.thememode.change", function() {                
+            KTThemeMode.on("kt.thememode.change", function () {
                 if (chart1.rendered) {
                     chart1.self.destroy();
                     chart1.rendered = false;
@@ -120,12 +120,11 @@ var KTSlidersWidget7 = function() {
                     chart3.rendered = false;
                 }
 
-                initChart(chart1, '#kt_slider_widget_7_chart_1', 76);
-                initChart(chart2, '#kt_slider_widget_7_chart_2', 55);
-                initChart(chart3, '#kt_slider_widget_7_chart_3', 25);
+                initChart(chart1, '#kt_slider_widget_7_chart_1', 37);
+                initChart(chart2, '#kt_slider_widget_7_chart_2', 40);
             });
-        }   
-    }        
+        }
+    }
 }();
 
 
@@ -135,11 +134,10 @@ if (typeof module !== 'undefined') {
 }
 
 // On document ready
-KTUtil.onDOMContentLoaded(function() {
+KTUtil.onDOMContentLoaded(function () {
     KTSlidersWidget7.init();
 });
-   
-        
-        
-        
-           
+
+
+
+
