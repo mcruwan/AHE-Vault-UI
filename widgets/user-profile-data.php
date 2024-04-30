@@ -46,11 +46,11 @@
                         <div class="d-flex flex-wrap">
 
                             <!--begin::Stat-->
-                            <div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
+                            <div class="border border-gray-300 border-dashed rounded min-w-100px py-3 px-4 me-6 mb-3">
                                 <!--begin::Number-->
                                 <div class="d-flex align-items-center">
                                     <i class="ki-outline ki-arrow-down fs-3 text-danger me-2"></i>
-                                    <div class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="80">0</div>
+                                    <div class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="12">0</div>
                                 </div>
                                 <!--end::Number-->
                                 <!--begin::Label-->
@@ -59,15 +59,15 @@
                             </div>
                             <!--end::Stat-->
                             <!--begin::Stat-->
-                            <div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
+                            <div class="border border-gray-300 border-dashed rounded min-w-100px py-3 px-4 me-6 mb-3">
                                 <!--begin::Number-->
                                 <div class="d-flex align-items-center">
                                     <i class="ki-outline ki-arrow-up fs-3 text-success me-2"></i>
-                                    <div class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="60" data-kt-countup-prefix="%">0</div>
+                                    <div class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="10">0</div>
                                 </div>
                                 <!--end::Number-->
                                 <!--begin::Label-->
-                                <div class="fw-semibold fs-6 text-gray-500">Success Rate</div>
+                                <div class="fw-semibold fs-6 text-gray-500">Exams</div>
                                 <!--end::Label-->
                             </div>
                             <!--end::Stat-->

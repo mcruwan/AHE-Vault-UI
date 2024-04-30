@@ -296,7 +296,7 @@
                           </div>
                           <!--end::Title-->
                           <!-- Text-->
-                          <span class="text-gray-600 fw-semibold fs-6 mb-6 d-block">To access exclusive resources and stay updated on campus events. <br>Please fill out the form below to create your user account.</span>
+                          <span class="text-gray-600 fw-semibold fs-6 mb-6 d-block">To access exclusive resources and stay updated on university events. <br>Please fill out the form below to create your user account.</span>
                           <!--end::Text-->
                           <!-- Action-->
                           <div class="mb-7">

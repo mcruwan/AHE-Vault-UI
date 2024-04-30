@@ -47,6 +47,9 @@
                 <div class="menu-item px-5">
                     <a href="manage-users.php" class="menu-link px-5">Manage Users</a>
                 </div>
+                <div class="menu-item px-5">
+                    <a href="add-user.php" class="menu-link px-5">Add User</a>
+                </div>
                 <!--begin::Menu separator-->
                 <div class="separator my-2"></div>
                 <!--end::Menu separator-->

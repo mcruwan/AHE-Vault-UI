@@ -302,7 +302,33 @@
                                                 <!--begin::Avatar-->
                                                 <div class="symbol symbol-65px symbol-circle mb-5">
                                                     <img src="assets/media//avatars/300-11.jpg" alt="image" />
-                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
+                                                    <div class="bg-warning position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
+                                                </div>
+                                                <!--end::Avatar-->
+                                                <!--begin::Name-->
+                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
+                                                <!--end::Name-->
+                                                <!--begin::Position-->
+                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
+                                                <!--end::Position-->
+
+                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
+
+                                            </div>
+                                            <!--begin::Card body-->
+                                        </div>
+                                        <!--begin::Card-->
+                                    </div>
+
+                                    <div class="col-md-6 col-xxl-4">
+                                        <!--begin::Card-->
+                                        <div class="card">
+                                            <!--begin::Card body-->
+                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
+                                                <!--begin::Avatar-->
+                                                <div class="symbol symbol-65px symbol-circle mb-5">
+                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
+                                                    <div class="bg-warning position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
                                                 </div>
                                                 <!--end::Avatar-->
                                                 <!--begin::Name-->
@@ -354,33 +380,7 @@
                                                 <!--begin::Avatar-->
                                                 <div class="symbol symbol-65px symbol-circle mb-5">
                                                     <img src="assets/media//avatars/300-11.jpg" alt="image" />
-                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
-                                                </div>
-                                                <!--end::Avatar-->
-                                                <!--begin::Name-->
-                                                <a href="#" class="fs-4 text-gray-800 text-hover-primary fw-bold mb-0">Patric Watson</a>
-                                                <!--end::Name-->
-                                                <!--begin::Position-->
-                                                <div class="fw-semibold text-gray-500 mb-6">IT Department</div>
-                                                <!--end::Position-->
-
-                                                <button class="btn btn-sm btn-primary btn-flex btn-center">View User</button>
-
-                                            </div>
-                                            <!--begin::Card body-->
-                                        </div>
-                                        <!--begin::Card-->
-                                    </div>
-
-                                    <div class="col-md-6 col-xxl-4">
-                                        <!--begin::Card-->
-                                        <div class="card">
-                                            <!--begin::Card body-->
-                                            <div class="card-body d-flex flex-center flex-column py-9 px-5">
-                                                <!--begin::Avatar-->
-                                                <div class="symbol symbol-65px symbol-circle mb-5">
-                                                    <img src="assets/media//avatars/300-11.jpg" alt="image" />
-                                                    <div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
+                                                    <div class="bg-warning position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
                                                 </div>
                                                 <!--end::Avatar-->
                                                 <!--begin::Name-->
