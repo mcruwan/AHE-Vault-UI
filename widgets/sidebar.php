@@ -172,7 +172,7 @@
                 <div class="d-block justify-content-between fs-6 text-gray-800 w-100 mb-3">
                     <a href="https://sunwayuniversity.edu.my/" target="_blank">
                         <img alt="Logo" src="assets/media/logos/sunway-logo.jpg" class="h-70px h-lg-70px theme-light-show" />
-                        <img alt="Logo" src="assets/media/logos/sunway-logo.jpg" class="h-70px h-lg-70px theme-dark-show" />
+                        <img alt="Logo" src="assets/media/logos/sunway-logo-dark.png" class="h-70px h-lg-70px theme-dark-show" />
                     </a>
                     <a href="https://sunwayuniversity.edu.my/" target="_blank" class="d-block fw-bolder mt-3">Sunway University</a>
                     <span class="d-block">Malaysia</span>
