@@ -389,12 +389,12 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in poorly driving and keep structure</div>
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Math: Problem Solving</div>
                             <!--end::Text-->
                           </div>
                           <!--end::Item-->
                           <!--begin::Item-->
-                          <div class="timeline-item d-flex align-items-center">
+                          <div class="timeline-item">
                             <!--begin::Label-->
                             <div class="timeline-label fw-bold text-gray-800 fs-6">10:00</div>
                             <!--end::Label-->
@@ -403,27 +403,15 @@
                               <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
                             </div>
                             <!--end::Badge-->
-                            <!--begin::Content-->
-                            <div class="d-flex align-items-center">
-                              <span class="fw-bold text-gray-800 px-3">AEOL meeting with</span>
-                              <!--begin::Avatar-->
-                              <div class="symbol symbol-35px me-3">
-                                <img src="assets/media/avatars/300-1.jpg" alt="" />
-                              </div>
-                              <!--end::Avatar-->
-                              <!--begin::Avatar-->
-                              <div class="symbol symbol-35px">
-                                <img src="assets/media/avatars/300-2.jpg" alt="" />
-                              </div>
-                              <!--end::Avatar-->
-                            </div>
-                            <!--end::Content-->
+                            <!--begin::Text-->
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">History: Reading about World War II</div>
+                            <!--end::Text-->
                           </div>
                           <!--end::Item-->
                           <!--begin::Item-->
                           <div class="timeline-item">
                             <!--begin::Label-->
-                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:37</div>
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">12:37</div>
                             <!--end::Label-->
                             <!--begin::Badge-->
                             <div class="timeline-badge">
@@ -431,8 +419,38 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
-                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            <div class="timeline-content fw-bold text-gray-800 ps-3"> Biology: Watching a documentary on ecosystems
+                            </div>
+                            <!--end::Desc-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:50</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Text-->
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Literature: Analyzing a poem by Emily Dickinson</div>
+                            <!--end::Text-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">16:03</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Desc-->
+                            <div class="timeline-content fw-semibold text-gray-800 ps-3">Chemistry: Conducting experiments on chemical reactions
                             </div>
                             <!--end::Desc-->
                           </div>
@@ -448,14 +466,14 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in poorly driving and keep structure keep you honest great</div>
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Computer Science: Coding practice in Python</div>
                             <!--end::Text-->
                           </div>
                           <!--end::Item-->
                           <!--begin::Item-->
                           <div class="timeline-item">
                             <!--begin::Label-->
-                            <div class="timeline-label fw-bold text-gray-800 fs-6">21:03</div>
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">18:37</div>
                             <!--end::Label-->
                             <!--begin::Badge-->
                             <div class="timeline-badge">
@@ -463,46 +481,13 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed
-                              <a href="#" class="text-primary">#XF-2356</a>.
-                            </div>
-                            <!--end::Desc-->
-                          </div>
-                          <!--end::Item-->
-                          <!--begin::Item-->
-                          <div class="timeline-item">
-                            <!--begin::Label-->
-                            <div class="timeline-label fw-bold text-gray-800 fs-6">16:50</div>
-                            <!--end::Label-->
-                            <!--begin::Badge-->
-                            <div class="timeline-badge">
-                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
-                            </div>
-                            <!--end::Badge-->
-                            <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in poorly driving and keep structure</div>
-                            <!--end::Text-->
-                          </div>
-                          <!--end::Item-->
-                          <!--begin::Item-->
-                          <div class="timeline-item">
-                            <!--begin::Label-->
-                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:37</div>
-                            <!--end::Label-->
-                            <!--begin::Badge-->
-                            <div class="timeline-badge">
-                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
-                            </div>
-                            <!--end::Badge-->
-                            <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
-                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Computer Science: Coding practice in Python
                             </div>
                             <!--end::Desc-->
                           </div>
                           <div class="timeline-item">
                             <!--begin::Label-->
-                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:40</div>
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">20:40</div>
                             <!--end::Label-->
                             <!--begin::Badge-->
                             <div class="timeline-badge">
@@ -510,14 +495,13 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
-                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Psychology: Reviewing notes on cognitive development theories
                             </div>
                             <!--end::Desc-->
                           </div>
                           <div class="timeline-item">
                             <!--begin::Label-->
-                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:52</div>
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">21:52</div>
                             <!--end::Label-->
                             <!--begin::Badge-->
                             <div class="timeline-badge">
@@ -525,8 +509,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
-                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            <div class="timeline-content fw-bold text-gray-800 ps-3"> Art History: Researching Renaissance artists for an essay
                             </div>
                             <!--end::Desc-->
                           </div>
