@@ -165,149 +165,115 @@
                 <div class="row g-5 g-xl-10">
                   <!-- Col-->
                   <div class="col-xl-4 mb-xl-10">
-                    <!-- Slider Widget 7-->
-                    <div id="kt_sliders_widget_7_slider" class="card card-flush carousel carousel-custom carousel-light-dots carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5000" style="background-color: #ffe896" data-bs-theme="light">
-                      <!-- Header-->
-                      <div class="card-header align-items-center pt-7">
-                        <!-- Title-->
-                        <h4 class="card-label fw-bold text-gray-800 m-0">
-                          Recent Updates
-                        </h4>
-                        <!-- Toolbar-->
-                        <div class="card-toolbar">
-                          <!-- Carousel Indicators-->
-                          <ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-dark">
-                            <li data-bs-target="#kt_sliders_widget_7_slider" data-bs-slide-to="0" class="active ms-1"></li>
-                            <li data-bs-target="#kt_sliders_widget_7_slider" data-bs-slide-to="1" class="ms-1"></li>
-                          </ol>
+                    <div class="card card-flush">
+                      <!--begin::Header-->
+                      <div class="card-header pt-5">
+                        <!--begin::Title-->
+                        <div class="card-title d-flex flex-column">
+                          <!--begin::Amount-->
+                          <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">69,700</span>
+                          <!--end::Amount-->
+                          <!--begin::Subtitle-->
+                          <span class="text-gray-500 pt-1 fw-semibold fs-6">Expected Earnings This Month</span>
+                          <!--end::Subtitle-->
                         </div>
+                        <!--end::Title-->
                       </div>
-                      <!-- Body-->
-                      <div class="card-body pt-3">
-                        <!-- Carousel-->
-                        <div class="carousel-inner">
-                          <!-- Item-->
-                          <div class="carousel-item active show">
-                            <!-- Wrapper-->
-                            <div class="d-flex align-items-center">
-                              <!-- Chart-->
-                              <div class="w-75px flex-shrink-0 me-2">
-                                <div class="min-h-auto ms-n3" id="kt_slider_widget_7_chart_1" style="height: 100px"></div>
-                              </div>
-                              <!-- Info-->
-                              <div class="m-0">
-                                <!-- Subtitle-->
-                                <h5 class="fw-bold text-gray-800 mb-3">
-                                  University Profile
-                                </h5>
-                                <!-- Items-->
-                                <div class="d-flex d-grid gap-5">
-                                  <!-- Item-->
-                                  <div class="d-flex flex-column flex-shrink-0 me-4">
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>10+ Faculties</span>
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1000+ students</span>
-                                  </div>
-                                  <!-- Item-->
-                                  <div class="d-flex flex-column flex-shrink-0">
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>30+ Lessons</span>
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Agenda</span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                      <!--end::Header-->
+                      <!--begin::Card body-->
+                      <div class="card-body d-flex align-items-end">
+                        <!--begin::Wrapper-->
+                        <div class="d-flex align-items-center flex-wrap">
+                          <!--begin::Chart-->
+                          <div class="d-flex me-7 me-xxl-10">
+                            <div id="kt_card_widget_10_chart" class="min-h-auto" style="height: 78px; width: 78px" data-kt-size="78" data-kt-line="11"></div>
                           </div>
-                          <!-- Item-->
-                          <div class="carousel-item">
-                            <!-- Wrapper-->
-                            <div class="d-flex align-items-center">
-                              <!-- Chart-->
-                              <div class="w-75px flex-shrink-0 me-2">
-                                <div class="min-h-auto ms-n3" id="kt_slider_widget_7_chart_2" style="height: 100px"></div>
-                              </div>
-                              <!--end::Chart-->
-                              <!-- Info-->
-                              <div class="m-0">
-                                <!-- Subtitle-->
-                                <h5 class="fw-bold text-gray-800 mb-3">
-                                  User Profile
-                                </h5>
-                                <!--end::Subtitle-->
-                                <!-- Items-->
-                                <div class="d-flex d-grid gap-5">
-                                  <!-- Item-->
-                                  <div class="d-flex flex-column flex-shrink-0 me-4">
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>Max Smith</span>
-                                    <!--end::Section-->
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>Developer</span>
-                                    <!--end::Section-->
-                                  </div>
-                                  <!--end::Item-->
-                                  <!-- Item-->
-                                  <div class="d-flex flex-column flex-shrink-0">
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center fs-7 fw-bold text-gray-600 mb-2">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>Sunway University</span>
-                                    <!--end::Section-->
-                                    <!-- Section-->
-                                    <span class="d-flex align-items-center text-gray-600 fw-bold fs-7">
-                                      <i class="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>exm@gmail.com</span>
-                                    <!--end::Section-->
-                                  </div>
-                                  <!--end::Item-->
-                                </div>
-                                <!--end::Items-->
-                              </div>
-                              <!--end::Info-->
+                          <!--end::Chart-->
+                          <!--begin::Labels-->
+                          <div class="d-flex flex-column content-justify-center flex-grow-1">
+                            <!--begin::Label-->
+                            <div class="d-flex fs-6 fw-semibold align-items-center">
+                              <!--begin::Bullet-->
+                              <div class="bullet w-8px h-6px rounded-2 bg-success me-3"></div>
+                              <!--end::Bullet-->
+                              <!--begin::Label-->
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Used Truck freight</div>
+                              <!--end::Label-->
+                              <!--begin::Separator-->
+                              <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                              <!--end::Separator-->
+                              <!--begin::Stats-->
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">45%</div>
+                              <!--end::Stats-->
                             </div>
-                            <!--end::Wrapper-->
+                            <!--end::Label-->
+                            <!--begin::Label-->
+                            <div class="d-flex fs-6 fw-semibold align-items-center my-1">
+                              <!--begin::Bullet-->
+                              <div class="bullet w-8px h-6px rounded-2 bg-primary me-3"></div>
+                              <!--end::Bullet-->
+                              <!--begin::Label-->
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Used Ship freight</div>
+                              <!--end::Label-->
+                              <!--begin::Separator-->
+                              <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                              <!--end::Separator-->
+                              <!--begin::Stats-->
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">21%</div>
+                              <!--end::Stats-->
+                            </div>
+                            <!--end::Label-->
+                            <!--begin::Label-->
+                            <div class="d-flex fs-6 fw-semibold align-items-center">
+                              <!--begin::Bullet-->
+                              <div class="bullet w-8px h-6px rounded-2 me-3" style="background-color: #E4E6EF"></div>
+                              <!--end::Bullet-->
+                              <!--begin::Label-->
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Used Plane freight</div>
+                              <!--end::Label-->
+                              <!--begin::Separator-->
+                              <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                              <!--end::Separator-->
+                              <!--begin::Stats-->
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">34%</div>
+                              <!--end::Stats-->
+                            </div>
+                            <!--end::Label-->
                           </div>
-                          <!--end::Item-->
+                          <!--end::Labels-->
                         </div>
-                        <!--end::Carousel-->
+                        <!--end::Wrapper-->
                       </div>
-                      <!--end::Body-->
+                      <!--end::Card body-->
                     </div>
-                    <!--end::Slider Widget 7-->
                   </div>
                   <!--end::Col-->
                   <!-- Col-->
                   <div class="col-xl-8 mb-5 mb-xl-10">
                     <!-- Engage widget 12-->
-                    <div class="card card-custom bg-body border-0 h-md-100">
+                    <div class="card card-custom bg-primary border-0 h-md-100">
                       <!-- Body-->
                       <div class="card-body d-flex justify-content-center flex-wrap ps-xl-15 pe-0">
                         <!-- Wrapper-->
                         <div class="flex-grow-1 mt-2 me-9 me-md-0">
                           <!-- Title-->
-                          <div class="position-relative text-gray-800 fs-1 z-index-2 fw-bold mb-5">
+                          <div class="position-relative text-white fs-1 z-index-2 fw-bold mb-5">
                             Add New User
                           </div>
                           <!--end::Title-->
                           <!-- Text-->
-                          <span class="text-gray-600 fw-semibold fs-6 mb-6 d-block">To access exclusive resources and stay updated on university events. <br>Please fill out the form below to create your user account.</span>
+                          <span class="text-white fw-semibold fs-6 mb-6 d-block">To access exclusive resources and stay updated on university events. <br>Please fill out the form below to create your user account.</span>
                           <!--end::Text-->
                           <!-- Action-->
-                          <div class="mb-7">
-                            <!-- <a href="https://devs.keenthemes.com/" class="btn btn-sm btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Now</a> -->
-                            <a href="add-user.php" class="btn btn-sm btn-primary fw-semibold me-2">Add User</a>
+                          <div class="mb-0">
+                            <!-- <a href="https://devs.keenthemes.com/" class="btn btn-sm btn-success btn-color-white me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Now</a> -->
+                            <a href="add-user.php" class="btn btn-sm btn-success btn-color-white me-2">Add User</a>
                           </div>
                           <!-- Action-->
                         </div>
                         <!-- Wrapper-->
                         <!-- Illustration-->
-                        <img src="assets/media/illustrations/misc/credit-card.png" class="h-175px me-15" alt="" />
+                        <img src="assets/media/illustrations/misc/credit-card.png" class="h-150px me-15" alt="" />
                         <!--end::Illustration-->
                       </div>
                       <!--end::Body-->
@@ -322,38 +288,253 @@
                   <!-- Col-->
                   <div class="col-xl-4 mb-xl-10">
                     <!-- Chart widget 29-->
-                    <div class="card card-flush h-xl-100">
-                      <!-- Header-->
-                      <div class="card-header py-7">
-                        <!-- Statistics-->
-                        <div class="m-0">
-                          <!-- Heading-->
-                          <div class="d-flex align-items-center mb-2">
-                            <!-- Title-->
-                            <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">01</span>
-                            <!--end::Title-->
-                            <!-- Label-->
-                            <span class="badge badge-light-success fs-base">
-                              <i class="ki-outline ki-arrow-up fs-5 text-success ms-n1"></i>2.2%</span>
-                            <!--end::Label-->
+                    <div class="card card-flush">
+                      <!--begin::Header-->
+                      <div class="card-header pt-5">
+                        <!--begin::Title-->
+                        <h3 class="card-title align-items-start flex-column">
+                          <span class="card-label fw-bold text-gray-900">Timeline</span>
+                          <span class="text-gray-500 pt-2 fw-semibold fs-6">Latest activities</span>
+                        </h3>
+                        <!--end::Title-->
+                        <!--begin::Toolbar-->
+                        <div class="card-toolbar">
+                          <!--begin::Menu-->
+                          <button class="btn btn-icon btn-color-gray-500 btn-active-color-primary justify-content-end" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+                            <i class="ki-outline ki-dots-square fs-1 text-gray-500 me-n1"></i>
+                          </button>
+                          <!--begin::Menu 2-->
+                          <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3">
+                              <div class="menu-content fs-6 text-gray-900 fw-bold px-3 py-4">Quick Actions</div>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu separator-->
+                            <div class="separator mb-3 opacity-75"></div>
+                            <!--end::Menu separator-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3">
+                              <a href="#" class="menu-link px-3">New Ticket</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3">
+                              <a href="#" class="menu-link px-3">New Customer</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
+                              <!--begin::Menu item-->
+                              <a href="#" class="menu-link px-3">
+                                <span class="menu-title">New Group</span>
+                                <span class="menu-arrow"></span>
+                              </a>
+                              <!--end::Menu item-->
+                              <!--begin::Menu sub-->
+                              <div class="menu-sub menu-sub-dropdown w-175px py-4">
+                                <!--begin::Menu item-->
+                                <div class="menu-item px-3">
+                                  <a href="#" class="menu-link px-3">Admin Group</a>
+                                </div>
+                                <!--end::Menu item-->
+                                <!--begin::Menu item-->
+                                <div class="menu-item px-3">
+                                  <a href="#" class="menu-link px-3">Staff Group</a>
+                                </div>
+                                <!--end::Menu item-->
+                                <!--begin::Menu item-->
+                                <div class="menu-item px-3">
+                                  <a href="#" class="menu-link px-3">Member Group</a>
+                                </div>
+                                <!--end::Menu item-->
+                              </div>
+                              <!--end::Menu sub-->
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3">
+                              <a href="#" class="menu-link px-3">New Contact</a>
+                            </div>
+                            <!--end::Menu item-->
+                            <!--begin::Menu separator-->
+                            <div class="separator mt-3 opacity-75"></div>
+                            <!--end::Menu separator-->
+                            <!--begin::Menu item-->
+                            <div class="menu-item px-3">
+                              <div class="menu-content px-3 py-3">
+                                <a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
+                              </div>
+                            </div>
+                            <!--end::Menu item-->
                           </div>
-                          <!--end::Heading-->
-                          <!-- Description-->
-                          <span class="fs-6 fw-semibold text-gray-500">Private University Ranking: ASEAN 2024</span>
-                          <span class="d-block fs-7 text-gray-500">Sunway University</span>
-                          <!--end::Description-->
+                          <!--end::Menu 2-->
+                          <!--end::Menu-->
                         </div>
-                        <!--end::Statistics-->
-
+                        <!--end::Toolbar-->
                       </div>
                       <!--end::Header-->
-                      <!-- Body-->
-                      <div class="card-body d-flex py-5 px-0">
-                        <!-- Chart-->
-                        <div id="kt_charts_widget_3_chart" class="h-300px w-100 min-h-auto ps-7 pe-0 mb-5"></div>
-                        <!--end::Chart-->
+                      <!--begin::Body-->
+                      <div class="card-body pt-12">
+                        <!--begin::Timeline-->
+                        <div class="timeline-label">
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">08:42</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Text-->
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in poorly driving and keep structure</div>
+                            <!--end::Text-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item d-flex align-items-center">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">10:00</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Content-->
+                            <div class="d-flex align-items-center">
+                              <span class="fw-bold text-gray-800 px-3">AEOL meeting with</span>
+                              <!--begin::Avatar-->
+                              <div class="symbol symbol-35px me-3">
+                                <img src="assets/media/avatars/300-1.jpg" alt="" />
+                              </div>
+                              <!--end::Avatar-->
+                              <!--begin::Avatar-->
+                              <div class="symbol symbol-35px">
+                                <img src="assets/media/avatars/300-2.jpg" alt="" />
+                              </div>
+                              <!--end::Avatar-->
+                            </div>
+                            <!--end::Content-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:37</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Desc-->
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
+                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            </div>
+                            <!--end::Desc-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">16:50</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Text-->
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in poorly driving and keep structure keep you honest great</div>
+                            <!--end::Text-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">21:03</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Desc-->
+                            <div class="timeline-content fw-semibold text-gray-800 ps-3">New order placed
+                              <a href="#" class="text-primary">#XF-2356</a>.
+                            </div>
+                            <!--end::Desc-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">16:50</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Text-->
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Outlines keep you honest. Indulging in poorly driving and keep structure</div>
+                            <!--end::Text-->
+                          </div>
+                          <!--end::Item-->
+                          <!--begin::Item-->
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:37</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Desc-->
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
+                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            </div>
+                            <!--end::Desc-->
+                          </div>
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:40</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Desc-->
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
+                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            </div>
+                            <!--end::Desc-->
+                          </div>
+                          <div class="timeline-item">
+                            <!--begin::Label-->
+                            <div class="timeline-label fw-bold text-gray-800 fs-6">14:52</div>
+                            <!--end::Label-->
+                            <!--begin::Badge-->
+                            <div class="timeline-badge">
+                              <i class="ki-outline ki-abstract-8 text-gray-600 fs-3"></i>
+                            </div>
+                            <!--end::Badge-->
+                            <!--begin::Desc-->
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Make deposit
+                              <a href="#" class="text-primary">USD 700</a>. to ESL
+                            </div>
+                            <!--end::Desc-->
+                          </div>
+                          <!--end::Item-->
+                        </div>
+                        <!--end::Timeline-->
                       </div>
-                      <!--end::Body-->
+                      <!--end: Card Body-->
                     </div>
                     <!--end::Chart widget 29-->
                   </div>
