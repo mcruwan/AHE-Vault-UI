@@ -382,7 +382,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Math: Problem Solving</div>
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Logged in to the AppliedHE Vault</div>
                             <!--end::Text-->
                           </div>
                           <!--end::Item-->
@@ -397,7 +397,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">History: Reading about World War II</div>
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Submitted faculty publications data for the latest research output</div>
                             <!--end::Text-->
                           </div>
                           <!--end::Item-->
@@ -412,8 +412,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3"> Biology: Watching a documentary on ecosystems
-                            </div>
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Profile Update</div>
                             <!--end::Desc-->
                           </div>
                           <!--end::Item-->
@@ -428,7 +427,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Literature: Analyzing a poem by Emily Dickinson</div>
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Entered graduate employment statistics for the 2022 graduating class</div>
                             <!--end::Text-->
                           </div>
                           <!--end::Item-->
@@ -443,8 +442,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-semibold text-gray-800 ps-3">Chemistry: Conducting experiments on chemical reactions
-                            </div>
+                            <div class="timeline-content fw-semibold text-gray-800 ps-3">Added information on international student exchange programs</div>
                             <!--end::Desc-->
                           </div>
                           <!--end::Item-->
@@ -459,7 +457,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Text-->
-                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Computer Science: Coding practice in Python</div>
+                            <div class="fw-semibold text-gray-700 ps-3 fs-7">Submitted data on community service projects conducted in the past year</div>
                             <!--end::Text-->
                           </div>
                           <!--end::Item-->
@@ -474,7 +472,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3">Computer Science: Coding practice in Python
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Uploaded data on recent research grants and projects.
                             </div>
                             <!--end::Desc-->
                           </div>
@@ -488,7 +486,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3">Psychology: Reviewing notes on cognitive development theories
+                            <div class="timeline-content fw-bold text-gray-800 ps-3">Updated details of new courses and curriculum changes.
                             </div>
                             <!--end::Desc-->
                           </div>
@@ -502,7 +500,7 @@
                             </div>
                             <!--end::Badge-->
                             <!--begin::Desc-->
-                            <div class="timeline-content fw-bold text-gray-800 ps-3"> Art History: Researching Renaissance artists for an essay
+                            <div class="timeline-content fw-bold text-gray-800 ps-3"> Ranking Submission
                             </div>
                             <!--end::Desc-->
                           </div>

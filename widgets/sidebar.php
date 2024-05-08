@@ -7,6 +7,7 @@
             <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-30px h-lg-40px theme-light-show" />
             <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-30px h-lg-40px theme-dark-show bg-white" />
         </a>
+
         <!--end::Logo image-->
         <!--begin::User menu-->
         <div class="ms-3">
@@ -162,10 +163,13 @@
         <!--end::User menu-->
     </div>
     <!--end::Logo-->
+
+    <hr style="margin: auto;width: 82%;color: #ccc;">
+
     <!--begin::Sidebar nav-->
     <div class="flex-column-fluid px-4 px-lg-8 py-4" id="kt_app_sidebar_nav">
         <!--begin::Nav wrapper-->
-        <div id="kt_app_sidebar_nav_wrapper" class="d-flex flex-column hover-scroll-y pe-4 me-n4" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar, #kt_app_sidebar_nav" data-kt-scroll-offset="5px">
+        <div id="kt_app_sidebar_nav_wrapper" class="d-flex flex-column hover-scroll-y pe-3 me-n4" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar, #kt_app_sidebar_nav" data-kt-scroll-offset="5px">
             <!--begin::Progress-->
             <div class="d-flex align-items-center flex-column w-100 mb-6">
 
