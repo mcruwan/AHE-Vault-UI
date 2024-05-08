@@ -251,7 +251,7 @@
                   <!-- Col-->
                   <div class="col-xl-8 mb-5 mb-xl-10">
                     <!-- Engage widget 12-->
-                    <div class="card card-custom bg-primary border-0 h-md-100">
+                    <div class="card card-custom border-0 h-md-100" style="background: #df4d02;">
                       <!-- Body-->
                       <div class="card-body d-flex justify-content-center flex-wrap ps-xl-15 pe-0">
                         <!-- Wrapper-->

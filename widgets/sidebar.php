@@ -186,7 +186,7 @@
                         <span>University Profile</span>
                     </div>
                     <div class="w-100 bg-light-primary rounded" style="height: 24px">
-                        <div id="uni-progress" class="bg-primary rounded" role="progressbar" style="height: 24px; width: 37%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div id="uni-progress" class="rounded" role="progressbar" style="height: 24px; width: 37%;background: #df4d02;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="d-flex w-100 mt-2">
                         <div class="fw-semibold fs-7 w-50 mt-auto text-left">
