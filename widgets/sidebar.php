@@ -13,7 +13,7 @@
         <div class="ms-3">
             <!--begin::Menu wrapper-->
             <div class="cursor-pointer position-relative symbol symbol-circle symbol-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
-                <img src="assets/media/avatars/300-2.jpg" alt="user" />
+                <img src="assets/media/avatars/300-6.jpg" alt="user" />
                 <div class="position-absolute rounded-circle bg-success start-100 top-100 h-8px w-8px ms-n3 mt-n3"></div>
             </div>
             <!--begin::User account menu-->
@@ -23,7 +23,7 @@
                     <div class="menu-content d-flex align-items-center px-3">
                         <!--begin::Avatar-->
                         <div class="symbol symbol-50px me-5">
-                            <img alt="Logo" src="assets/media/avatars/300-2.jpg" />
+                            <img alt="Logo" src="assets/media/avatars/300-6.jpg" />
                         </div>
                         <!--end::Avatar-->
                         <!--begin::Username-->
