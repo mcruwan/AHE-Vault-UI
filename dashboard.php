@@ -262,7 +262,7 @@
                           </div>
                           <!--end::Title-->
                           <!-- Text-->
-                          <span class="text-white fw-semibold fs-6 mb-6 d-block">Access your centralized data hub for rankings, ratings, and institutional surveys. <br>Leverage the power of data to gain valuable insights and maximize your institution's performance</span>
+                          <span class="text-white fw-semibold fs-6 mb-6 d-block" style="width: 93%;">Access your centralized data hub for rankings, ratings, and institutional surveys. Leverage the power of data to gain valuable insights and maximize your institution's performance</span>
                         </div>
                         <!-- Wrapper-->
                         <!-- Illustration-->
