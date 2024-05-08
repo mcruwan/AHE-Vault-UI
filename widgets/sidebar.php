@@ -4,8 +4,8 @@
     <div class="d-flex flex-stack px-4 px-lg-6 py-3 py-lg-8" id="kt_app_sidebar_logo">
         <!--begin::Logo image-->
         <a href="dashboard.php">
-            <img alt="Logo" src="assets/media/logos/demo23.svg" class="h-20px h-lg-25px theme-light-show" />
-            <img alt="Logo" src="assets/media/logos/demo23-dark.svg" class="h-20px h-lg-25px theme-dark-show" />
+            <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-30px h-lg-40px theme-light-show" />
+            <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-30px h-lg-40px theme-dark-show bg-white" />
         </a>
         <!--end::Logo image-->
         <!--begin::User menu-->

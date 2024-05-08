@@ -171,10 +171,10 @@
                         <!--begin::Title-->
                         <div class="card-title d-flex flex-column">
                           <!--begin::Amount-->
-                          <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">69,700</span>
+                          <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">00,000</span>
                           <!--end::Amount-->
                           <!--begin::Subtitle-->
-                          <span class="text-gray-500 pt-1 fw-semibold fs-6">Expected Earnings This Month</span>
+                          <span class="text-gray-500 pt-1 fw-semibold fs-6">Example Data Widget</span>
                           <!--end::Subtitle-->
                         </div>
                         <!--end::Title-->
@@ -197,13 +197,13 @@
                               <div class="bullet w-8px h-6px rounded-2 bg-success me-3"></div>
                               <!--end::Bullet-->
                               <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Used Truck freight</div>
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Data Set 1</div>
                               <!--end::Label-->
                               <!--begin::Separator-->
                               <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
                               <!--end::Separator-->
                               <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">45%</div>
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">0%</div>
                               <!--end::Stats-->
                             </div>
                             <!--end::Label-->
@@ -213,13 +213,13 @@
                               <div class="bullet w-8px h-6px rounded-2 bg-primary me-3"></div>
                               <!--end::Bullet-->
                               <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Used Ship freight</div>
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Data Set 2</div>
                               <!--end::Label-->
                               <!--begin::Separator-->
                               <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
                               <!--end::Separator-->
                               <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">21%</div>
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">0%</div>
                               <!--end::Stats-->
                             </div>
                             <!--end::Label-->
@@ -229,13 +229,13 @@
                               <div class="bullet w-8px h-6px rounded-2 me-3" style="background-color: #E4E6EF"></div>
                               <!--end::Bullet-->
                               <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Used Plane freight</div>
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Data Set 3</div>
                               <!--end::Label-->
                               <!--begin::Separator-->
                               <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
                               <!--end::Separator-->
                               <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">34%</div>
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">0%</div>
                               <!--end::Stats-->
                             </div>
                             <!--end::Label-->
