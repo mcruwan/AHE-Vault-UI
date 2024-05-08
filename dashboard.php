@@ -266,7 +266,7 @@
                         </div>
                         <!-- Wrapper-->
                         <!-- Illustration-->
-                        <img src="assets/media/illustrations/misc/credit-card.png" class="h-150px me-15" alt="" />
+                        <img src="assets/media/illustrations/sigma-1/17.png" class="h-150px me-15" alt="" />
                         <!--end::Illustration-->
                       </div>
                       <!--end::Body-->

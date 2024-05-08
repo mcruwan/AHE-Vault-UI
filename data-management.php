@@ -171,7 +171,7 @@
                                                 <div class="card-title m-0">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-50px w-50px bg-light">
-                                                        <img src="assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
+                                                        <img src="assets/media/svg/brand-logos/kanba.svg" alt="image" class="p-3" />
                                                     </div>
                                                     <!--end::Avatar-->
                                                 </div>
@@ -217,7 +217,7 @@
                                                 <div class="card-title m-0">
                                                     <!--begin::Avatar-->
                                                     <div class="symbol symbol-50px w-50px bg-light">
-                                                        <img src="assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
+                                                        <img src="assets/media/svg/brand-logos/kanba.svg" alt="image" class="p-3" />
                                                     </div>
                                                     <!--end::Avatar-->
                                                 </div>
