@@ -255,21 +255,14 @@
                       <!-- Body-->
                       <div class="card-body d-flex justify-content-center flex-wrap ps-xl-15 pe-0">
                         <!-- Wrapper-->
-                        <div class="flex-grow-1 mt-2 me-9 me-md-0">
+                        <div class="flex-grow-1 mt-2 me-9 me-md-0 align-content-center" style="width: 60%;">
                           <!-- Title-->
-                          <div class="position-relative text-white fs-1 z-index-2 fw-bold mb-5">
-                            Add New User
+                          <div class="position-relative text-white fs-1 z-index-2 fw-bold mb-8">
+                            Welcome to Your AppliedHE Vault Dashboard
                           </div>
                           <!--end::Title-->
                           <!-- Text-->
-                          <span class="text-white fw-semibold fs-6 mb-6 d-block">To access exclusive resources and stay updated on university events. <br>Please fill out the form below to create your user account.</span>
-                          <!--end::Text-->
-                          <!-- Action-->
-                          <div class="mb-0">
-                            <!-- <a href="https://devs.keenthemes.com/" class="btn btn-sm btn-success btn-color-white me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Now</a> -->
-                            <a href="add-user.php" class="btn btn-sm btn-success btn-color-white me-2">Add User</a>
-                          </div>
-                          <!-- Action-->
+                          <span class="text-white fw-semibold fs-6 mb-6 d-block">Access your centralized data hub for rankings, ratings, and institutional surveys. <br>Leverage the power of data to gain valuable insights and maximize your institution's performance</span>
                         </div>
                         <!-- Wrapper-->
                         <!-- Illustration-->
