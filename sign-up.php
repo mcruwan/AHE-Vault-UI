@@ -101,8 +101,8 @@
                                                 <!--end::Icon-->
                                                 <!--begin::Label-->
                                                 <div class="stepper-label">
-                                                    <h3 class="stepper-title">Profile Type</h3>
-                                                    <div class="stepper-desc fw-semibold">Setup Your Profile Details</div>
+                                                    <h3 class="stepper-title">User Profile</h3>
+                                                    <div class="stepper-desc fw-semibold">Setup Your Profile Settings</div>
                                                 </div>
                                                 <!--end::Label-->
                                             </div>
@@ -124,29 +124,6 @@
                                                 <!--end::Icon-->
                                                 <!--begin::Label-->
                                                 <div class="stepper-label">
-                                                    <h3 class="stepper-title">Profile Settings</h3>
-                                                    <div class="stepper-desc fw-semibold">Setup Your Profile Settings</div>
-                                                </div>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Wrapper-->
-                                            <!--begin::Line-->
-                                            <div class="stepper-line h-40px"></div>
-                                            <!--end::Line-->
-                                        </div>
-                                        <!--end::Step 2-->
-                                        <!--begin::Step 3-->
-                                        <div class="stepper-item" data-kt-stepper-element="nav">
-                                            <!--begin::Wrapper-->
-                                            <div class="stepper-wrapper">
-                                                <!--begin::Icon-->
-                                                <div class="stepper-icon w-40px h-40px">
-                                                    <i class="ki-outline ki-check fs-2 stepper-check"></i>
-                                                    <span class="stepper-number">3</span>
-                                                </div>
-                                                <!--end::Icon-->
-                                                <!--begin::Label-->
-                                                <div class="stepper-label">
                                                     <h3 class="stepper-title">University Info</h3>
                                                     <div class="stepper-desc fw-semibold">Your University Related Info</div>
                                                 </div>
@@ -157,15 +134,15 @@
                                             <div class="stepper-line h-40px"></div>
                                             <!--end::Line-->
                                         </div>
-                                        <!--end::Step 3-->
-                                        <!--begin::Step 4-->
+                                        <!--end::Step 2-->
+                                        <!--begin::Step 3-->
                                         <div class="stepper-item mark-completed" data-kt-stepper-element="nav">
                                             <!--begin::Wrapper-->
                                             <div class="stepper-wrapper">
                                                 <!--begin::Icon-->
                                                 <div class="stepper-icon w-40px h-40px">
                                                     <i class="ki-outline ki-check fs-2 stepper-check"></i>
-                                                    <span class="stepper-number">4</span>
+                                                    <span class="stepper-number">3</span>
                                                 </div>
                                                 <!--end::Icon-->
                                                 <!--begin::Label-->
@@ -177,7 +154,7 @@
                                             </div>
                                             <!--end::Wrapper-->
                                         </div>
-                                        <!--end::Step 4-->
+                                        <!--end::Step 3-->
                                     </div>
                                     <!--end::Nav-->
                                 </div>
@@ -190,68 +167,6 @@
                                 <form class="card-body py-20 w-100 mw-xl-700px px-9" novalidate="novalidate" id="kt_create_account_form" action="">
                                     <!--begin::Step 1-->
                                     <div class="current" data-kt-stepper-element="content">
-                                        <!--begin::Wrapper-->
-                                        <div class="w-100">
-                                            <!--begin::Heading-->
-                                            <div class="pb-10 pb-lg-15">
-                                                <!--begin::Title-->
-                                                <h2 class="fw-bold d-flex align-items-center text-gray-900">Choose Profile Type
-                                                    <span class="ms-1" data-bs-toggle="tooltip" title="Billing is issued based on your selected account typ">
-                                                        <i class="ki-outline ki-information-5 text-gray-500 fs-6"></i>
-                                                    </span>
-                                                </h2>
-                                                <!--end::Title-->
-                                                <!--begin::Notice-->
-                                                <div class="text-muted fw-semibold fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                                <!--end::Notice-->
-                                            </div>
-                                            <!--end::Heading-->
-                                            <!--begin::Input group-->
-                                            <div class="fv-row">
-                                                <!--begin::Row-->
-                                                <div class="row">
-                                                    <!--begin::Col-->
-                                                    <div class="col-lg-6">
-                                                        <!--begin::Option-->
-                                                        <input type="radio" class="btn-check" name="account_type" value="personal" checked="checked" id="kt_create_account_form_account_type_personal" />
-                                                        <label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10" for="kt_create_account_form_account_type_personal">
-                                                            <i class="ki-outline ki-badge fs-3x me-5"></i>
-                                                            <!--begin::Info-->
-                                                            <span class="d-block fw-semibold text-start">
-                                                                <span class="text-gray-900 fw-bold d-block fs-4 mb-2">Personal Profile</span>
-                                                                <span class="text-muted fw-semibold fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                                            </span>
-                                                            <!--end::Info-->
-                                                        </label>
-                                                        <!--end::Option-->
-                                                    </div>
-                                                    <!--end::Col-->
-                                                    <!--begin::Col-->
-                                                    <div class="col-lg-6">
-                                                        <!--begin::Option-->
-                                                        <input type="radio" class="btn-check" name="account_type" value="corporate" id="kt_create_account_form_account_type_corporate" />
-                                                        <label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center" for="kt_create_account_form_account_type_corporate">
-                                                            <i class="ki-outline ki-briefcase fs-3x me-5"></i>
-                                                            <!--begin::Info-->
-                                                            <span class="d-block fw-semibold text-start">
-                                                                <span class="text-gray-900 fw-bold d-block fs-4 mb-2">Corporate Profile</span>
-                                                                <span class="text-muted fw-semibold fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                                                            </span>
-                                                            <!--end::Info-->
-                                                        </label>
-                                                        <!--end::Option-->
-                                                    </div>
-                                                    <!--end::Col-->
-                                                </div>
-                                                <!--end::Row-->
-                                            </div>
-                                            <!--end::Input group-->
-                                        </div>
-                                        <!--end::Wrapper-->
-                                    </div>
-                                    <!--end::Step 1-->
-                                    <!--begin::Step 2-->
-                                    <div data-kt-stepper-element="content">
                                         <!--begin::Wrapper-->
                                         <div class="w-100">
                                             <!--begin::Heading-->
@@ -317,8 +232,8 @@
                                         </div>
                                         <!--end::Wrapper-->
                                     </div>
-                                    <!--end::Step 2-->
-                                    <!--begin::Step 3-->
+                                    <!--end::Step 1-->
+                                    <!--begin::Step 2-->
                                     <div data-kt-stepper-element="content">
                                         <!--begin::Wrapper-->
                                         <div class="w-100">
@@ -601,8 +516,8 @@
                                         </div>
                                         <!--end::Wrapper-->
                                     </div>
-                                    <!--end::Step 3-->
-                                    <!--begin::Step 4-->
+                                    <!--end::Step 2-->
+                                    <!--begin::Step 3-->
                                     <div data-kt-stepper-element="content">
                                         <!--begin::Wrapper-->
                                         <div class="w-100">
@@ -624,7 +539,7 @@
                                         </div>
                                         <!--end::Wrapper-->
                                     </div>
-                                    <!--end::Step 4-->
+                                    <!--end::Step 3-->
                                     <!--begin::Actions-->
                                     <div class="d-flex flex-stack pt-10">
                                         <!--begin::Wrapper-->
