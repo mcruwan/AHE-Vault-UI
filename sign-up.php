@@ -588,22 +588,9 @@
                                             </div>
                                             <div class="fv-row mb-10">
                                                 <!--begin::Label-->
-                                                <label class="form-label required">Institutional recognition</label>
-                                                <select name="institutional-recognition" class="form-select form-select-solid form-select-lg fw-semibold">
-                                                    <option value="Yes">Yes</option>
-                                                    <option value="No">No</option>
-                                                </select>
-                                            </div>
-                                            <div class="fv-row mb-10">
-                                                <!--begin::Label-->
                                                 <label class="form-label required">Official web domain for faculty email</label>
                                                 <input type="email" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" />
 
-                                            </div>
-                                            <div class="fv-row mb-10">
-                                                <!--begin::Label-->
-                                                <label class="form-label required">Institution name in other languages</label>
-                                                <input type="text" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" />
                                             </div>
                                             <div class="fv-row mb-10">
                                                 <!--begin::Label-->
