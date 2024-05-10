@@ -74,9 +74,13 @@
             <div class="d-flex flex-column flex-column-fluid">
 
                 <!--begin::Content-->
-                <div id="kt_app_content" class="app-content flex-column-fluid mt-20">
+                <div id="kt_app_content" class="app-content flex-column-fluid align-content-center">
                     <!--begin::Content container-->
                     <div id="kt_app_content_container" class="app-container container-xxl">
+
+                        <h1 class="text-center mb-3">Sign Up</h1>
+                        <div class="text-center text-muted mb-15 fw-semibold fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
                         <!--begin::Stepper-->
                         <div class="stepper stepper-pills stepper-column d-flex flex-column flex-xl-row flex-row-fluid gap-10" id="kt_create_account_stepper">
                             <!--begin::Aside-->
