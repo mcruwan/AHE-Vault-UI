@@ -14,7 +14,7 @@
     <meta property="og:title" content="Vault - Sign In" />
     <meta property="og:url" content="https://keenthemes.com/metronic" />
     <meta property="og:site_name" content="Metronic by Keenthemes" />
-    <link rel="canonical" href="http://sign-up.html" />
+    <link rel="canonical" href="http://sign-up.php" />
     <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
