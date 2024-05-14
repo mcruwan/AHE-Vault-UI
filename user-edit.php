@@ -181,7 +181,6 @@
                                         <form class="form">
                                             <!--begin::Card body-->
                                             <div class="card-body p-9">
-                                                <!--begin::Row-->
                                                 <div class="row mb-7">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">First Name</label>
@@ -196,8 +195,6 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <!--end::Row-->
-                                                <!--begin::Input group-->
                                                 <div class="row mb-7">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Last Name</label>
@@ -212,8 +209,6 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <!--end::Input group-->
-                                                <!--begin::Input group-->
                                                 <div class="row mb-7">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Job Title</label>
@@ -228,8 +223,6 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <!--end::Input group-->
-                                                <!--begin::Input group-->
                                                 <div class="row mb-7">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Email Address</label>

@@ -76,7 +76,7 @@
                 <!--begin::Content-->
                 <div id="kt_app_content" class="app-content flex-column-fluid align-content-center">
                     <!--begin::Content container-->
-                    <div id="kt_app_content_container" class="app-container container-xxl">
+                    <div id="kt_app_content_container" class="app-container container-xxl py-15">
 
                         <h1 class="text-center mb-3">Sign Up</h1>
                         <div class="text-center text-muted mb-15 fw-semibold fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
@@ -179,17 +179,44 @@
                                                 <!--end::Notice-->
                                             </div>
                                             <div class="fv-row mb-8">
-                                                <!--begin::Email-->
-                                                <input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" />
-                                                <!--end::Email-->
+                                                <!--begin::Label-->
+                                                <label class="fw-semibold">First Name</label>
+                                                <input type="text" name="fname" class="form-control bg-transparent" />
+                                                <!--end::Col-->
+                                            </div>
+                                            <div class="fv-row mb-8">
+                                                <!--begin::Label-->
+                                                <label class="form-label required">Last Name</label>
+                                                <input type="text" name="lname" class="form-control bg-transparent" />
+                                            </div>
+                                            <div class="fv-row mb-8">
+                                                <!--begin::Label-->
+                                                <label class="form-label required">Job Title</label>
+                                                <input type="text" name="title" class="form-control bg-transparent" />
+                                            </div>
+                                            <div class="fv-row mb-8">
+                                                <!--begin::Label-->
+                                                <label class="form-label required">Email Address</label>
+                                                <input type="email" name="email" class="form-control bg-transparent" />
+                                            </div>
+                                            <div class="fv-row mb-8">
+                                                <!--begin::Label-->
+                                                <label class="form-label required">Contact Number</label>
+                                                <input type="text" name="phone" class="form-control bg-transparent" />
+                                            </div>
+                                            <div class="fv-row mb-8">
+                                                <!--begin::Label-->
+                                                <label class="form-label required">Department/Office</label>
+                                                <input type="text" name="department" class="form-control bg-transparent" />
                                             </div>
                                             <!--begin::Input group-->
                                             <div class="fv-row mb-8" data-kt-password-meter="true">
                                                 <!--begin::Wrapper-->
                                                 <div class="mb-1">
+                                                    <label class="form-label required">Password</label>
                                                     <!--begin::Input wrapper-->
                                                     <div class="position-relative mb-3">
-                                                        <input class="form-control bg-transparent" type="password" placeholder="Password" name="password" autocomplete="off" />
+                                                        <input class="form-control bg-transparent" type="password" name="password" autocomplete="off" />
                                                         <span class="btn btn-sm btn-icon position-absolute translate-middle top-50 end-0 me-n2" data-kt-password-meter-control="visibility">
                                                             <i class="ki-outline ki-eye-slash fs-2"></i>
                                                             <i class="ki-outline ki-eye fs-2 d-none"></i>
@@ -216,8 +243,9 @@
                                             <!--end::Input group=-->
                                             <!--end::Input group=-->
                                             <div class="fv-row mb-8">
+                                                <label class="form-label required">Repeat Password</label>
                                                 <!--begin::Repeat Password-->
-                                                <input placeholder="Repeat Password" name="confirm-password" type="password" autocomplete="off" class="form-control bg-transparent" />
+                                                <input name="confirm-password" type="password" autocomplete="off" class="form-control bg-transparent" />
                                                 <!--end::Repeat Password-->
                                             </div>
                                             <!--end::Input group=-->
@@ -495,7 +523,7 @@
                                             </div>
                                             <div class="fv-row mb-10">
                                                 <!--begin::Label-->
-                                                <label class="form-label required">Official website</label>
+                                                <label class="form-label required">Official Website</label>
                                                 <!--end::Label-->
                                                 <!--begin::Col-->
                                                 <input type="url" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" />
@@ -503,16 +531,10 @@
                                             </div>
                                             <div class="fv-row mb-10">
                                                 <!--begin::Label-->
-                                                <label class="form-label required">Official web domain for faculty email</label>
+                                                <label class="form-label required">University Email</label>
                                                 <input type="email" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" />
 
                                             </div>
-                                            <div class="fv-row mb-10">
-                                                <!--begin::Label-->
-                                                <label class="form-label required">Google Scholar profile</label>
-                                                <input type="url" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" />
-                                            </div>
-                                            <!--end::Input group-->
                                         </div>
                                         <!--end::Wrapper-->
                                     </div>
