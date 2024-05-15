@@ -78,8 +78,10 @@
                     <!--begin::Content container-->
                     <div id="kt_app_content_container" class="app-container container-xxl py-15">
 
-                        <h1 class="text-center mb-3">Sign Up</h1>
-                        <div class="text-center text-muted mb-15 fw-semibold fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="text-center">
+                            <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-40px h-lg-70px theme-light-show" />
+                        </div>
+                        <h1 class="text-center mt-5 mb-16">Sign Up</h1>
 
                         <!--begin::Stepper-->
                         <div class="stepper stepper-pills stepper-column d-flex flex-column flex-xl-row flex-row-fluid gap-10" id="kt_create_account_stepper">
