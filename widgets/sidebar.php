@@ -214,75 +214,11 @@
                         <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
                             <!--begin::Icon-->
                             <span class="mb-2">
-                                <i class="ki-outline ki-calendar fs-1"></i>
+                                <i class="ki-outline ki-user fs-1"></i>
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 1</span>
-                            <!--end::Label-->
-                        </a>
-                        <!--end::Link-->
-                    </div>
-                    <!--end::Col-->
-                    <!--begin::Col-->
-                    <div class="col mb-4">
-                        <!--begin::Link-->
-                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
-                            <!--begin::Icon-->
-                            <span class="mb-2">
-                                <i class="ki-outline ki-security-check fs-1"></i>
-                            </span>
-                            <!--end::Icon-->
-                            <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 2</span>
-                            <!--end::Label-->
-                        </a>
-                        <!--end::Link-->
-                    </div>
-                    <!--end::Col-->
-                    <!--begin::Col-->
-                    <div class="col mb-4">
-                        <!--begin::Link-->
-                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
-                            <!--begin::Icon-->
-                            <span class="mb-2">
-                                <i class="ki-outline ki-wifi-square fs-1"></i>
-                            </span>
-                            <!--end::Icon-->
-                            <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 3</span>
-                            <!--end::Label-->
-                        </a>
-                        <!--end::Link-->
-                    </div>
-                    <!--end::Col-->
-                    <!--begin::Col-->
-                    <div class="col mb-4">
-                        <!--begin::Link-->
-                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
-                            <!--begin::Icon-->
-                            <span class="mb-2">
-                                <i class="ki-outline ki-chart-line-up-2 fs-1"></i>
-                            </span>
-                            <!--end::Icon-->
-                            <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 4</span>
-                            <!--end::Label-->
-                        </a>
-                        <!--end::Link-->
-                    </div>
-                    <!--end::Col-->
-                    <!--begin::Col-->
-                    <div class="col mb-4">
-                        <!--begin::Link-->
-                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
-                            <!--begin::Icon-->
-                            <span class="mb-2">
-                                <i class="ki-outline ki-shield-tick fs-1"></i>
-                            </span>
-                            <!--end::Icon-->
-                            <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 5</span>
+                            <span class="fs-7 fw-bold">Profile</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -298,7 +234,71 @@
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 6</span>
+                            <span class="fs-7 fw-bold">Rankings</span>
+                            <!--end::Label-->
+                        </a>
+                        <!--end::Link-->
+                    </div>
+                    <!--end::Col-->
+                    <!--begin::Col-->
+                    <div class="col mb-4">
+                        <!--begin::Link-->
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                            <!--begin::Icon-->
+                            <span class="mb-2">
+                                <i class="ki-outline ki-plus fs-1"></i>
+                            </span>
+                            <!--end::Icon-->
+                            <!--begin::Label-->
+                            <span class="fs-7 fw-bold">Add User</span>
+                            <!--end::Label-->
+                        </a>
+                        <!--end::Link-->
+                    </div>
+                    <!--end::Col-->
+                    <!--begin::Col-->
+                    <div class="col mb-4">
+                        <!--begin::Link-->
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                            <!--begin::Icon-->
+                            <span class="mb-2">
+                                <i class="ki-outline ki-chart-line-up-2 fs-1"></i>
+                            </span>
+                            <!--end::Icon-->
+                            <!--begin::Label-->
+                            <span class="fs-7 fw-bold">Charts</span>
+                            <!--end::Label-->
+                        </a>
+                        <!--end::Link-->
+                    </div>
+                    <!--end::Col-->
+                    <!--begin::Col-->
+                    <div class="col mb-4">
+                        <!--begin::Link-->
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                            <!--begin::Icon-->
+                            <span class="mb-2">
+                                <i class="ki-outline ki-shield-tick fs-1"></i>
+                            </span>
+                            <!--end::Icon-->
+                            <!--begin::Label-->
+                            <span class="fs-7 fw-bold">Timeline</span>
+                            <!--end::Label-->
+                        </a>
+                        <!--end::Link-->
+                    </div>
+                    <!--end::Col-->
+                    <!--begin::Col-->
+                    <div class="col mb-4">
+                        <!--begin::Link-->
+                        <a href="#" class="btn btn-icon btn-outline btn-bg-light btn-active-light-primary btn-flex flex-column flex-center w-lg-90px h-lg-90px w-70px h-70px border-gray-200" data-kt-button="true">
+                            <!--begin::Icon-->
+                            <span class="mb-2">
+                                <i class="ki-outline ki-user fs-1"></i>
+                            </span>
+                            <!--end::Icon-->
+                            <!--begin::Label-->
+                            <span class="fs-7 fw-bold">Users</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -314,7 +314,7 @@
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 7</span>
+                            <span class="fs-7 fw-bold">Institution</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->
@@ -330,7 +330,7 @@
                             </span>
                             <!--end::Icon-->
                             <!--begin::Label-->
-                            <span class="fs-7 fw-bold">Button 8</span>
+                            <span class="fs-7 fw-bold">Settings</span>
                             <!--end::Label-->
                         </a>
                         <!--end::Link-->

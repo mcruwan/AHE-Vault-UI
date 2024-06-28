@@ -171,10 +171,10 @@
                         <!--begin::Title-->
                         <div class="card-title d-flex flex-column">
                           <!--begin::Amount-->
-                          <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">00,000</span>
+                          <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">69,852</span>
                           <!--end::Amount-->
                           <!--begin::Subtitle-->
-                          <span class="text-gray-500 pt-1 fw-semibold fs-6">Example Data Widget</span>
+                          <span class="text-gray-500 pt-1 fw-semibold fs-6">Total Number of Students</span>
                           <!--end::Subtitle-->
                         </div>
                         <!--end::Title-->
@@ -197,13 +197,13 @@
                               <div class="bullet w-8px h-6px rounded-2 bg-success me-3"></div>
                               <!--end::Bullet-->
                               <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Data Set 1</div>
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Management</div>
                               <!--end::Label-->
                               <!--begin::Separator-->
                               <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
                               <!--end::Separator-->
                               <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">0%</div>
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">45%</div>
                               <!--end::Stats-->
                             </div>
                             <!--end::Label-->
@@ -213,13 +213,13 @@
                               <div class="bullet w-8px h-6px rounded-2 bg-primary me-3"></div>
                               <!--end::Bullet-->
                               <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Data Set 2</div>
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">IT</div>
                               <!--end::Label-->
                               <!--begin::Separator-->
                               <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
                               <!--end::Separator-->
                               <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">0%</div>
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">30%</div>
                               <!--end::Stats-->
                             </div>
                             <!--end::Label-->
@@ -229,13 +229,13 @@
                               <div class="bullet w-8px h-6px rounded-2 me-3" style="background-color: #E4E6EF"></div>
                               <!--end::Bullet-->
                               <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Data Set 3</div>
+                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Psychology</div>
                               <!--end::Label-->
                               <!--begin::Separator-->
                               <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
                               <!--end::Separator-->
                               <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">0%</div>
+                              <div class="ms-auto fw-bolder text-gray-700 text-end">25%</div>
                               <!--end::Stats-->
                             </div>
                             <!--end::Label-->
