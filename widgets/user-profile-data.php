@@ -11,7 +11,7 @@
             </div>
             <!--end::Pic-->
             <!--begin::Info-->
-            <div class="flex-grow-1">
+            <div class="align-content-center">
                 <!--begin::Title-->
                 <div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
                     <!--begin::User-->
@@ -37,46 +37,7 @@
                     <!--end::User-->
 
                 </div>
-                <!--end::Title-->
-                <!--begin::Stats-->
-                <div class="d-flex flex-wrap flex-stack">
-                    <!--begin::Wrapper-->
-                    <div class="d-flex flex-column flex-grow-1 pe-8">
-                        <!--begin::Stats-->
-                        <div class="d-flex flex-wrap">
-
-                            <!--begin::Stat-->
-                            <div class="border border-gray-300 border-dashed rounded min-w-100px py-3 px-4 me-6 mb-3">
-                                <!--begin::Number-->
-                                <div class="d-flex align-items-center">
-                                    <i class="ki-outline ki-arrow-down fs-3 text-danger me-2"></i>
-                                    <div class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="12">0</div>
-                                </div>
-                                <!--end::Number-->
-                                <!--begin::Label-->
-                                <div class="fw-semibold fs-6 text-gray-500">Projects</div>
-                                <!--end::Label-->
-                            </div>
-                            <!--end::Stat-->
-                            <!--begin::Stat-->
-                            <div class="border border-gray-300 border-dashed rounded min-w-100px py-3 px-4 me-6 mb-3">
-                                <!--begin::Number-->
-                                <div class="d-flex align-items-center">
-                                    <i class="ki-outline ki-arrow-up fs-3 text-success me-2"></i>
-                                    <div class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="10">0</div>
-                                </div>
-                                <!--end::Number-->
-                                <!--begin::Label-->
-                                <div class="fw-semibold fs-6 text-gray-500">Exams</div>
-                                <!--end::Label-->
-                            </div>
-                            <!--end::Stat-->
-                        </div>
-                        <!--end::Stats-->
-                    </div>
-                    <!--end::Wrapper-->
-                </div>
-                <!--end::Stats-->
+                <!--end::Title-->                
             </div>
             <!--end::Info-->
         </div>

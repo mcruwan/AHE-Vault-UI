@@ -181,7 +181,7 @@
                                         <form class="form">
                                             <!--begin::Card body-->
                                             <div class="card-body p-9">
-                                                <div class="row mb-7">
+                                                <div class="row mb-7 align-items-center">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">First Name</label>
                                                     <!--end::Label-->
@@ -195,7 +195,7 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <div class="row mb-7">
+                                                <div class="row mb-7 align-items-center">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Last Name</label>
                                                     <!--end::Label-->
@@ -209,7 +209,7 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <div class="row mb-7">
+                                                <div class="row mb-7 align-items-center">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Job Title</label>
                                                     <!--end::Label-->
@@ -223,7 +223,7 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <div class="row mb-7">
+                                                <div class="row mb-7 align-items-center">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Email Address</label>
                                                     <!--end::Label-->
@@ -237,7 +237,7 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <div class="row mb-7">
+                                                <div class="row mb-7 align-items-center">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Contact Number</label>
                                                     <!--end::Label-->
@@ -251,7 +251,7 @@
                                                     </div>
                                                     <!--end::Col-->
                                                 </div>
-                                                <div class="row mb-7">
+                                                <div class="row mb-7 align-items-center">
                                                     <!--begin::Label-->
                                                     <label class="col-lg-4 fw-semibold text-muted">Department/Office</label>
                                                     <!--end::Label-->
@@ -260,6 +260,20 @@
                                                         <div class="row">
                                                             <div class="col-lg-6 fv-row">
                                                                 <input type="text" name="department" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="Department/Office" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end::Col-->
+                                                </div>
+                                                <div class="row mb-7 align-items-center">
+                                                    <!--begin::Label-->
+                                                    <label class="col-lg-4 fw-semibold text-muted">Data Update permissions</label>
+                                                    <!--end::Label-->
+                                                    <!--begin::Col-->
+                                                    <div class="col-lg-8">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 fv-row">
+                                                            <input type="checkbox" id="update" name="update" value="yes" style="width: 25px;height: 25px;">
                                                             </div>
                                                         </div>
                                                     </div>

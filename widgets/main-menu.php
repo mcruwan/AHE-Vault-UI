@@ -22,5 +22,14 @@
         </span>
     </div>
 
+    <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
+        <!--begin:Menu link-->
+        <span class="menu-link">
+            <a href="analytics-reporting.php" class="menu-title">More</a>
+        </span>
+
+        <?php include_once('widgets/sub-menu.php'); ?>
+    </div>
+
 </div>
 <!--end::Menu-->

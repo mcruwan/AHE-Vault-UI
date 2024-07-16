@@ -200,11 +200,34 @@
                                             </div>
                                         </div>
                                         <div class="row mb-7">
-                                            <label class="col-lg-4 fw-semibold text-muted">Graduate outcomes
-                                                <span class="ms-1" data-bs-toggle="tooltip" title="Data about total graduates, graduates employed within 6 months, graduates pursuing further studies within 6 months, and graduate outcome unknown/unresponsive."><i class="ki-outline ki-information fs-7"></i></span>
-                                            </label>
+                                            <label class="col-lg-4 fw-semibold text-muted">Total graduates</label>
                                             <div class="col-lg-8 d-flex align-items-center">
-                                                <span class="fw-bold fs-6 text-gray-800 me-2">-</span>
+                                                <span class="fw-bold fs-6 text-gray-800 me-2">229</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">Graduates employed within 6 months</label>
+                                            <div class="col-lg-8 d-flex align-items-center">
+                                                <span class="fw-bold fs-6 text-gray-800 me-2">850</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">Graduates pursuing further studies within 6 months</label>
+                                            <div class="col-lg-8 d-flex align-items-center">
+                                                <span class="fw-bold fs-6 text-gray-800 me-2">100</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">Graduate outcome unknown/unresponsive</label>
+                                            <div class="col-lg-8 d-flex align-items-center">
+                                                <span class="fw-bold fs-6 text-gray-800 me-2">50</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-7">
+                                            <label class="col-lg-4 fw-semibold text-muted">proof of a survey measuring graduate outcomes and/or official reports submitted to the government</label>
+                                            <div class="col-lg-8 d-flex align-items-center">
+                                            <a href="#" class="btn btn-sm btn-primary align-self-center">View</a>
+
                                             </div>
                                         </div>
                                     </div>

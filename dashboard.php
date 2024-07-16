@@ -165,93 +165,54 @@
                 <div class="row g-5 g-xl-10">
                   <!-- Col-->
                   <div class="col-xl-4 mb-xl-10">
-                    <div class="card card-flush">
-                      <!--begin::Header-->
-                      <div class="card-header pt-5">
-                        <!--begin::Title-->
-                        <div class="card-title d-flex flex-column">
-                          <!--begin::Amount-->
-                          <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">69,852</span>
-                          <!--end::Amount-->
-                          <!--begin::Subtitle-->
-                          <span class="text-gray-500 pt-1 fw-semibold fs-6">Total Number of Students</span>
-                          <!--end::Subtitle-->
-                        </div>
-                        <!--end::Title-->
-                      </div>
-                      <!--end::Header-->
-                      <!--begin::Card body-->
-                      <div class="card-body d-flex align-items-end">
-                        <!--begin::Wrapper-->
-                        <div class="d-flex align-items-center flex-wrap">
-                          <!--begin::Chart-->
-                          <div class="d-flex me-7 me-xxl-10">
-                            <div id="kt_card_widget_10_chart" class="min-h-auto" style="height: 78px; width: 78px" data-kt-size="78" data-kt-line="11"></div>
+
+                    <div class="card border-hover-primary h-md-100">
+                      <!--begin::Card header-->
+                      <div class="card-header border-0 pt-9">
+                        <!--begin::Card Title-->
+                        <div class="card-title m-0">
+                          <!--begin::Avatar-->
+                          <div class="symbol symbol-50px w-50px bg-light">
+                            <img src="assets/media/svg/brand-logos/kanba.svg" alt="image" class="p-3" />
                           </div>
-                          <!--end::Chart-->
-                          <!--begin::Labels-->
-                          <div class="d-flex flex-column content-justify-center flex-grow-1">
-                            <!--begin::Label-->
-                            <div class="d-flex fs-6 fw-semibold align-items-center">
-                              <!--begin::Bullet-->
-                              <div class="bullet w-8px h-6px rounded-2 bg-success me-3"></div>
-                              <!--end::Bullet-->
-                              <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Management</div>
-                              <!--end::Label-->
-                              <!--begin::Separator-->
-                              <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
-                              <!--end::Separator-->
-                              <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">45%</div>
-                              <!--end::Stats-->
-                            </div>
-                            <!--end::Label-->
-                            <!--begin::Label-->
-                            <div class="d-flex fs-6 fw-semibold align-items-center my-1">
-                              <!--begin::Bullet-->
-                              <div class="bullet w-8px h-6px rounded-2 bg-primary me-3"></div>
-                              <!--end::Bullet-->
-                              <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">IT</div>
-                              <!--end::Label-->
-                              <!--begin::Separator-->
-                              <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
-                              <!--end::Separator-->
-                              <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">30%</div>
-                              <!--end::Stats-->
-                            </div>
-                            <!--end::Label-->
-                            <!--begin::Label-->
-                            <div class="d-flex fs-6 fw-semibold align-items-center">
-                              <!--begin::Bullet-->
-                              <div class="bullet w-8px h-6px rounded-2 me-3" style="background-color: #E4E6EF"></div>
-                              <!--end::Bullet-->
-                              <!--begin::Label-->
-                              <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Psychology</div>
-                              <!--end::Label-->
-                              <!--begin::Separator-->
-                              <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
-                              <!--end::Separator-->
-                              <!--begin::Stats-->
-                              <div class="ms-auto fw-bolder text-gray-700 text-end">25%</div>
-                              <!--end::Stats-->
-                            </div>
-                            <!--end::Label-->
-                          </div>
-                          <!--end::Labels-->
+                          <!--end::Avatar-->
                         </div>
-                        <!--end::Wrapper-->
+                        <!--end::Car Title-->
+                        <!--begin::Card toolbar-->
+                        <div class="card-toolbar">
+                          <span class="badge badge-light-primary fw-bold me-auto px-4 py-3">In-Progress</span>
+                        </div>
+                        <!--end::Card toolbar-->
                       </div>
-                      <!--end::Card body-->
+                      <!--end:: Card header-->
+                      <!--begin:: Card body-->
+                      <div class="card-body p-9">
+                        <!--begin::Name-->
+                        <div class="fs-3 fw-bold text-gray-900">Public & Private University Ranking: ASEAN 2025</div>
+                        <!--end::Name-->
+
+                        <div class="border border-gray-300 border-dashed rounded min-w-100px w-100 p-4 my-4">
+                          <div class="d-flex justify-content-between fw-bolder fs-6 text-gray-800 w-100 mt-auto mb-3">
+                            <span>Data Completion Progress</span>
+                          </div>
+                          <div class="w-100 bg-light-primary rounded" style="height: 24px">
+                            <div id="uni-progress" class="rounded" role="progressbar" style="height: 24px; width: 70%;background: #17c653;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="fw-semibold fs-7 w-100 text-left mt-2">
+                            <span id="uni-progress-text">70% Completed</span>
+                          </div>
+                        </div>
+
+                        <a href="uni-data-overview.php?title=2" class="btn btn-primary mx-auto mt-8 d-block" type="button">Complete Submission</a>
+                      </div>
+                      <!--end:: Card body-->
                     </div>
                   </div>
                   <!--end::Col-->
                   <!-- Col-->
                   <div class="col-xl-8 mb-5 mb-xl-10">
-                    <!-- Engage widget 12-->
-                    <div class="card card-custom border-0 h-md-100" style="background: #df4d02;">
+
+                    <div class="card card-custom border-0 mb-4" style="background: #17c653;">
                       <!-- Body-->
                       <div class="card-body d-flex justify-content-center flex-wrap ps-xl-15 pe-0">
                         <!-- Wrapper-->
@@ -271,6 +232,29 @@
                       </div>
                       <!--end::Body-->
                     </div>
+
+                    <!-- Engage widget 12-->
+                    <div class="card card-custom border-0">
+                      <!-- Body-->
+                      <div class="card-body d-flex justify-content-center flex-wrap ps-xl-15 pe-0">
+                        <!-- Wrapper-->
+                        <div class="flex-grow-1 mt-2 me-9 me-md-0 align-content-center" style="width: 60%;">
+                          <!-- Title-->
+                          <div class="position-relative fs-1 z-index-2 fw-bold mb-8">
+                            Announcements
+                          </div>
+                          <!--end::Title-->
+                          <!-- Text-->
+                          <span class="fw-semibold fs-6 mb-6 d-block" style="width: 93%;">Data Submission for Public & Private University Ranking: ASEAN 2025 ends on July 31, 2024. Please complete your data if you have not done so.</span>
+                        </div>
+                        <!-- Wrapper-->
+                        <!-- Illustration-->
+                        <img src="assets/media/illustrations/unitedpalms-1/4.png" class="h-150px me-15" alt="" />
+                        <!--end::Illustration-->
+                      </div>
+                      <!--end::Body-->
+                    </div>
+
                     <!--end::Engage widget 12-->
                   </div>
                   <!--end::Col-->
@@ -281,7 +265,7 @@
                   <!-- Col-->
                   <div class="col-xl-4 mb-xl-10">
                     <!-- Chart widget 29-->
-                    <div class="card card-flush">
+                    <div class="card card-flush h-md-100">
                       <!--begin::Header-->
                       <div class="card-header pt-5">
                         <!--begin::Title-->
@@ -512,11 +496,177 @@
                     </div>
                     <!--end::Chart widget 29-->
                   </div>
+
                   <!--end::Col-->
                   <!-- Col-->
                   <div class="col-xl-8 mb-5 mb-xl-10">
+                    <div class="row g-5 g-xl-10">
+
+                      <div class="col-xl-6 mb-8">
+                        <div class="card card-flush">
+                          <!--begin::Header-->
+                          <div class="card-header pt-5">
+                            <!--begin::Title-->
+                            <div class="card-title d-flex flex-column">
+                              <!--begin::Subtitle-->
+                              <span class="fw-bold fs-1">Faculty & Students Metrics</span>
+                              <!--end::Subtitle-->
+                            </div>
+                            <!--end::Title-->
+                          </div>
+                          <!--end::Header-->
+                          <!--begin::Card body-->
+                          <div class="card-body align-items-end pt-3">
+                            <!--begin::Wrapper-->
+                            <h3>Faculty</h3>
+                            <div class="d-flex align-items-center flex-wrap">
+                              <!--begin::Labels-->
+                              <div class="d-flex flex-column content-justify-center flex-grow-1">
+                                <!--begin::Label-->
+                                <div class="d-flex fs-6 fw-semibold align-items-center">
+                                  <!--begin::Bullet-->
+                                  <div class="bullet w-8px h-6px rounded-2 bg-success me-3"></div>
+                                  <!--end::Bullet-->
+                                  <!--begin::Label-->
+                                  <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Total</div>
+                                  <!--end::Label-->
+                                  <!--begin::Separator-->
+                                  <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                                  <!--end::Separator-->
+                                  <!--begin::Stats-->
+                                  <div class="ms-auto fw-bolder text-gray-700 text-end">200</div>
+                                  <!--end::Stats-->
+                                </div>
+                                <!--end::Label-->
+                                <!--begin::Label-->
+                                <div class="d-flex fs-6 fw-semibold align-items-center my-1">
+                                  <!--begin::Bullet-->
+                                  <div class="bullet w-8px h-6px rounded-2 bg-primary me-3"></div>
+                                  <!--end::Bullet-->
+                                  <!--begin::Label-->
+                                  <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">International</div>
+                                  <!--end::Label-->
+                                  <!--begin::Separator-->
+                                  <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                                  <!--end::Separator-->
+                                  <!--begin::Stats-->
+                                  <div class="ms-auto fw-bolder text-gray-700 text-end">50</div>
+                                  <!--end::Stats-->
+                                </div>
+                                <!--end::Label-->
+                              </div>
+                              <!--end::Labels-->
+                            </div>
+
+                            <h3 class="mt-4">Students</h3>
+                            <div class="d-flex align-items-center flex-wrap">
+
+                              <!--begin::Labels-->
+                              <div class="d-flex flex-column content-justify-center flex-grow-1">
+                                <!--begin::Label-->
+                                <div class="d-flex fs-6 fw-semibold align-items-center">
+                                  <!--begin::Bullet-->
+                                  <div class="bullet w-8px h-6px rounded-2 bg-success me-3"></div>
+                                  <!--end::Bullet-->
+                                  <!--begin::Label-->
+                                  <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">Total</div>
+                                  <!--end::Label-->
+                                  <!--begin::Separator-->
+                                  <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                                  <!--end::Separator-->
+                                  <!--begin::Stats-->
+                                  <div class="ms-auto fw-bolder text-gray-700 text-end">5000</div>
+                                  <!--end::Stats-->
+                                </div>
+                                <!--end::Label-->
+                                <!--begin::Label-->
+                                <div class="d-flex fs-6 fw-semibold align-items-center my-1">
+                                  <!--begin::Bullet-->
+                                  <div class="bullet w-8px h-6px rounded-2 bg-primary me-3"></div>
+                                  <!--end::Bullet-->
+                                  <!--begin::Label-->
+                                  <div class="fs-6 fw-semibold text-gray-500 flex-shrink-0">International</div>
+                                  <!--end::Label-->
+                                  <!--begin::Separator-->
+                                  <div class="separator separator-dashed min-w-10px flex-grow-1 mx-2"></div>
+                                  <!--end::Separator-->
+                                  <!--begin::Stats-->
+                                  <div class="ms-auto fw-bolder text-gray-700 text-end">1000</div>
+                                  <!--end::Stats-->
+                                </div>
+                                <!--end::Label-->
+                              </div>
+                              <!--end::Labels-->
+                            </div>
+                            <!--end::Wrapper-->
+                          </div>
+                          <!--end::Card body-->
+                        </div>
+                      </div>
+                      <div class="col-xl-6 mb-8">
+
+                        <div class="card card-flush h-md-100">
+                          <!--begin::Header-->
+                          <div class="card-header pt-5">
+                            <!--begin::Title-->
+                            <div class="card-title d-flex flex-column">
+                              <!--begin::Amount-->
+                              <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">1,000</span>
+                              <!--end::Amount-->
+                              <!--begin::Subtitle-->
+                              <span class="text-gray-500 pt-1 fw-semibold fs-6">Total Graduates</span>
+                              <!--end::Subtitle-->
+                            </div>
+                            <!--end::Title-->
+                          </div>
+                          <!--end::Header-->
+                          <!--begin::Card body-->
+                          <div class="card-body align-items-end pt-3">
+
+                            <div class="d-flex w-100 mt-2">
+                              <div class="fw-semibold fs-7 w-50 text-left">
+                                <span>Employed within 6 months</span>
+                              </div>
+                              <div class="fw-semibold fs-7 w-50 mt-auto text-right">
+                                <span id="uni-progress-text">850(85%)</span>
+                              </div>
+                            </div>
+                            <div class="w-100 bg-light-primary rounded mt-2" style="height: 10px">
+                              <div id="uni-progress" class="rounded" role="progressbar" style="height: 10px;width: 85%;background: #17c653;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="d-flex w-100 mt-4">
+                              <div class="fw-semibold fs-7 text-left" style="width: 70%;">
+                                <span>Further Studies within 6 months</span>
+                              </div>
+                              <div class="fw-semibold fs-7 w-50 mt-auto text-right">
+                                <span id="uni-progress-text">100(10%)</span>
+                              </div>
+                            </div>
+                            <div class="w-100 bg-light-primary rounded mt-2" style="height: 10px">
+                              <div id="uni-progress" class="rounded" role="progressbar" style="height: 10px;width: 10%;background: #17c653;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="d-flex w-100 mt-4">
+                              <div class="fw-semibold fs-7 w-50 text-left">
+                                <span>Outcome Unknown</span>
+                              </div>
+                              <div class="fw-semibold fs-7 w-50 mt-auto text-right">
+                                <span id="uni-progress-text">50(5%)</span>
+                              </div>
+                            </div>
+                            <div class="w-100 bg-light-primary rounded mt-2" style="height: 10px">
+                              <div id="uni-progress" class="rounded" role="progressbar" style="height: 10px;width: 5%;background: #17c653;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                          </div>
+                          <!--end::Card body-->
+                        </div>
+                      </div>
+                    </div>
+
                     <!-- Table widget 6-->
-                    <div class="card card-flush h-md-100">
+                    <div class="card card-flush">
                       <!-- Header-->
                       <div class="card-header pt-7">
                         <!-- Title-->
